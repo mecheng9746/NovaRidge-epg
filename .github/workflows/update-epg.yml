@@ -1,0 +1,47 @@
+name: Update NovaRidge EPG
+
+on:
+  schedule:
+    - cron: '17 10 * * *' # Daily 10:17 UTC (04:17 MDT / 03:17 MST)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-epg.yml'
+      - 'scripts/update_epg.py'
+      - 'data/provider_mappings.csv'
+      - 'index.html'
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install XML parser
+        run: python -m pip install 'lxml>=5,<7'
+      - name: Fetch, map and validate EPG
+        run: python scripts/update_epg.py --output _site/guide.xml.gz
+      - name: Add site landing page
+        run: cp index.html _site/index.html
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - name: Deploy guide to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
