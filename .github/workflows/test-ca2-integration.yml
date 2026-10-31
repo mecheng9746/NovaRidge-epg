@@ -1,0 +1,58 @@
+name: Test Full CA2 EPG Integration
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  integration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Check out unmerged integration branch
+        uses: actions/checkout@v4
+        with:
+          ref: feature/sheets-ca2-epg-refresh
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install 'lxml>=5,<7' 'google-auth>=2,<3' requests
+      - name: Build original EPG6 guide
+        run: python scripts/update_epg.py --output _site/guide.xml.gz
+      - name: Apply CA2 overlay
+        run: python scripts/overlay_ca2.py _site/guide.xml.gz
+      - name: Verify merged Disney listings and XMLTV validity
+        run: |
+          python - <<'PY'
+          import gzip
+          from collections import Counter
+          from lxml import etree
+          path = '_site/guide.xml.gz'
+          channel_ids = set()
+          counts = Counter()
+          with gzip.open(path,'rb') as stream:
+              for event, node in etree.iterparse(stream, events=('end',), tag=('channel','programme'), no_network=True, resolve_entities=False, huge_tree=True):
+                  cid = node.get('id') if node.tag == 'channel' else node.get('channel')
+                  if node.tag == 'channel':
+                      channel_ids.add(cid)
+                  else:
+                      counts[cid] += 1
+                  node.clear()
+                  while node.getprevious() is not None:
+                      del node.getparent()[0]
+          assert 'DisneyChannel.ca' in channel_ids, 'Original IPTV ID absent'
+          assert counts['DisneyChannel.ca'] >= 3, 'Missing Disney Channel CA2 programme listings'
+          assert sum(counts.values()) > 5000, 'Overall EPG coverage unexpectedly low'
+          print('PASS: merged XMLTV includes DisneyChannel.ca with', counts['DisneyChannel.ca'], 'programmes')
+          print('Total programme entries:', sum(counts.values()))
+          PY
+      - name: Upload test guide artifact (no publishing)
+        uses: actions/upload-artifact@v4
+        with:
+          name: ca2-test-guide
+          path: _site/guide.xml.gz
+          retention-days: 2
