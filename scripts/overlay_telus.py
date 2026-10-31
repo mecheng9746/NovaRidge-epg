@@ -60,23 +60,15 @@ def date(s):
 def main():
     if len(sys.argv) != 2:
         raise SystemExit("Usage: overlay_telus.py _site/guide.xml.gz")
-    url = os.getenv("TELUS_XMLTV_URL", "").strip()
-    if not url.startswith("https://"):
-        raise RuntimeError("TELUS_XMLTV_URL must be a validated HTTPS XMLTV source")
+    source_file = os.getenv("TELUS_XMLTV_FILE", "_telus/telus.xml.gz").strip()
+    if not Path(source_file).is_file():
+        raise RuntimeError("TELUS collector XMLTV missing: " + source_file)
     mappings = approved_telus()
     reverse = defaultdict(list)
     for pid, sid in mappings.items():
-        reverse[sid].append(pid)
+        reverse["telus." + sid.removeprefix("telus.")].append(pid)
     with tempfile.TemporaryDirectory() as directory:
-        source = Path(directory) / ("telus.xml.gz" if url.split("?")[0].endswith(".gz") else "telus.xml")
-        req = urllib.request.Request(url, headers={"User-Agent": "NovaRidge-EPG-TELUS/1.0"})
-        with urllib.request.urlopen(req, timeout=120) as r, open(source, "wb") as out:
-            total = 0
-            while chunk := r.read(1024 * 1024):
-                total += len(chunk)
-                if total > 120 * 1024 * 1024:
-                    raise RuntimeError("TELUS XMLTV source exceeds 120 MB")
-                out.write(chunk)
+        source = Path(source_file)
         channels = {}
         for node in iter_nodes(source, "channel"):
             sid = node.get("id")
@@ -108,7 +100,7 @@ def main():
                     for node in iter_nodes(output, "channel"):
                         pid = node.get("id")
                         if pid in replace_ids:
-                            sid = mappings[pid]
+                            sid = "telus." + mappings[pid].removeprefix("telus.")
                             replacement = etree.fromstring(etree.tostring(channels[sid]))
                             replacement.set("id", pid)
                             writer.write(replacement)
@@ -116,7 +108,7 @@ def main():
                         else:
                             writer.write(node)
                     for pid in sorted(replace_ids - written):
-                        copy = etree.fromstring(etree.tostring(channels[mappings[pid]]))
+                        copy = etree.fromstring(etree.tostring(channels["telus." + mappings[pid].removeprefix("telus.")]))
                         copy.set("id", pid)
                         writer.write(copy)
                     for node in iter_nodes(output, "programme"):
