@@ -1,0 +1,27 @@
+name: Export complete CA2 and EPG6 catalogs
+on:
+  pull_request:
+    paths:
+      - scripts/export_full_catalogs.py
+      - .github/workflows/export-full-catalogs.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install 'lxml>=5,<7'
+      - run: python scripts/export_full_catalogs.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: complete-ca2-epg6-catalogs
+          path: |
+            _catalogs/ca2.csv
+            _catalogs/epg6.csv
+          retention-days: 7
