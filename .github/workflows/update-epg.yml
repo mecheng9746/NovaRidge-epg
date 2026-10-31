@@ -10,6 +10,7 @@ on:
       - '.github/workflows/update-epg.yml'
       - 'scripts/update_epg.py'
       - 'scripts/overlay_ca2.py'
+      - 'scripts/check_epg_health.py'
       - 'data/reviewed_mappings.csv'
       - 'data/provider_mappings.csv'
       - 'index.html'
@@ -43,6 +44,8 @@ jobs:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           CA2_EPG_URL: ${{ vars.CA2_EPG_URL }}
         run: python scripts/overlay_ca2.py _site/guide.xml.gz
+      - name: Validate merged guide and generate health report
+        run: python scripts/check_epg_health.py _site/guide.xml.gz
       - name: Add site landing page
         run: cp index.html _site/index.html
       - uses: actions/configure-pages@v5
