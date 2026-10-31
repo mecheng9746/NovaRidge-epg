@@ -1,0 +1,34 @@
+name: Validate EPG changes
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - 'data/**'
+      - '.github/workflows/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check Python syntax
+        run: python -m py_compile scripts/update_epg.py scripts/overlay_ca2.py
+      - name: Validate selected mapping snapshot
+        run: |
+          python - <<'PY'
+          import csv
+          with open('data/reviewed_mappings.csv', newline='', encoding='utf-8') as f:
+              rows = list(csv.DictReader(f))
+          expected = ('DisneyChannel.ca', 'CA2', 'Disney.Channel.Canada.HD.ca2')
+          assert any((r['provider_epg_id'], r['provider'], r['source_epg_id']) == expected for r in rows)
+          assert len({r['provider_epg_id'] for r in rows}) == len(rows)
+          print('Mapping snapshot and source IDs verified')
+          PY
