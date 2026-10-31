@@ -1,0 +1,36 @@
+name: TELUS Region Discovery
+on:
+  workflow_dispatch:
+    inputs:
+      start_id:
+        description: First region ID
+        required: true
+        default: '1'
+        type: string
+      end_id:
+        description: Last region ID (max 30 IDs per run)
+        required: true
+        default: '30'
+        type: string
+permissions:
+  contents: read
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Discover region IDs
+        env:
+          START_ID: ${{ inputs.start_id }}
+          END_ID: ${{ inputs.end_id }}
+        run: python scripts/discover_telus_regions.py --start-id "$START_ID" --end-id "$END_ID" --delay 3
+      - uses: actions/upload-artifact@v4
+        with:
+          name: telus-region-discovery
+          path: _regions/
+          retention-days: 7
+          if-no-files-found: error
