@@ -47,10 +47,10 @@ jobs:
           CA2_EPG_URL: ${{ vars.CA2_EPG_URL }}
         run: python scripts/overlay_ca2.py _site/guide.xml.gz
       - name: Fetch TELUS seven-day programme feed when enabled
-        if: vars.ENABLE_TELUS_EPG == 'true'
+        if: vars.ENABLE_TELUS_EPG != 'false'
         run: python scripts/collect_telus.py --days 7 --region 25 --output _telus/telus.xml.gz --summary _telus/summary.json
       - name: Apply validated TELUS overlays when enabled
-        if: vars.ENABLE_TELUS_EPG == 'true'
+        if: vars.ENABLE_TELUS_EPG != 'false'
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           TELUS_XMLTV_FILE: _telus/telus.xml.gz
