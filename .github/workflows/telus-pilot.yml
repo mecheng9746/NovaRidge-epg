@@ -1,0 +1,25 @@
+name: TELUS EPG Stage 1 Pilot
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  telus-pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run collector unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Fetch seven-day TELUS guide (region 25)
+        run: python scripts/collect_telus.py --days 7 --region 25 --output _telus/telus.xml.gz --summary _telus/summary.json
+      - name: Upload pilot files (not published to Pages)
+        uses: actions/upload-artifact@v4
+        with:
+          name: telus-epg-pilot
+          path: _telus/
+          retention-days: 7
+          if-no-files-found: error
