@@ -13,7 +13,7 @@ from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 
-from collect_telus import THREE_HOURS_MS, request_window, parse_response
+try:\n    from scripts.collect_telus import THREE_HOURS_MS, request_window, parse_response\nexcept ModuleNotFoundError:\n    from collect_telus import THREE_HOURS_MS, request_window, parse_response
 
 LOG = logging.getLogger("telus-region-scan")
 
