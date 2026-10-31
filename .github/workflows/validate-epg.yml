@@ -1,0 +1,58 @@
+name: Validate EPG changes
+
+on:
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - 'data/**'
+      - '.github/workflows/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check Python syntax
+        run: python -m py_compile scripts/update_epg.py scripts/overlay_ca2.py
+      - name: Install XML tools
+        run: python -m pip install 'lxml>=5,<7'
+      - name: Probe live CA2 Disney channel
+        run: |
+          python - <<'PY'
+          import sys, tempfile
+          from datetime import datetime, timedelta, timezone
+          from pathlib import Path
+          sys.path.insert(0, 'scripts')
+          from overlay_ca2 import CA2_URL, download, iter_elements, parse_start
+          target = "Disney.Channel.Canada.HD.ca2"
+          now = datetime.now(timezone.utc)
+          with tempfile.TemporaryDirectory() as tmp:
+              path = Path(tmp) / "ca2.xml.gz"
+              download(CA2_URL, path)
+              print("Downloaded CA2 gzip bytes:", path.stat().st_size)
+              found = any(node.get("id") == target for node in iter_elements(path, "channel"))
+              if not found: raise RuntimeError("Disney HD channel ID absent from CA2 feed")
+              starts = [parse_start(n.get("start")) for n in iter_elements(path, "programme") if n.get("channel") == target]
+              upcoming = [s for s in starts if s and now - timedelta(hours=6) <= s <= now + timedelta(days=5)]
+              if len(upcoming) < 3 or max(upcoming) < now + timedelta(hours=12):
+                  raise RuntimeError(f"Disney HD future coverage insufficient; {len(upcoming)} upcoming")
+              print("PASS: Disney Channel CA2 source; listings:",len(upcoming),"last listing start:",max(upcoming))
+          PY
+      - name: Validate selected mapping snapshot
+        run: |
+          python - <<'PY'
+          import csv
+          with open('data/reviewed_mappings.csv', newline='', encoding='utf-8') as f:
+              rows = list(csv.DictReader(f))
+          expected = ('DisneyChannel.ca', 'CA2', 'Disney.Channel.Canada.HD.ca2')
+          assert any((r['provider_epg_id'], r['provider'], r['source_epg_id']) == expected for r in rows)
+          assert len({r['provider_epg_id'] for r in rows}) == len(rows)
+          print('Mapping snapshot and source IDs verified')
+          PY
