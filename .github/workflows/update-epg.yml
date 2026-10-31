@@ -10,6 +10,8 @@ on:
       - '.github/workflows/update-epg.yml'
       - 'scripts/update_epg.py'
       - 'scripts/overlay_ca2.py'
+      - 'scripts/overlay_telus.py'
+      - 'scripts/collect_telus.py'
       - 'scripts/check_epg_health.py'
       - 'data/reviewed_mappings.csv'
       - 'data/provider_mappings.csv'
@@ -44,6 +46,16 @@ jobs:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           CA2_EPG_URL: ${{ vars.CA2_EPG_URL }}
         run: python scripts/overlay_ca2.py _site/guide.xml.gz
+      - name: Fetch TELUS seven-day programme feed when enabled
+        if: vars.ENABLE_TELUS_EPG == 'true'
+        run: python scripts/collect_telus.py --days 7 --region 25 --output _telus/telus.xml.gz --summary _telus/summary.json
+      - name: Apply validated TELUS overlays when enabled
+        if: vars.ENABLE_TELUS_EPG == 'true'
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          TELUS_XMLTV_FILE: _telus/telus.xml.gz
+          TELUS_MIN_VALID_CHANNELS: '65'
+        run: python scripts/overlay_telus.py _site/guide.xml.gz
       - name: Validate merged guide and generate health report
         run: python scripts/check_epg_health.py _site/guide.xml.gz
       - name: Add site landing page

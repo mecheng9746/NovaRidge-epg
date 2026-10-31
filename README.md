@@ -28,3 +28,13 @@ Important: this initial implementation overlays **CA2** sources only. Entries se
 From the repository's **Actions** tab select **Update NovaRidge EPG** and run it manually, or let the scheduled run execute. Check for success and verify the XMLTV output for `DisneyChannel.ca` in TiviMate. Do not change the existing EPG URL.
 
 If CA2 is down or programme data is too stale, the update fails rather than publish an incomplete guide. Keep the previous working EPG until the issue is corrected.
+
+
+## TELUS integration (staged; disabled until validated)
+
+The earlier `feature/telus-epg-stage1` pilot established a working TELUS TV+ JSON API collector:
+`scripts/collect_telus.py`, using region 25, three-hour windows, and seven-day XMLTV conversion. It writes source IDs like `telus.1`. `scripts/overlay_telus.py` converts approved numeric IDs from `CANADIAN MASTER` to these IDs and preserves each original IPTV `tvg-id`.
+
+The production workflow includes this stage **only when** repository Actions variable `ENABLE_TELUS_EPG` is exactly `true`. Do not enable until an integration test against the current TELUS feed and sufficient approved channels passes. A full seven-day collection makes 56 three-hour-window requests; avoid unnecessarily frequent tests. Production and full-merge validation require at least **65 distinct IPTV IDs** with healthy TELUS schedules. The guard counts IPTV IDs replaced, not source channels. Do not weaken the gate without a new audited coverage review. The existing `GOOGLE_SERVICE_ACCOUNT_JSON` secret is required.
+
+Per-channel validation checks upcoming listings and future coverage. Unhealthy TELUS feeds retain the existing EPG6/CA2 listings. A failure to collect the live source or read the mapping sheet stops deployment and preserves the last successful GitHub Pages guide. The opt-in branch is a development build and requires final integration tests, particularly under the full 6-hour production workflow.

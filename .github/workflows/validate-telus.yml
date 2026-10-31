@@ -1,0 +1,44 @@
+name: Validate TELUS Integration
+on:
+  pull_request:
+    paths:
+      - 'scripts/collect_telus.py'
+      - 'scripts/overlay_telus.py'
+      - '.github/workflows/update-epg.yml'
+      - '.github/workflows/validate-telus.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  telus:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install 'lxml>=5,<7' 'google-auth>=2,<3' requests
+      - name: Check Python syntax
+        run: python -m py_compile scripts/collect_telus.py scripts/overlay_telus.py
+      - name: Fetch current TELUS programmes (non-publishing pilot)
+        run: python scripts/collect_telus.py --days 1 --region 25 --output _telus/telus.xml.gz --summary _telus/summary.json
+      - name: Validate TELUS pilot file
+        run: |
+          python - <<'PY'
+          import gzip, json
+          from xml.etree import ElementTree as ET
+          summary=json.load(open('_telus/summary.json'))
+          assert summary['programme_count']>=300
+          assert summary['channel_count']>=50
+          with gzip.open('_telus/telus.xml.gz','rb') as f:
+              root=ET.parse(f).getroot()
+          assert any(x.get('id')=='telus.1' for x in root.findall('channel')), 'Expected A&E source ID telus.1'
+          print('PASS TELUS:',summary['channel_count'],'channels;',summary['programme_count'],'programmes')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: telus-live-source-pilot
+          path: _telus/
+          retention-days: 3

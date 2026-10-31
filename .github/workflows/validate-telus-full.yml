@@ -1,0 +1,47 @@
+name: Validate TELUS Full EPG Merge
+on:
+  pull_request:
+    paths:
+      - 'scripts/collect_telus.py'
+      - 'scripts/overlay_telus.py'
+      - '.github/workflows/validate-telus-full.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: python -m pip install 'lxml>=5,<7' 'google-auth>=2,<3' requests
+      - name: Build base EPG6 guide
+        run: python scripts/update_epg.py --output _site/guide.xml.gz
+      - name: Apply existing CA2 approved mapping
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+        run: python scripts/overlay_ca2.py _site/guide.xml.gz
+      - name: Collect TELUS live week
+        run: python scripts/collect_telus.py --days 7 --region 25 --sleep 0.2 --output _telus/telus.xml.gz --summary _telus/summary.json
+      - name: Apply approved TELUS mappings to test guide
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          TELUS_XMLTV_FILE: _telus/telus.xml.gz
+          TELUS_MIN_VALID_CHANNELS: '65'
+        run: python scripts/overlay_telus.py _site/guide.xml.gz
+      - name: Validate complete merged guide
+        run: python scripts/check_epg_health.py _site/guide.xml.gz
+      - name: Upload diagnostics only; do not deploy Pages
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: telus-full-merge-diagnostics
+          path: |
+            _telus/summary.json
+            _site/health.json
+          if-no-files-found: warn
+          retention-days: 7
