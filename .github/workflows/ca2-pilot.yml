@@ -1,0 +1,35 @@
+name: CA2 EPG Stage 2 Pilot
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'scripts/collect_ca2.py'
+      - 'scripts/normalize_sources.py'
+      - 'tests/test_ca2.py'
+      - '.github/workflows/ca2-pilot.yml'
+permissions:
+  contents: read
+jobs:
+  ca2-pilot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install lxml
+        run: python -m pip install 'lxml>=5,<7'
+      - name: Unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Collect CA2
+        run: python scripts/collect_ca2.py
+      - name: Normalize sample CA2 programmes
+        run: python scripts/normalize_sources.py --input _sources/ca2.xml.gz --source ca2 --output _sources/ca2-sample.jsonl --max-records 1000
+      - name: Upload isolated source artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ca2-stage2-pilot
+          path: _sources/
+          retention-days: 7
+          if-no-files-found: error
