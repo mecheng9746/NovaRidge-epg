@@ -31,7 +31,7 @@ jobs:
         env:
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
           TELUS_XMLTV_FILE: _telus/telus.xml.gz
-          TELUS_MIN_VALID_CHANNELS: '1'
+          TELUS_MIN_VALID_CHANNELS: '65'
         run: python scripts/overlay_telus.py _site/guide.xml.gz
       - name: Validate complete merged guide
         run: python scripts/check_epg_health.py _site/guide.xml.gz
