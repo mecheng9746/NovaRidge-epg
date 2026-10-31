@@ -1,0 +1,5609 @@
+[
+ {
+  "position": 1,
+  "group": "CA| LOCALS",
+  "name": "CA| CABLE 14",
+  "tvg_id": "",
+  "tvg_name": "CA| CABLE 14"
+ },
+ {
+  "position": 2,
+  "group": "CA| ENGLISH",
+  "name": "CA| A&E HD",
+  "tvg_id": "AandE.ca",
+  "tvg_name": "CA| A&E HD"
+ },
+ {
+  "position": 3,
+  "group": "CA| ENGLISH",
+  "name": "CA| ABC EAST HD",
+  "tvg_id": "ca.ABC (WCVB) Boston, MA HD",
+  "tvg_name": "CA| ABC EAST HD"
+ },
+ {
+  "position": 4,
+  "group": "CA| ENGLISH",
+  "name": "CA| ABC WEST HD",
+  "tvg_id": "ca.ABC (KOMO) Seattle, WA HD",
+  "tvg_name": "CA| ABC WEST HD"
+ },
+ {
+  "position": 5,
+  "group": "CA| ENGLISH",
+  "name": "CA| ADULT SWIM HD",
+  "tvg_id": "AdultSwim.ca",
+  "tvg_name": "CA| ADULT SWIM HD"
+ },
+ {
+  "position": 6,
+  "group": "CA| ENGLISH",
+  "name": "CA| AHC HD",
+  "tvg_id": "AmericanHeroesChannel.us",
+  "tvg_name": "CA| AHC HD"
+ },
+ {
+  "position": 7,
+  "group": "CA| ENGLISH",
+  "name": "CA| AL JAZEERA ENGLISH HD",
+  "tvg_id": "us.Al Jazeera",
+  "tvg_name": "CA| AL JAZEERA ENGLISH HD"
+ },
+ {
+  "position": 8,
+  "group": "CA| ENGLISH",
+  "name": "CA| AMC HD",
+  "tvg_id": "AMC.ca",
+  "tvg_name": "CA| AMC HD"
+ },
+ {
+  "position": 9,
+  "group": "CA| ENGLISH",
+  "name": "CA| ANIMAL PLANET HD",
+  "tvg_id": "AnimalPlanet.ca",
+  "tvg_name": "CA| ANIMAL PLANET HD"
+ },
+ {
+  "position": 10,
+  "group": "CA| ENGLISH",
+  "name": "CA| APTN HD",
+  "tvg_id": "APTN.ca",
+  "tvg_name": "CA| APTN HD"
+ },
+ {
+  "position": 11,
+  "group": "CA| ENGLISH",
+  "name": "CA| BBC CANADA",
+  "tvg_id": "ca.BBC Canada East",
+  "tvg_name": "CA| BBC CANADA"
+ },
+ {
+  "position": 12,
+  "group": "CA| ENGLISH",
+  "name": "CA| BBC EARTH HD",
+  "tvg_id": "BBCEarth.ca",
+  "tvg_name": "CA| BBC EARTH HD"
+ },
+ {
+  "position": 13,
+  "group": "CA| ENGLISH",
+  "name": "CA| BBC FIRST HD",
+  "tvg_id": "HIFI.ca",
+  "tvg_name": "CA| BBC FIRST HD"
+ },
+ {
+  "position": 14,
+  "group": "CA| ENGLISH",
+  "name": "CA| BBC WORLD NEWS HD",
+  "tvg_id": "BBCWorld.ca",
+  "tvg_name": "CA| BBC WORLD NEWS HD"
+ },
+ {
+  "position": 15,
+  "group": "CA| ENGLISH",
+  "name": "CA| BET HD",
+  "tvg_id": "BET.ca",
+  "tvg_name": "CA| BET HD"
+ },
+ {
+  "position": 16,
+  "group": "CA| ENGLISH",
+  "name": "CA| BLOOMBERG HD",
+  "tvg_id": "BusinessNewsNetworkBloomberg.ca",
+  "tvg_name": "CA| BLOOMBERG HD"
+ },
+ {
+  "position": 17,
+  "group": "CA| ENGLISH",
+  "name": "CA| BNN HD",
+  "tvg_id": "ca.BNN Bloomberg",
+  "tvg_name": "CA| BNN HD"
+ },
+ {
+  "position": 18,
+  "group": "CA| ENGLISH",
+  "name": "CA| BOOK TV",
+  "tvg_id": "BookTelevision.ca",
+  "tvg_name": "CA| BOOK TV"
+ },
+ {
+  "position": 19,
+  "group": "CA| ENGLISH",
+  "name": "CA| CBC EAST HD",
+  "tvg_id": "CBC.ca",
+  "tvg_name": "CA| CBC EAST HD"
+ },
+ {
+  "position": 20,
+  "group": "CA| ENGLISH",
+  "name": "CA| CBC MONTREAL HD",
+  "tvg_id": "CBCCBMTMontreal.ca",
+  "tvg_name": "CA| CBC MONTREAL HD"
+ },
+ {
+  "position": 21,
+  "group": "CA| ENGLISH",
+  "name": "CA| CBC NEWS HD",
+  "tvg_id": "ca.CBC News Network",
+  "tvg_name": "CA| CBC NEWS HD"
+ },
+ {
+  "position": 22,
+  "group": "CA| ENGLISH",
+  "name": "CA| CBS EAST HD",
+  "tvg_id": "WBZ-DT.ca2",
+  "tvg_name": "CA| CBS EAST HD"
+ },
+ {
+  "position": 23,
+  "group": "CA| ENGLISH",
+  "name": "CA| CBS WEST HD",
+  "tvg_id": "CBSWUSA.us",
+  "tvg_name": "CA| CBS WEST HD"
+ },
+ {
+  "position": 24,
+  "group": "CA| ENGLISH",
+  "name": "CA| CHCH HD",
+  "tvg_id": "CHCH.ca",
+  "tvg_name": "CA| CHCH HD"
+ },
+ {
+  "position": 25,
+  "group": "CA| ENGLISH",
+  "name": "CA| CITY MONTREAL HD",
+  "tvg_id": "ca.CITY Montreal, QC",
+  "tvg_name": "CA| CITY MONTREAL HD"
+ },
+ {
+  "position": 26,
+  "group": "CA| ENGLISH",
+  "name": "CA| CITY TV 2 HD",
+  "tvg_id": "CFPL.ca",
+  "tvg_name": "CA| CITY TV 2 HD"
+ },
+ {
+  "position": 27,
+  "group": "CA| ENGLISH",
+  "name": "CA| CITY NEWS 24/7 HD",
+  "tvg_id": "CityTVMontreal.ca",
+  "tvg_name": "CA| CITY NEWS 24/7 HD"
+ },
+ {
+  "position": 28,
+  "group": "CA| ENGLISH",
+  "name": "CA| CMT HD",
+  "tvg_id": "CMT.ca",
+  "tvg_name": "CA| CMT HD"
+ },
+ {
+  "position": 29,
+  "group": "CA| ENGLISH",
+  "name": "CA| CF JC HD",
+  "tvg_id": "CFJC.ca2",
+  "tvg_name": "CA| CF JC HD"
+ },
+ {
+  "position": 30,
+  "group": "CA| ENGLISH",
+  "name": "CA| CNBC HD",
+  "tvg_id": "US-CNBC USA",
+  "tvg_name": "CA| CNBC HD"
+ },
+ {
+  "position": 31,
+  "group": "CA| ENGLISH",
+  "name": "CA| CNN NEWS HD",
+  "tvg_id": "ca.CNN HD",
+  "tvg_name": "CA| CNN NEWS HD"
+ },
+ {
+  "position": 32,
+  "group": "CA| ENGLISH",
+  "name": "CA| COOKING CHANNEL HD",
+  "tvg_id": "CookingChannel.ca",
+  "tvg_name": "CA| COOKING CHANNEL HD"
+ },
+ {
+  "position": 33,
+  "group": "CA| ENGLISH",
+  "name": "CA| COTTAGE LIFE HD",
+  "tvg_id": "CottageLife.ca",
+  "tvg_name": "CA| COTTAGE LIFE HD"
+ },
+ {
+  "position": 34,
+  "group": "CA| ENGLISH",
+  "name": "CA| CP24",
+  "tvg_id": "ca.CP24 (CablePulse 24)",
+  "tvg_name": "CA| CP24"
+ },
+ {
+  "position": 35,
+  "group": "CA| ENGLISH",
+  "name": "CA| CP24 HD",
+  "tvg_id": "ca.CP24 (CablePulse 24)",
+  "tvg_name": "CA| CP24 HD"
+ },
+ {
+  "position": 36,
+  "group": "CA| ENGLISH",
+  "name": "CA| CPAC HD",
+  "tvg_id": "ca.CPAC Ottawa",
+  "tvg_name": "CA| CPAC HD"
+ },
+ {
+  "position": 37,
+  "group": "CA| ENGLISH",
+  "name": "CA| CRAVE 1 HD",
+  "tvg_id": "Crave1.ca",
+  "tvg_name": "CA| CRAVE 1 HD"
+ },
+ {
+  "position": 38,
+  "group": "CA| ENGLISH",
+  "name": "CA| CRAVE 2 HD",
+  "tvg_id": "Crave2.ca",
+  "tvg_name": "CA| CRAVE 2 HD"
+ },
+ {
+  "position": 39,
+  "group": "CA| ENGLISH",
+  "name": "CA| CRAVE 3 HD",
+  "tvg_id": "Crave3.ca",
+  "tvg_name": "CA| CRAVE 3 HD"
+ },
+ {
+  "position": 40,
+  "group": "CA| ENGLISH",
+  "name": "CA| CRAVE 4 HD",
+  "tvg_id": "Crave4.ca",
+  "tvg_name": "CA| CRAVE 4 HD"
+ },
+ {
+  "position": 41,
+  "group": "CA| ENGLISH",
+  "name": "CA| CRIME & INVESTIGATION HD",
+  "tvg_id": "CrimeInvestigation.ca",
+  "tvg_name": "CA| CRIME & INVESTIGATION HD"
+ },
+ {
+  "position": 42,
+  "group": "CA| ENGLISH",
+  "name": "CA| CTV 2 BARRIE HD",
+  "tvg_id": "CKVR.ca",
+  "tvg_name": "CA| CTV 2 BARRIE HD"
+ },
+ {
+  "position": 43,
+  "group": "CA| ENGLISH",
+  "name": "CA| CTV 2 HD",
+  "tvg_id": "ca.CTV2 Vancouver Island. BC DV",
+  "tvg_name": "CA| CTV 2 HD"
+ },
+ {
+  "position": 44,
+  "group": "CA| ENGLISH",
+  "name": "CA| CTV COMEDY CHANNEL HD",
+  "tvg_id": "CTVComedy.ca",
+  "tvg_name": "CA| CTV COMEDY CHANNEL HD"
+ },
+ {
+  "position": 45,
+  "group": "CA| ENGLISH",
+  "name": "CA| CTV COMEDY CHANNEL WEST HD",
+  "tvg_id": "CTVComedy.ca",
+  "tvg_name": "CA| CTV COMEDY CHANNEL WEST HD"
+ },
+ {
+  "position": 46,
+  "group": "CA| ENGLISH",
+  "name": "CA| CTV DRAMA CHANNEL HD",
+  "tvg_id": "CTVDrama.ca",
+  "tvg_name": "CA| CTV DRAMA CHANNEL HD"
+ },
+ {
+  "position": 47,
+  "group": "CA| ENGLISH",
+  "name": "CA| CTV DRAMA HD",
+  "tvg_id": "CTVDrama.ca",
+  "tvg_name": "CA| CTV DRAMA HD"
+ },
+ {
+  "position": 48,
+  "group": "CA| ENGLISH",
+  "name": "CA| CTV EDMONTON HD",
+  "tvg_id": "CFRN.ca",
+  "tvg_name": "CA| CTV EDMONTON HD"
+ },
+ {
+  "position": 49,
+  "group": "CA| ENGLISH",
+  "name": "CA| CTV RED DEER",
+  "tvg_id": "",
+  "tvg_name": "CA| CTV RED DEER"
+ },
+ {
+  "position": 50,
+  "group": "CA| ENGLISH",
+  "name": "CA| CTV HD",
+  "tvg_id": "ca.CTV (CFTO) Toronto, ON HD",
+  "tvg_name": "CA| CTV HD"
+ },
+ {
+  "position": 51,
+  "group": "CA| ENGLISH",
+  "name": "CA| CTV LIFE CHANNEL HD",
+  "tvg_id": "CTVLife.ca",
+  "tvg_name": "CA| CTV LIFE CHANNEL HD"
+ },
+ {
+  "position": 52,
+  "group": "CA| ENGLISH",
+  "name": "CA| CTV NEWS HD",
+  "tvg_id": "ca.CTV News Channel",
+  "tvg_name": "CA| CTV NEWS HD"
+ },
+ {
+  "position": 53,
+  "group": "CA| ENGLISH",
+  "name": "CA| CTV SCIFI HD",
+  "tvg_id": "CTVSciFi.ca",
+  "tvg_name": "CA| CTV SCIFI HD"
+ },
+ {
+  "position": 54,
+  "group": "CA| ENGLISH",
+  "name": "CA| DAYSTAR TV HD",
+  "tvg_id": "Daystar.us",
+  "tvg_name": "CA| DAYSTAR TV HD"
+ },
+ {
+  "position": 55,
+  "group": "CA| ENGLISH",
+  "name": "CA| DEJAVIEW",
+  "tvg_id": "DejaView.ca",
+  "tvg_name": "CA| DEJAVIEW"
+ },
+ {
+  "position": 56,
+  "group": "CA| ENGLISH",
+  "name": "CA| DISCOVERY HD",
+  "tvg_id": "DiscoveryChannel.ca",
+  "tvg_name": "CA| DISCOVERY HD"
+ },
+ {
+  "position": 57,
+  "group": "CA| ENGLISH",
+  "name": "CA| DISCOVERY SCIENCE HD",
+  "tvg_id": "DiscoveryScience.ca",
+  "tvg_name": "CA| DISCOVERY SCIENCE HD"
+ },
+ {
+  "position": 58,
+  "group": "CA| ENGLISH",
+  "name": "CA| DISCOVERY VELOCITY HD",
+  "tvg_id": "DiscoveryVelocity.ca",
+  "tvg_name": "CA| DISCOVERY VELOCITY HD"
+ },
+ {
+  "position": 59,
+  "group": "CA| ENGLISH",
+  "name": "CA| CITYNEWS 24/7",
+  "tvg_id": "",
+  "tvg_name": "CA| CITYNEWS 24/7"
+ },
+ {
+  "position": 60,
+  "group": "CA| ENGLISH",
+  "name": "CA| DOCUMENTARY HD",
+  "tvg_id": "DocumentaryChannel.ca",
+  "tvg_name": "CA| DOCUMENTARY HD"
+ },
+ {
+  "position": 61,
+  "group": "CA| ENGLISH",
+  "name": "CA| DTOUR HD",
+  "tvg_id": "Dtour.ca",
+  "tvg_name": "CA| DTOUR HD"
+ },
+ {
+  "position": 62,
+  "group": "CA| ENGLISH",
+  "name": "CA| E! ENTERTAINMENT HD",
+  "tvg_id": "EEntertainment.ca",
+  "tvg_name": "CA| E! ENTERTAINMENT HD"
+ },
+ {
+  "position": 63,
+  "group": "CA| ENGLISH",
+  "name": "CA| EURONEWS",
+  "tvg_id": "uk.Euronews",
+  "tvg_name": "CA| EURONEWS"
+ },
+ {
+  "position": 64,
+  "group": "CA| ENGLISH",
+  "name": "CA| EWTN HD",
+  "tvg_id": "EWTN.us",
+  "tvg_name": "CA| EWTN HD"
+ },
+ {
+  "position": 65,
+  "group": "CA| ENGLISH",
+  "name": "CA| FAITH TV HD",
+  "tvg_id": "FaithTV.us",
+  "tvg_name": "CA| FAITH TV HD"
+ },
+ {
+  "position": 66,
+  "group": "CA| ENGLISH",
+  "name": "CA| FASHION TELEVISION CHANNEL",
+  "tvg_id": "FashionTV.ca",
+  "tvg_name": "CA| FASHION TELEVISION CHANNEL"
+ },
+ {
+  "position": 67,
+  "group": "CA| ENGLISH",
+  "name": "CA| FOOD NETWORK HD",
+  "tvg_id": "FoodNetwork.ca",
+  "tvg_name": "CA| FOOD NETWORK HD"
+ },
+ {
+  "position": 68,
+  "group": "CA| ENGLISH",
+  "name": "CA| FOX EAST HD",
+  "tvg_id": "ca.FOX (WFXT) Boston, MA",
+  "tvg_name": "CA| FOX EAST HD"
+ },
+ {
+  "position": 69,
+  "group": "CA| ENGLISH",
+  "name": "CA| FOX NEWS HD",
+  "tvg_id": "ca.Fox News",
+  "tvg_name": "CA| FOX NEWS HD"
+ },
+ {
+  "position": 70,
+  "group": "CA| ENGLISH",
+  "name": "CA| FOX WEST HD",
+  "tvg_id": "ca.FOX (KCPQ) Tacoma, WA HD - Canada",
+  "tvg_name": "CA| FOX WEST HD"
+ },
+ {
+  "position": 71,
+  "group": "CA| ENGLISH",
+  "name": "CA| FTV CANADA",
+  "tvg_id": "ca.Fashion Television",
+  "tvg_name": "CA| FTV CANADA"
+ },
+ {
+  "position": 72,
+  "group": "CA| ENGLISH",
+  "name": "CA| FX HD",
+  "tvg_id": "FXNow.ca",
+  "tvg_name": "CA| FX HD"
+ },
+ {
+  "position": 73,
+  "group": "CA| ENGLISH",
+  "name": "CA| FXX HD",
+  "tvg_id": "FXX.ca",
+  "tvg_name": "CA| FXX HD"
+ },
+ {
+  "position": 74,
+  "group": "CA| ENGLISH",
+  "name": "CA| FYI HD",
+  "tvg_id": "ca.FYI Canada",
+  "tvg_name": "CA| FYI HD"
+ },
+ {
+  "position": 75,
+  "group": "CA| ENGLISH",
+  "name": "CA| GAME SHOW NETWORK HD",
+  "tvg_id": "GameShowNetwork.us",
+  "tvg_name": "CA| GAME SHOW NETWORK HD"
+ },
+ {
+  "position": 76,
+  "group": "CA| ENGLISH",
+  "name": "CA| GAMETV HD",
+  "tvg_id": "GameTV.ca",
+  "tvg_name": "CA| GAMETV HD"
+ },
+ {
+  "position": 77,
+  "group": "CA| ENGLISH",
+  "name": "CA| GLOBAL EAST HD",
+  "tvg_id": "ca.Global (CIII-DT-41) Toronto",
+  "tvg_name": "CA| GLOBAL EAST HD"
+ },
+ {
+  "position": 78,
+  "group": "CA| ENGLISH",
+  "name": "CA| GLOBAL NEWS WINNIPEG",
+  "tvg_id": "CHMI.ca",
+  "tvg_name": "CA| GLOBAL NEWS WINNIPEG"
+ },
+ {
+  "position": 79,
+  "group": "CA| ENGLISH",
+  "name": "CA| GLOBAL CALGARY",
+  "tvg_id": "GlobalCalgary.ca",
+  "tvg_name": "CA| GLOBAL CALGARY"
+ },
+ {
+  "position": 80,
+  "group": "CA| ENGLISH",
+  "name": "CA| GLOBAL NEWS CALGARY",
+  "tvg_id": "GlobalNewsBC1.ca",
+  "tvg_name": "CA| GLOBAL NEWS CALGARY"
+ },
+ {
+  "position": 81,
+  "group": "CA| ENGLISH",
+  "name": "CA| GLOBAL VANCOUVER/BC HD",
+  "tvg_id": "ca.Global BC DV",
+  "tvg_name": "CA| GLOBAL VANCOUVER/BC HD"
+ },
+ {
+  "position": 82,
+  "group": "CA| ENGLISH",
+  "name": "CA| HBO 1 HD",
+  "tvg_id": "HBO.ca",
+  "tvg_name": "CA| HBO 1 HD"
+ },
+ {
+  "position": 83,
+  "group": "CA| ENGLISH",
+  "name": "CA| HBO 2 HD",
+  "tvg_id": "HBO2.ca",
+  "tvg_name": "CA| HBO 2 HD"
+ },
+ {
+  "position": 84,
+  "group": "CA| ENGLISH",
+  "name": "CA| HGTV HD",
+  "tvg_id": "HGTV.ca",
+  "tvg_name": "CA| HGTV HD"
+ },
+ {
+  "position": 85,
+  "group": "CA| ENGLISH",
+  "name": "CA| HISTORY 2 HD",
+  "tvg_id": "History2.ca",
+  "tvg_name": "CA| HISTORY 2 HD"
+ },
+ {
+  "position": 86,
+  "group": "CA| ENGLISH",
+  "name": "CA| HISTORY HD",
+  "tvg_id": "HistoryChannel.ca",
+  "tvg_name": "CA| HISTORY HD"
+ },
+ {
+  "position": 87,
+  "group": "CA| ENGLISH",
+  "name": "CA| HLN HD",
+  "tvg_id": "HLN.ca",
+  "tvg_name": "CA| HLN HD"
+ },
+ {
+  "position": 88,
+  "group": "CA| ENGLISH",
+  "name": "CA| HOLLYWOOD SUITE 00' HD",
+  "tvg_id": "HollywoodSuite90s.ca",
+  "tvg_name": "CA| HOLLYWOOD SUITE 00' HD"
+ },
+ {
+  "position": 89,
+  "group": "CA| ENGLISH",
+  "name": "CA| HOLLYWOOD SUITE 70' HD",
+  "tvg_id": "HollywoodSuite70s.ca",
+  "tvg_name": "CA| HOLLYWOOD SUITE 70' HD"
+ },
+ {
+  "position": 90,
+  "group": "CA| ENGLISH",
+  "name": "CA| HOLLYWOOD SUITE 70S",
+  "tvg_id": "ca.Hollywood Suite 70s",
+  "tvg_name": "CA| HOLLYWOOD SUITE 70S"
+ },
+ {
+  "position": 91,
+  "group": "CA| ENGLISH",
+  "name": "CA| HOLLYWOOD SUITE 80S",
+  "tvg_id": "ca.Hollywood Suite 80s",
+  "tvg_name": "CA| HOLLYWOOD SUITE 80S"
+ },
+ {
+  "position": 92,
+  "group": "CA| ENGLISH",
+  "name": "CA| HOLLYWOOD SUITE 90' HD",
+  "tvg_id": "HollywoodSuite2000.ca",
+  "tvg_name": "CA| HOLLYWOOD SUITE 90' HD"
+ },
+ {
+  "position": 93,
+  "group": "CA| ENGLISH",
+  "name": "CA| HOLLYWOOD SUITE 90S",
+  "tvg_id": "ca.Hollywood Suite 90s",
+  "tvg_name": "CA| HOLLYWOOD SUITE 90S"
+ },
+ {
+  "position": 94,
+  "group": "CA| ENGLISH",
+  "name": "CA| IFC HD",
+  "tvg_id": "IndependentFilmChannel.us",
+  "tvg_name": "CA| IFC HD"
+ },
+ {
+  "position": 95,
+  "group": "CA| ENGLISH",
+  "name": "CA| INVESTIGATION DISCOVERY HD",
+  "tvg_id": "InvestigationDiscovery.ca",
+  "tvg_name": "CA| INVESTIGATION DISCOVERY HD"
+ },
+ {
+  "position": 96,
+  "group": "CA| ENGLISH",
+  "name": "CA| JEWISH LIFE TV",
+  "tvg_id": "JewishLifeTV.us",
+  "tvg_name": "CA| JEWISH LIFE TV"
+ },
+ {
+  "position": 97,
+  "group": "CA| ENGLISH",
+  "name": "CA| JOYTV (BC) HD",
+  "tvg_id": "KBSJOY.kr",
+  "tvg_name": "CA| JOYTV (BC) HD"
+ },
+ {
+  "position": 98,
+  "group": "CA| ENGLISH",
+  "name": "CA| KTLA HD",
+  "tvg_id": "KTLA.us",
+  "tvg_name": "CA| KTLA HD"
+ },
+ {
+  "position": 99,
+  "group": "CA| ENGLISH",
+  "name": "CA| LIFETIME HD",
+  "tvg_id": "LifetimeTV.ca",
+  "tvg_name": "CA| LIFETIME HD"
+ },
+ {
+  "position": 100,
+  "group": "CA| ENGLISH",
+  "name": "CA| LOVE NATURE HD",
+  "tvg_id": "LoveNature.ca",
+  "tvg_name": "CA| LOVE NATURE HD"
+ },
+ {
+  "position": 101,
+  "group": "CA| ENGLISH",
+  "name": "CA| MAKEFUL HD",
+  "tvg_id": "Makeful.ca",
+  "tvg_name": "CA| MAKEFUL HD"
+ },
+ {
+  "position": 102,
+  "group": "CA| ENGLISH",
+  "name": "CA| MAV TV HD",
+  "tvg_id": "MAVTV.us",
+  "tvg_name": "CA| MAV TV HD"
+ },
+ {
+  "position": 103,
+  "group": "CA| ENGLISH",
+  "name": "CA| MIRACLE HD",
+  "tvg_id": "Miracle.ca",
+  "tvg_name": "CA| MIRACLE HD"
+ },
+ {
+  "position": 104,
+  "group": "CA| ENGLISH",
+  "name": "CA| MOVIETIME HD",
+  "tvg_id": "MovieTime.ca",
+  "tvg_name": "CA| MOVIETIME HD"
+ },
+ {
+  "position": 105,
+  "group": "CA| ENGLISH",
+  "name": "CA| MSNBC HD",
+  "tvg_id": "MSNBC.ca",
+  "tvg_name": "CA| MSNBC HD"
+ },
+ {
+  "position": 106,
+  "group": "CA| ENGLISH",
+  "name": "CA| MUCH MUSIC HD",
+  "tvg_id": "ca.Much Music HD",
+  "tvg_name": "CA| MUCH MUSIC HD"
+ },
+ {
+  "position": 107,
+  "group": "CA| ENGLISH",
+  "name": "CA| NAT GEO HD",
+  "tvg_id": "NatGeo.ca",
+  "tvg_name": "CA| NAT GEO HD"
+ },
+ {
+  "position": 108,
+  "group": "CA| ENGLISH",
+  "name": "CA| NAT GEO WILD HD",
+  "tvg_id": "NatGeoWild.ca",
+  "tvg_name": "CA| NAT GEO WILD HD"
+ },
+ {
+  "position": 109,
+  "group": "CA| ENGLISH",
+  "name": "CA| NBC EAST HD",
+  "tvg_id": "ca.NBC (WBTS-LD) Boston, MA HD",
+  "tvg_name": "CA| NBC EAST HD"
+ },
+ {
+  "position": 110,
+  "group": "CA| ENGLISH",
+  "name": "CA| NBC WEST HD",
+  "tvg_id": "ca.NBC (KING) Seattle, WA HD",
+  "tvg_name": "CA| NBC WEST HD"
+ },
+ {
+  "position": 111,
+  "group": "CA| ENGLISH",
+  "name": "CA| NTV HD",
+  "tvg_id": "ca.CJON (NTV) St-John, NL HD",
+  "tvg_name": "CA| NTV HD"
+ },
+ {
+  "position": 112,
+  "group": "CA| ENGLISH",
+  "name": "CA| OLN HD",
+  "tvg_id": "OutdoorLifeNetwork.ca",
+  "tvg_name": "CA| OLN HD"
+ },
+ {
+  "position": 113,
+  "group": "CA| ENGLISH",
+  "name": "CA| OMNI 1 HD",
+  "tvg_id": "OMNI1.ca",
+  "tvg_name": "CA| OMNI 1 HD"
+ },
+ {
+  "position": 114,
+  "group": "CA| ENGLISH",
+  "name": "CA| OMNI 2 HD",
+  "tvg_id": "OMNI2.ca",
+  "tvg_name": "CA| OMNI 2 HD"
+ },
+ {
+  "position": 115,
+  "group": "CA| ENGLISH",
+  "name": "CA| OMNI EAST HD",
+  "tvg_id": "ca.OMNI.1 HD",
+  "tvg_name": "CA| OMNI EAST HD"
+ },
+ {
+  "position": 116,
+  "group": "CA| ENGLISH",
+  "name": "CA| OMNI VANCOUVER HD",
+  "tvg_id": "OMNI1.ca",
+  "tvg_name": "CA| OMNI VANCOUVER HD"
+ },
+ {
+  "position": 117,
+  "group": "CA| ENGLISH",
+  "name": "CA| ONE GET FIT HD",
+  "tvg_id": "ONEgetFit.ca",
+  "tvg_name": "CA| ONE GET FIT HD"
+ },
+ {
+  "position": 118,
+  "group": "CA| ENGLISH",
+  "name": "CA| OUT TV HD",
+  "tvg_id": "OutTV.ca",
+  "tvg_name": "CA| OUT TV HD"
+ },
+ {
+  "position": 119,
+  "group": "CA| ENGLISH",
+  "name": "CA| OWN HD",
+  "tvg_id": "OprahWinfreyNetwork.ca",
+  "tvg_name": "CA| OWN HD"
+ },
+ {
+  "position": 120,
+  "group": "CA| ENGLISH",
+  "name": "CA| PARAMOUNT HD",
+  "tvg_id": "ParamountNetwork.ca",
+  "tvg_name": "CA| PARAMOUNT HD"
+ },
+ {
+  "position": 121,
+  "group": "CA| ENGLISH",
+  "name": "CA| PEACH TREE HD",
+  "tvg_id": "ca.Peachtree TV (Canada)",
+  "tvg_name": "CA| PEACH TREE HD"
+ },
+ {
+  "position": 122,
+  "group": "CA| ENGLISH",
+  "name": "CA| RUSSIA TODAY HD",
+  "tvg_id": "US-RT America",
+  "tvg_name": "CA| RUSSIA TODAY HD"
+ },
+ {
+  "position": 123,
+  "group": "CA| ENGLISH",
+  "name": "CA| PRESS TV HD",
+  "tvg_id": "PressTV.ir",
+  "tvg_name": "CA| PRESS TV HD"
+ },
+ {
+  "position": 124,
+  "group": "CA| ENGLISH",
+  "name": "CA| SALT LIGHT HD",
+  "tvg_id": "SaltLightTV.ca",
+  "tvg_name": "CA| SALT LIGHT HD"
+ },
+ {
+  "position": 125,
+  "group": "CA| ENGLISH",
+  "name": "CA| SHOWCASE HD",
+  "tvg_id": "Showcase.ca",
+  "tvg_name": "CA| SHOWCASE HD"
+ },
+ {
+  "position": 126,
+  "group": "CA| ENGLISH",
+  "name": "CA| SILVER SCREEN CLASSICS HD",
+  "tvg_id": "SilverScreenClassics.ca",
+  "tvg_name": "CA| SILVER SCREEN CLASSICS HD"
+ },
+ {
+  "position": 127,
+  "group": "CA| ENGLISH",
+  "name": "CA| SLICE HD",
+  "tvg_id": "ca.Slice",
+  "tvg_name": "CA| SLICE HD"
+ },
+ {
+  "position": 128,
+  "group": "CA| ENGLISH",
+  "name": "CA| SMITHSONIAN HD",
+  "tvg_id": "Smithsonian.ca",
+  "tvg_name": "CA| SMITHSONIAN HD"
+ },
+ {
+  "position": 129,
+  "group": "CA| ENGLISH",
+  "name": "CA| SPORTSMAN HD",
+  "tvg_id": "US-Sportsman Channel",
+  "tvg_name": "CA| SPORTSMAN HD"
+ },
+ {
+  "position": 130,
+  "group": "CA| ENGLISH",
+  "name": "CA| STARZ 1 HD",
+  "tvg_id": "ca.starz1-east",
+  "tvg_name": "CA| STARZ 1 HD"
+ },
+ {
+  "position": 131,
+  "group": "CA| ENGLISH",
+  "name": "CA| STARZ 2 HD",
+  "tvg_id": "ca.starz2-east",
+  "tvg_name": "CA| STARZ 2 HD"
+ },
+ {
+  "position": 132,
+  "group": "CA| ENGLISH",
+  "name": "CA| SUPER CHANNEL FUSE HD",
+  "tvg_id": "SuperChannelFuse.ca",
+  "tvg_name": "CA| SUPER CHANNEL FUSE HD"
+ },
+ {
+  "position": 133,
+  "group": "CA| ENGLISH",
+  "name": "CA| SUPER CHANNEL HEART & HOME HD",
+  "tvg_id": "SuperChannelHeartHome.ca",
+  "tvg_name": "CA| SUPER CHANNEL HEART & HOME HD"
+ },
+ {
+  "position": 134,
+  "group": "CA| ENGLISH",
+  "name": "CA| SUPER CHANNEL VAULT HD",
+  "tvg_id": "SuperChannelVAULT.ca",
+  "tvg_name": "CA| SUPER CHANNEL VAULT HD"
+ },
+ {
+  "position": 135,
+  "group": "CA| ENGLISH",
+  "name": "CA| TCM HD",
+  "tvg_id": "ca.Turner Classic Movies Canada",
+  "tvg_name": "CA| TCM HD"
+ },
+ {
+  "position": 136,
+  "group": "CA| ENGLISH",
+  "name": "CA| THE WEATHER CHANNEL",
+  "tvg_id": "WeatherNetwork.ca",
+  "tvg_name": "CA| THE WEATHER CHANNEL"
+ },
+ {
+  "position": 137,
+  "group": "CA| ENGLISH",
+  "name": "CA| TLC HD",
+  "tvg_id": "TLC.ca",
+  "tvg_name": "CA| TLC HD"
+ },
+ {
+  "position": 138,
+  "group": "CA| ENGLISH",
+  "name": "CA| TLN",
+  "tvg_id": "TeleNovelas.mx",
+  "tvg_name": "CA| TLN"
+ },
+ {
+  "position": 139,
+  "group": "CA| ENGLISH",
+  "name": "CA| TRAVEL AND ESCAPE HD",
+  "tvg_id": "ca.Travel + Escape",
+  "tvg_name": "CA| TRAVEL AND ESCAPE HD"
+ },
+ {
+  "position": 140,
+  "group": "CA| ENGLISH",
+  "name": "CA| NASA HD",
+  "tvg_id": "TodaysShoppingChoice.ca",
+  "tvg_name": "CA| NASA HD"
+ },
+ {
+  "position": 141,
+  "group": "CA| ENGLISH",
+  "name": "CA| TSC HD",
+  "tvg_id": "TodaysShoppingChoice.ca",
+  "tvg_name": "CA| TSC HD"
+ },
+ {
+  "position": 142,
+  "group": "CA| ENGLISH",
+  "name": "CA| TV ASIA",
+  "tvg_id": "ca.tv-asia-canadian",
+  "tvg_name": "CA| TV ASIA"
+ },
+ {
+  "position": 143,
+  "group": "CA| ENGLISH",
+  "name": "CA| TVO HD",
+  "tvg_id": "ca.TVO (TV Ontario) DV",
+  "tvg_name": "CA| TVO HD"
+ },
+ {
+  "position": 144,
+  "group": "CA| ENGLISH",
+  "name": "CA| VISION HD",
+  "tvg_id": "Vision.ca",
+  "tvg_name": "CA| VISION HD"
+ },
+ {
+  "position": 145,
+  "group": "CA| ENGLISH",
+  "name": "CA| WGN HD CA",
+  "tvg_id": "ca.WGN Canada",
+  "tvg_name": "CA| WGN HD CA"
+ },
+ {
+  "position": 146,
+  "group": "CA| ENGLISH",
+  "name": "CA| WILD TV HD",
+  "tvg_id": "Wild.ca",
+  "tvg_name": "CA| WILD TV HD"
+ },
+ {
+  "position": 147,
+  "group": "CA| ENGLISH",
+  "name": "CA| W NETWORK HD",
+  "tvg_id": "WNetwork.ca",
+  "tvg_name": "CA| W NETWORK HD"
+ },
+ {
+  "position": 148,
+  "group": "CA| ENGLISH",
+  "name": "CA| WSBK HD",
+  "tvg_id": "ca.WSBK (TV-38) Boston HD",
+  "tvg_name": "CA| WSBK HD"
+ },
+ {
+  "position": 149,
+  "group": "CA| ENGLISH",
+  "name": "CA| YES BURLINGTON HD",
+  "tvg_id": "ca.Yes TV (CITS) Burlington, ON",
+  "tvg_name": "CA| YES BURLINGTON HD"
+ },
+ {
+  "position": 150,
+  "group": "CA| ENGLISH",
+  "name": "CA| YES TV HD",
+  "tvg_id": "ca.Yes TV (CITS) Burlington, ON",
+  "tvg_name": "CA| YES TV HD"
+ },
+ {
+  "position": 151,
+  "group": "CA| ENGLISH",
+  "name": "CA| YTV EAST HD",
+  "tvg_id": "CA| YTV E",
+  "tvg_name": "CA| YTV EAST HD"
+ },
+ {
+  "position": 152,
+  "group": "CA| ENGLISH",
+  "name": "CA| ZEE TV CANADA",
+  "tvg_id": "ZeeTV.ca",
+  "tvg_name": "CA| ZEE TV CANADA"
+ },
+ {
+  "position": 153,
+  "group": "CA| LOCALS",
+  "name": "CA| CBC CALGARY HD",
+  "tvg_id": "ca.CBC (CBRT) Calgary, AB",
+  "tvg_name": "CA| CBC CALGARY HD"
+ },
+ {
+  "position": 154,
+  "group": "CA| LOCALS",
+  "name": "CA| CBC CHARLOTTETOWN",
+  "tvg_id": "CBCT.ca",
+  "tvg_name": "CA| CBC CHARLOTTETOWN"
+ },
+ {
+  "position": 155,
+  "group": "CA| LOCALS",
+  "name": "CA| CBC EDMONTON HD",
+  "tvg_id": "CBXT.ca",
+  "tvg_name": "CA| CBC EDMONTON HD"
+ },
+ {
+  "position": 156,
+  "group": "CA| LOCALS",
+  "name": "CA| CBC FREDERICTON HD",
+  "tvg_id": "CBCFredericton.ca",
+  "tvg_name": "CA| CBC FREDERICTON HD"
+ },
+ {
+  "position": 157,
+  "group": "CA| LOCALS",
+  "name": "CA| CBC HALIFAX HD",
+  "tvg_id": "CBHT.ca",
+  "tvg_name": "CA| CBC HALIFAX HD"
+ },
+ {
+  "position": 158,
+  "group": "CA| LOCALS",
+  "name": "CA| CBC MONTREAL HD",
+  "tvg_id": "ca.CBC (CBMT) Montreal, QC",
+  "tvg_name": "CA| CBC MONTREAL HD"
+ },
+ {
+  "position": 159,
+  "group": "CA| LOCALS",
+  "name": "CA| CBC OTTAWA HD",
+  "tvg_id": "CBCOttawa.ca",
+  "tvg_name": "CA| CBC OTTAWA HD"
+ },
+ {
+  "position": 160,
+  "group": "CA| LOCALS",
+  "name": "CA| CBC ST JOHNS HD",
+  "tvg_id": "us.CBC (CBNT) St-John",
+  "tvg_name": "CA| CBC ST JOHNS HD"
+ },
+ {
+  "position": 161,
+  "group": "CA| LOCALS",
+  "name": "CA| CBC TORONTO HD",
+  "tvg_id": "CBC.ca",
+  "tvg_name": "CA| CBC TORONTO HD"
+ },
+ {
+  "position": 162,
+  "group": "CA| LOCALS",
+  "name": "CA| CBC VANCOUVER HD",
+  "tvg_id": "CBUT.ca",
+  "tvg_name": "CA| CBC VANCOUVER HD"
+ },
+ {
+  "position": 163,
+  "group": "CA| LOCALS",
+  "name": "CA| CBC WINDSOR HD",
+  "tvg_id": "CBCWindsor.ca",
+  "tvg_name": "CA| CBC WINDSOR HD"
+ },
+ {
+  "position": 164,
+  "group": "CA| LOCALS",
+  "name": "CA| CBC WINNIPEG HD",
+  "tvg_id": "CBWT.ca",
+  "tvg_name": "CA| CBC WINNIPEG HD"
+ },
+ {
+  "position": 165,
+  "group": "CA| LOCALS",
+  "name": "CA| CITY TV CALGARY HD",
+  "tvg_id": "ca.CITY Calgary, AB HD",
+  "tvg_name": "CA| CITY TV CALGARY HD"
+ },
+ {
+  "position": 166,
+  "group": "CA| LOCALS",
+  "name": "CA| CITY TV MONTREAL HD",
+  "tvg_id": "ca.CITY Montreal, QC",
+  "tvg_name": "CA| CITY TV MONTREAL HD"
+ },
+ {
+  "position": 167,
+  "group": "CA| LOCALS",
+  "name": "CA| CITY TV TORONTO HD",
+  "tvg_id": "CityTVToronto.ca",
+  "tvg_name": "CA| CITY TV TORONTO HD"
+ },
+ {
+  "position": 168,
+  "group": "CA| LOCALS",
+  "name": "CA| CITY TV VANCOUVER HD",
+  "tvg_id": "CityTVVancouver.ca",
+  "tvg_name": "CA| CITY TV VANCOUVER HD"
+ },
+ {
+  "position": 169,
+  "group": "CA| LOCALS",
+  "name": "CA| CTV 2 HALIFAX HD",
+  "tvg_id": "CJCH.ca",
+  "tvg_name": "CA| CTV 2 HALIFAX HD"
+ },
+ {
+  "position": 170,
+  "group": "CA| LOCALS",
+  "name": "CA| CTV 2 LONDON HD",
+  "tvg_id": "CTV2Ottawa.ca",
+  "tvg_name": "CA| CTV 2 LONDON HD"
+ },
+ {
+  "position": 171,
+  "group": "CA| LOCALS",
+  "name": "CA| CTV 2 OTTAWA",
+  "tvg_id": "ca.CTV2 Ottawa, ON",
+  "tvg_name": "CA| CTV 2 OTTAWA"
+ },
+ {
+  "position": 172,
+  "group": "CA| LOCALS",
+  "name": "CA| CTV 2 TORONTO HD",
+  "tvg_id": "CTV2Toronto.ca",
+  "tvg_name": "CA| CTV 2 TORONTO HD"
+ },
+ {
+  "position": 173,
+  "group": "CA| LOCALS",
+  "name": "CA| CTV 2 VANCOUVER",
+  "tvg_id": "ca.CTV2 Vancouver Island. BC DV",
+  "tvg_name": "CA| CTV 2 VANCOUVER"
+ },
+ {
+  "position": 174,
+  "group": "CA| LOCALS",
+  "name": "CA| CTV 2 VICTORIA HD",
+  "tvg_id": "CTV2Vancouver.ca",
+  "tvg_name": "CA| CTV 2 VICTORIA HD"
+ },
+ {
+  "position": 175,
+  "group": "CA| LOCALS",
+  "name": "CA| CTV 2 WINDSOR HD",
+  "tvg_id": "CHWI.ca",
+  "tvg_name": "CA| CTV 2 WINDSOR HD"
+ },
+ {
+  "position": 176,
+  "group": "CA| LOCALS",
+  "name": "CA| CTV CALGARY HD",
+  "tvg_id": "ca.CTV (CFCN) Calgary, AB HD",
+  "tvg_name": "CA| CTV CALGARY HD"
+ },
+ {
+  "position": 177,
+  "group": "CA| LOCALS",
+  "name": "CA| CTV HALIFAX HD",
+  "tvg_id": "ca.CTV (CJCH) Halifax",
+  "tvg_name": "CA| CTV HALIFAX HD"
+ },
+ {
+  "position": 178,
+  "group": "CA| LOCALS",
+  "name": "CA| CTV KITCHENER HD",
+  "tvg_id": "CKCO.ca",
+  "tvg_name": "CA| CTV KITCHENER HD"
+ },
+ {
+  "position": 179,
+  "group": "CA| LOCALS",
+  "name": "CA| CTV MONCTON HD",
+  "tvg_id": "",
+  "tvg_name": "CA| CTV MONCTON HD"
+ },
+ {
+  "position": 180,
+  "group": "CA| LOCALS",
+  "name": "CA| CTV MONTREAL HD",
+  "tvg_id": "ca.CTV Montreal (CFCF), QC HD",
+  "tvg_name": "CA| CTV MONTREAL HD"
+ },
+ {
+  "position": 181,
+  "group": "CA| LOCALS",
+  "name": "CA| CTV NEWS NETWORK HD",
+  "tvg_id": "CTVNews.ca",
+  "tvg_name": "CA| CTV NEWS NETWORK HD"
+ },
+ {
+  "position": 182,
+  "group": "CA| LOCALS",
+  "name": "CA| CTV NEWS SASKATOON",
+  "tvg_id": "CFQC.ca",
+  "tvg_name": "CA| CTV NEWS SASKATOON"
+ },
+ {
+  "position": 183,
+  "group": "CA| LOCALS",
+  "name": "CA| CTV NORTH BAY HD",
+  "tvg_id": "",
+  "tvg_name": "CA| CTV NORTH BAY HD"
+ },
+ {
+  "position": 184,
+  "group": "CA| LOCALS",
+  "name": "CA| CTV OTTAWA HD",
+  "tvg_id": "CTVOH.ca",
+  "tvg_name": "CA| CTV OTTAWA HD"
+ },
+ {
+  "position": 185,
+  "group": "CA| LOCALS",
+  "name": "CA| CTV PRINCE ALBERT HD",
+  "tvg_id": "ca.CTV Montreal (CFCF), QC HD",
+  "tvg_name": "CA| CTV PRINCE ALBERT HD"
+ },
+ {
+  "position": 186,
+  "group": "CA| LOCALS",
+  "name": "CA| CTV REGINA HD",
+  "tvg_id": "CKCK.ca",
+  "tvg_name": "CA| CTV REGINA HD"
+ },
+ {
+  "position": 187,
+  "group": "CA| LOCALS",
+  "name": "CA| CTV SAULT STE MARIE HD",
+  "tvg_id": "",
+  "tvg_name": "CA| CTV SAULT STE MARIE HD"
+ },
+ {
+  "position": 188,
+  "group": "CA| LOCALS",
+  "name": "CA| CTV SUDBURY HD",
+  "tvg_id": "",
+  "tvg_name": "CA| CTV SUDBURY HD"
+ },
+ {
+  "position": 189,
+  "group": "CA| LOCALS",
+  "name": "CA| CTV SYDNEY HD",
+  "tvg_id": "",
+  "tvg_name": "CA| CTV SYDNEY HD"
+ },
+ {
+  "position": 190,
+  "group": "CA| LOCALS",
+  "name": "CA| CTV TIMMINS HD",
+  "tvg_id": "",
+  "tvg_name": "CA| CTV TIMMINS HD"
+ },
+ {
+  "position": 191,
+  "group": "CA| LOCALS",
+  "name": "CA| CTV TORONTO HD",
+  "tvg_id": "CTVToronto.ca",
+  "tvg_name": "CA| CTV TORONTO HD"
+ },
+ {
+  "position": 192,
+  "group": "CA| LOCALS",
+  "name": "CA| CTV VANCOUVER HD",
+  "tvg_id": "CTVVancouver.ca",
+  "tvg_name": "CA| CTV VANCOUVER HD"
+ },
+ {
+  "position": 193,
+  "group": "CA| LOCALS",
+  "name": "CA| CTV WINNIPEG HD",
+  "tvg_id": "CHMI.ca",
+  "tvg_name": "CA| CTV WINNIPEG HD"
+ },
+ {
+  "position": 194,
+  "group": "CA| LOCALS",
+  "name": "CA| GLOBAL EDMONTON HD",
+  "tvg_id": "CITV.ca",
+  "tvg_name": "CA| GLOBAL EDMONTON HD"
+ },
+ {
+  "position": 195,
+  "group": "CA| LOCALS",
+  "name": "CA| GLOBAL NEWS HALIFAX",
+  "tvg_id": "ca.CTV (CJCH) Halifax",
+  "tvg_name": "CA| GLOBAL NEWS HALIFAX"
+ },
+ {
+  "position": 196,
+  "group": "CA| LOCALS",
+  "name": "CA| GLOBAL KINGSTON HD",
+  "tvg_id": "CKWS.ca",
+  "tvg_name": "CA| GLOBAL KINGSTON HD"
+ },
+ {
+  "position": 197,
+  "group": "CA| LOCALS",
+  "name": "CA| GLOBAL MONTREAL HD",
+  "tvg_id": "GlobalMontrealCKMI.ca",
+  "tvg_name": "CA| GLOBAL MONTREAL HD"
+ },
+ {
+  "position": 198,
+  "group": "CA| LOCALS",
+  "name": "CA| GLOBAL OKANAGAN HD",
+  "tvg_id": "",
+  "tvg_name": "CA| GLOBAL OKANAGAN HD"
+ },
+ {
+  "position": 199,
+  "group": "CA| LOCALS",
+  "name": "CA| GLOBAL PETERBOROUGH HD",
+  "tvg_id": "CHEX.ca",
+  "tvg_name": "CA| GLOBAL PETERBOROUGH HD"
+ },
+ {
+  "position": 200,
+  "group": "CA| LOCALS",
+  "name": "CA| GLOBAL REGINA HD",
+  "tvg_id": "CFRE.ca",
+  "tvg_name": "CA| GLOBAL REGINA HD"
+ },
+ {
+  "position": 201,
+  "group": "CA| LOCALS",
+  "name": "CA| GLOBAL SASKATOON HD",
+  "tvg_id": "CFSK.ca",
+  "tvg_name": "CA| GLOBAL SASKATOON HD"
+ },
+ {
+  "position": 202,
+  "group": "CA| LOCALS",
+  "name": "CA| GLOBAL TORONTO HD",
+  "tvg_id": "ca.Global (CIII-DT-41) Toronto",
+  "tvg_name": "CA| GLOBAL TORONTO HD"
+ },
+ {
+  "position": 203,
+  "group": "CA| LOCALS",
+  "name": "CA| GLOBAL VANCOUVER HD",
+  "tvg_id": "ca.Global BC DV",
+  "tvg_name": "CA| GLOBAL VANCOUVER HD"
+ },
+ {
+  "position": 204,
+  "group": "CA| LOCALS",
+  "name": "CA| NTV NEWFOUNDLAND",
+  "tvg_id": "us.CJON (NTV) St-John, NL HD",
+  "tvg_name": "CA| NTV NEWFOUNDLAND"
+ },
+ {
+  "position": 205,
+  "group": "CA| LOCALS",
+  "name": "CA| NTV SAINT JOHN'S HD",
+  "tvg_id": "NTVCJON.ca",
+  "tvg_name": "CA| NTV SAINT JOHN'S HD"
+ },
+ {
+  "position": 206,
+  "group": "CA| LOCALS",
+  "name": "CA| VANCOUVER ISLAND",
+  "tvg_id": "ChekVancouverIsland.ca",
+  "tvg_name": "CA| VANCOUVER ISLAND"
+ },
+ {
+  "position": 207,
+  "group": "CA| FOREIGN",
+  "name": "CA| ARY DIGITAL",
+  "tvg_id": "AryDigital.ca",
+  "tvg_name": "CA| ARY DIGITAL"
+ },
+ {
+  "position": 208,
+  "group": "CA| FOREIGN",
+  "name": "CA| ARY DIGITAL THE MUSIK",
+  "tvg_id": "AryDigital.ca",
+  "tvg_name": "CA| ARY DIGITAL THE MUSIK"
+ },
+ {
+  "position": 209,
+  "group": "CA| FOREIGN",
+  "name": "CA| ARY QTV",
+  "tvg_id": "AryQtv.ca",
+  "tvg_name": "CA| ARY QTV"
+ },
+ {
+  "position": 210,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN",
+  "tvg_id": "",
+  "tvg_name": "CA| ATN"
+ },
+ {
+  "position": 211,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN AASTHA",
+  "tvg_id": "",
+  "tvg_name": "CA| ATN AASTHA"
+ },
+ {
+  "position": 212,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN ABP NEWS",
+  "tvg_id": "",
+  "tvg_name": "CA| ATN ABP NEWS"
+ },
+ {
+  "position": 213,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN ARY NEWS",
+  "tvg_id": "",
+  "tvg_name": "CA| ATN ARY NEWS"
+ },
+ {
+  "position": 214,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN B4U MUSIC",
+  "tvg_id": "B4UMovies.uk",
+  "tvg_name": "CA| ATN B4U MUSIC"
+ },
+ {
+  "position": 215,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN BANGLA",
+  "tvg_id": "",
+  "tvg_name": "CA| ATN BANGLA"
+ },
+ {
+  "position": 216,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN COLORS",
+  "tvg_id": "ATNColors.ca",
+  "tvg_name": "CA| ATN COLORS"
+ },
+ {
+  "position": 217,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN COLORS BANGLA",
+  "tvg_id": "ATNColors.ca",
+  "tvg_name": "CA| ATN COLORS BANGLA"
+ },
+ {
+  "position": 218,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN COLORS MARATHI",
+  "tvg_id": "ATNColors.ca",
+  "tvg_name": "CA| ATN COLORS MARATHI"
+ },
+ {
+  "position": 219,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN CRICKET PLUS",
+  "tvg_id": "",
+  "tvg_name": "CA| ATN CRICKET PLUS"
+ },
+ {
+  "position": 220,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN DD BHARATI",
+  "tvg_id": "",
+  "tvg_name": "CA| ATN DD BHARATI"
+ },
+ {
+  "position": 221,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN DD INDIA",
+  "tvg_id": "",
+  "tvg_name": "CA| ATN DD INDIA"
+ },
+ {
+  "position": 222,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN DD NEWS",
+  "tvg_id": "",
+  "tvg_name": "CA| ATN DD NEWS"
+ },
+ {
+  "position": 223,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN FOOD FOOD",
+  "tvg_id": "",
+  "tvg_name": "CA| ATN FOOD FOOD"
+ },
+ {
+  "position": 224,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN GUJARATI",
+  "tvg_id": "",
+  "tvg_name": "CA| ATN GUJARATI"
+ },
+ {
+  "position": 225,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN IBC TAMIL",
+  "tvg_id": "",
+  "tvg_name": "CA| ATN IBC TAMIL"
+ },
+ {
+  "position": 226,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN JAYA TV",
+  "tvg_id": "",
+  "tvg_name": "CA| ATN JAYA TV"
+ },
+ {
+  "position": 227,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN LIFE",
+  "tvg_id": "",
+  "tvg_name": "CA| ATN LIFE"
+ },
+ {
+  "position": 228,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN MOVIES",
+  "tvg_id": "",
+  "tvg_name": "CA| ATN MOVIES"
+ },
+ {
+  "position": 229,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN MTV INDIA",
+  "tvg_id": "",
+  "tvg_name": "CA| ATN MTV INDIA"
+ },
+ {
+  "position": 230,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN NEWS 18",
+  "tvg_id": "",
+  "tvg_name": "CA| ATN NEWS 18"
+ },
+ {
+  "position": 231,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN PUNJABI",
+  "tvg_id": "",
+  "tvg_name": "CA| ATN PUNJABI"
+ },
+ {
+  "position": 232,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN PUNJABI TV",
+  "tvg_id": "",
+  "tvg_name": "CA| ATN PUNJABI TV"
+ },
+ {
+  "position": 233,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN RISHTEY",
+  "tvg_id": "",
+  "tvg_name": "CA| ATN RISHTEY"
+ },
+ {
+  "position": 234,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN SIKH",
+  "tvg_id": "",
+  "tvg_name": "CA| ATN SIKH"
+ },
+ {
+  "position": 235,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN SPORTS",
+  "tvg_id": "",
+  "tvg_name": "CA| ATN SPORTS"
+ },
+ {
+  "position": 236,
+  "group": "CA| FOREIGN",
+  "name": "CA| ATN TIMES NOW",
+  "tvg_id": "",
+  "tvg_name": "CA| ATN TIMES NOW"
+ },
+ {
+  "position": 237,
+  "group": "CA| FOREIGN",
+  "name": "CA| B4U CANADA",
+  "tvg_id": "B4UMovies.in",
+  "tvg_name": "CA| B4U CANADA"
+ },
+ {
+  "position": 238,
+  "group": "CA| FOREIGN",
+  "name": "CA| BENFICA TV",
+  "tvg_id": "",
+  "tvg_name": "CA| BENFICA TV"
+ },
+ {
+  "position": 239,
+  "group": "CA| FOREIGN",
+  "name": "CA| CBN",
+  "tvg_id": "",
+  "tvg_name": "CA| CBN"
+ },
+ {
+  "position": 240,
+  "group": "CA| FOREIGN",
+  "name": "CA| CCTV4-CHINA CENTRAL TV",
+  "tvg_id": "",
+  "tvg_name": "CA| CCTV4-CHINA CENTRAL TV"
+ },
+ {
+  "position": 241,
+  "group": "CA| FOREIGN",
+  "name": "CA| CCTV ENTERTAINMENT",
+  "tvg_id": "",
+  "tvg_name": "CA| CCTV ENTERTAINMENT"
+ },
+ {
+  "position": 242,
+  "group": "CA| FOREIGN",
+  "name": "CA| CHANNEL PUNJABI",
+  "tvg_id": "PTCPunjabi.uk",
+  "tvg_name": "CA| CHANNEL PUNJABI"
+ },
+ {
+  "position": 243,
+  "group": "CA| FOREIGN",
+  "name": "CA| CINELATINO",
+  "tvg_id": "",
+  "tvg_name": "CA| CINELATINO"
+ },
+ {
+  "position": 244,
+  "group": "CA| FOREIGN",
+  "name": "CA| MEDIASET ITALIA CANADA",
+  "tvg_id": "",
+  "tvg_name": "CA| MEDIASET ITALIA CANADA"
+ },
+ {
+  "position": 245,
+  "group": "CA| FOREIGN",
+  "name": "CA| MEDIASET TGCOM 24",
+  "tvg_id": "",
+  "tvg_name": "CA| MEDIASET TGCOM 24"
+ },
+ {
+  "position": 246,
+  "group": "CA| FOREIGN",
+  "name": "CA| MEGA COSMOS",
+  "tvg_id": "",
+  "tvg_name": "CA| MEGA COSMOS"
+ },
+ {
+  "position": 247,
+  "group": "CA| FOREIGN",
+  "name": "CA| NDTV 24X7 CANADA",
+  "tvg_id": "NDTV24x7.ca",
+  "tvg_name": "CA| NDTV 24X7 CANADA"
+ },
+ {
+  "position": 248,
+  "group": "CA| FOREIGN",
+  "name": "CA| ODYSSEY GREEK TV",
+  "tvg_id": "",
+  "tvg_name": "CA| ODYSSEY GREEK TV"
+ },
+ {
+  "position": 249,
+  "group": "CA| FOREIGN",
+  "name": "CA| PRIME ASIA",
+  "tvg_id": "PrimeAsia.in",
+  "tvg_name": "CA| PRIME ASIA"
+ },
+ {
+  "position": 250,
+  "group": "CA| FOREIGN",
+  "name": "CA| PTC PUNJABI TV",
+  "tvg_id": "PTCPunjabi.in",
+  "tvg_name": "CA| PTC PUNJABI TV"
+ },
+ {
+  "position": 251,
+  "group": "CA| FOREIGN",
+  "name": "CA| RAI NEWS 24",
+  "tvg_id": "RaiNews.it",
+  "tvg_name": "CA| RAI NEWS 24"
+ },
+ {
+  "position": 252,
+  "group": "CA| FOREIGN",
+  "name": "CA| RECORD INTERNATIONAL",
+  "tvg_id": "",
+  "tvg_name": "CA| RECORD INTERNATIONAL"
+ },
+ {
+  "position": 253,
+  "group": "CA| FOREIGN",
+  "name": "CA| SAB CANADA",
+  "tvg_id": "",
+  "tvg_name": "CA| SAB CANADA"
+ },
+ {
+  "position": 254,
+  "group": "CA| FOREIGN",
+  "name": "CA| SONY AATH",
+  "tvg_id": "SonyAATH.in",
+  "tvg_name": "CA| SONY AATH"
+ },
+ {
+  "position": 255,
+  "group": "CA| FOREIGN",
+  "name": "CA| THE AFRICA CHANNEL",
+  "tvg_id": "",
+  "tvg_name": "CA| THE AFRICA CHANNEL"
+ },
+ {
+  "position": 256,
+  "group": "CA| FOREIGN",
+  "name": "CA| TVI INTERNATIONAL",
+  "tvg_id": "",
+  "tvg_name": "CA| TVI INTERNATIONAL"
+ },
+ {
+  "position": 257,
+  "group": "CA| FOREIGN",
+  "name": "CA| UNIVISION CANADA",
+  "tvg_id": "",
+  "tvg_name": "CA| UNIVISION CANADA"
+ },
+ {
+  "position": 258,
+  "group": "CA| FOREIGN",
+  "name": "CA| WOWTV",
+  "tvg_id": "",
+  "tvg_name": "CA| WOWTV"
+ },
+ {
+  "position": 259,
+  "group": "CA| FOREIGN",
+  "name": "CA| ZEE BOLLYWOOD CANADA",
+  "tvg_id": "ZeeTV.ca",
+  "tvg_name": "CA| ZEE BOLLYWOOD CANADA"
+ },
+ {
+  "position": 260,
+  "group": "CA| FOREIGN",
+  "name": "CA| ZEE CINEMA",
+  "tvg_id": "ZeeCinema.ca",
+  "tvg_name": "CA| ZEE CINEMA"
+ },
+ {
+  "position": 261,
+  "group": "CA| FOREIGN",
+  "name": "CA| ZEE TAMIL",
+  "tvg_id": "ZeeTV.ca",
+  "tvg_name": "CA| ZEE TAMIL"
+ },
+ {
+  "position": 262,
+  "group": "CA| FOREIGN",
+  "name": "CA| ZEE TV CANADA",
+  "tvg_id": "ZeeTV.ca",
+  "tvg_name": "CA| ZEE TV CANADA"
+ },
+ {
+  "position": 263,
+  "group": "CA| FOREIGN",
+  "name": "CA| ZOOM CANADA",
+  "tvg_id": "",
+  "tvg_name": "CA| ZOOM CANADA"
+ },
+ {
+  "position": 264,
+  "group": "CA| STINGRAY",
+  "name": "CA| STINGRAY COUNTRY",
+  "tvg_id": "",
+  "tvg_name": "CA| STINGRAY COUNTRY"
+ },
+ {
+  "position": 265,
+  "group": "CA| STINGRAY",
+  "name": "CA| STINGRAY AMBIANCE 4K",
+  "tvg_id": "",
+  "tvg_name": "CA| STINGRAY AMBIANCE 4K"
+ },
+ {
+  "position": 266,
+  "group": "CA| STINGRAY",
+  "name": "CA| STINGRAY CLASSIC MASTERS",
+  "tvg_id": "",
+  "tvg_name": "CA| STINGRAY CLASSIC MASTERS"
+ },
+ {
+  "position": 267,
+  "group": "CA| STINGRAY",
+  "name": "CA| STINGRAY CLASSIC ROCK",
+  "tvg_id": "",
+  "tvg_name": "CA| STINGRAY CLASSIC ROCK"
+ },
+ {
+  "position": 268,
+  "group": "CA| STINGRAY",
+  "name": "CA| STINGRAY FESTIVAL 4K",
+  "tvg_id": "",
+  "tvg_name": "CA| STINGRAY FESTIVAL 4K"
+ },
+ {
+  "position": 269,
+  "group": "CA| STINGRAY",
+  "name": "CA| STINGRAY EASY LISTENING",
+  "tvg_id": "",
+  "tvg_name": "CA| STINGRAY EASY LISTENING"
+ },
+ {
+  "position": 270,
+  "group": "CA| STINGRAY",
+  "name": "CA| STINGRAY FLASHBACK '70S",
+  "tvg_id": "",
+  "tvg_name": "CA| STINGRAY FLASHBACK '70S"
+ },
+ {
+  "position": 271,
+  "group": "CA| STINGRAY",
+  "name": "CA| STINGRAY FRANCO COUNTRY",
+  "tvg_id": "",
+  "tvg_name": "CA| STINGRAY FRANCO COUNTRY"
+ },
+ {
+  "position": 272,
+  "group": "CA| STINGRAY",
+  "name": "CA| STINGRAY FRANCO RETRO",
+  "tvg_id": "",
+  "tvg_name": "CA| STINGRAY FRANCO RETRO"
+ },
+ {
+  "position": 273,
+  "group": "CA| STINGRAY",
+  "name": "CA| STINGRAY HIT LIST",
+  "tvg_id": "",
+  "tvg_name": "CA| STINGRAY HIT LIST"
+ },
+ {
+  "position": 274,
+  "group": "CA| STINGRAY",
+  "name": "CA| STINGRAY HITS",
+  "tvg_id": "",
+  "tvg_name": "CA| STINGRAY HITS"
+ },
+ {
+  "position": 275,
+  "group": "CA| STINGRAY",
+  "name": "CA| STINGRAY NOW 4K",
+  "tvg_id": "",
+  "tvg_name": "CA| STINGRAY NOW 4K"
+ },
+ {
+  "position": 276,
+  "group": "CA| STINGRAY",
+  "name": "CA| STINGRAY PALMARÈS",
+  "tvg_id": "",
+  "tvg_name": "CA| STINGRAY PALMARÈS"
+ },
+ {
+  "position": 277,
+  "group": "CA| STINGRAY",
+  "name": "CA| STINGRAY LOUD HD",
+  "tvg_id": "",
+  "tvg_name": "CA| STINGRAY LOUD HD"
+ },
+ {
+  "position": 278,
+  "group": "CA| STINGRAY",
+  "name": "CA| STINGRAY NATURE",
+  "tvg_id": "",
+  "tvg_name": "CA| STINGRAY NATURE"
+ },
+ {
+  "position": 279,
+  "group": "CA| STINGRAY",
+  "name": "CA| STINGRAY NOSTALGIE",
+  "tvg_id": "",
+  "tvg_name": "CA| STINGRAY NOSTALGIE"
+ },
+ {
+  "position": 280,
+  "group": "CA| STINGRAY",
+  "name": "CA| STINGRAY REMEMBER THE '80S",
+  "tvg_id": "",
+  "tvg_name": "CA| STINGRAY REMEMBER THE '80S"
+ },
+ {
+  "position": 281,
+  "group": "CA| STINGRAY",
+  "name": "CA| STINGRAY RETRO HD",
+  "tvg_id": "",
+  "tvg_name": "CA| STINGRAY RETRO HD"
+ },
+ {
+  "position": 282,
+  "group": "CA| STINGRAY",
+  "name": "CA| STINGRAY SMOOTH JAZZ",
+  "tvg_id": "",
+  "tvg_name": "CA| STINGRAY SMOOTH JAZZ"
+ },
+ {
+  "position": 283,
+  "group": "CA| STINGRAY",
+  "name": "CA| STINGRAY THE BLUES",
+  "tvg_id": "",
+  "tvg_name": "CA| STINGRAY THE BLUES"
+ },
+ {
+  "position": 284,
+  "group": "CA| STINGRAY",
+  "name": "CA| STINGRAY THE CHILL LOUNGE",
+  "tvg_id": "",
+  "tvg_name": "CA| STINGRAY THE CHILL LOUNGE"
+ },
+ {
+  "position": 285,
+  "group": "CA| SPORT",
+  "name": "CA| TSN1 FHD",
+  "tvg_id": "TSN1.ca",
+  "tvg_name": "CA| TSN1 FHD"
+ },
+ {
+  "position": 286,
+  "group": "CA| SPORT",
+  "name": "CA| TSN 1 HD",
+  "tvg_id": "TSN1.ca",
+  "tvg_name": "CA| TSN 1 HD"
+ },
+ {
+  "position": 287,
+  "group": "CA| SPORT",
+  "name": "CA| TSN2 FHD",
+  "tvg_id": "TSN2.ca",
+  "tvg_name": "CA| TSN2 FHD"
+ },
+ {
+  "position": 288,
+  "group": "CA| SPORT",
+  "name": "CA| TSN 2 HD",
+  "tvg_id": "TSN2.ca",
+  "tvg_name": "CA| TSN 2 HD"
+ },
+ {
+  "position": 289,
+  "group": "CA| SPORT",
+  "name": "CA| TSN3 FHD",
+  "tvg_id": "TSN3.ca",
+  "tvg_name": "CA| TSN3 FHD"
+ },
+ {
+  "position": 290,
+  "group": "CA| SPORT",
+  "name": "CA| TSN 3 HD",
+  "tvg_id": "TSN3.ca",
+  "tvg_name": "CA| TSN 3 HD"
+ },
+ {
+  "position": 291,
+  "group": "CA| SPORT",
+  "name": "CA| TSN4 FHD",
+  "tvg_id": "TSN4.ca",
+  "tvg_name": "CA| TSN4 FHD"
+ },
+ {
+  "position": 292,
+  "group": "CA| SPORT",
+  "name": "CA| TSN 4 HD",
+  "tvg_id": "TSN4.ca",
+  "tvg_name": "CA| TSN 4 HD"
+ },
+ {
+  "position": 293,
+  "group": "CA| SPORT",
+  "name": "CA| TSN5 FHD",
+  "tvg_id": "TSN5.ca",
+  "tvg_name": "CA| TSN5 FHD"
+ },
+ {
+  "position": 294,
+  "group": "CA| SPORT",
+  "name": "CA| TSN 5 HD",
+  "tvg_id": "TSN5.ca",
+  "tvg_name": "CA| TSN 5 HD"
+ },
+ {
+  "position": 295,
+  "group": "CA| SPORT",
+  "name": "CA| REV TV",
+  "tvg_id": "",
+  "tvg_name": "CA| REV TV"
+ },
+ {
+  "position": 296,
+  "group": "CA| SPORT",
+  "name": "CA| FOX SPORTS RACING",
+  "tvg_id": "ca.fox-sports-racing",
+  "tvg_name": "CA| FOX SPORTS RACING"
+ },
+ {
+  "position": 297,
+  "group": "CA| SPORT",
+  "name": "CA| NBA TV",
+  "tvg_id": "NBATV.ca",
+  "tvg_name": "CA| NBA TV"
+ },
+ {
+  "position": 298,
+  "group": "CA| SPORT",
+  "name": "CA| BEIN SPORTS 1 HD",
+  "tvg_id": "BeinSports1.fr",
+  "tvg_name": "CA| BEIN SPORTS 1 HD"
+ },
+ {
+  "position": 299,
+  "group": "CA| SPORT",
+  "name": "CA| BEIN SPORTS 2 HD",
+  "tvg_id": "beINSports2.ca",
+  "tvg_name": "CA| BEIN SPORTS 2 HD"
+ },
+ {
+  "position": 300,
+  "group": "CA| SPORT",
+  "name": "CA| BEIN SPORTS 4 HD",
+  "tvg_id": "beINSports4.ca",
+  "tvg_name": "CA| BEIN SPORTS 4 HD"
+ },
+ {
+  "position": 301,
+  "group": "CA| SPORT",
+  "name": "CA| BEIN SPORTS 5 HD",
+  "tvg_id": "beINSports5.ca",
+  "tvg_name": "CA| BEIN SPORTS 5 HD"
+ },
+ {
+  "position": 302,
+  "group": "CA| SPORT",
+  "name": "CA| DAZN 1 HD",
+  "tvg_id": "DAZN.ca",
+  "tvg_name": "CA| DAZN 1 HD"
+ },
+ {
+  "position": 303,
+  "group": "CA| SPORT",
+  "name": "CA| DAZN 2 HD",
+  "tvg_id": "DAZN.ca",
+  "tvg_name": "CA| DAZN 2 HD"
+ },
+ {
+  "position": 304,
+  "group": "CA| SPORT",
+  "name": "CA| DAZN 3 HD",
+  "tvg_id": "DAZN.ca",
+  "tvg_name": "CA| DAZN 3 HD"
+ },
+ {
+  "position": 305,
+  "group": "CA| SPORT",
+  "name": "CA| DAZN 4 HD",
+  "tvg_id": "DAZN.ca",
+  "tvg_name": "CA| DAZN 4 HD"
+ },
+ {
+  "position": 306,
+  "group": "CA| SPORT",
+  "name": "CA| DAZN 5 HD",
+  "tvg_id": "DAZN.ca",
+  "tvg_name": "CA| DAZN 5 HD"
+ },
+ {
+  "position": 307,
+  "group": "CA| SPORT",
+  "name": "CA| DAZN 6 HD",
+  "tvg_id": "DAZN.ca",
+  "tvg_name": "CA| DAZN 6 HD"
+ },
+ {
+  "position": 308,
+  "group": "CA| SPORT",
+  "name": "CA| DAZN 7 HD",
+  "tvg_id": "DAZN.ca",
+  "tvg_name": "CA| DAZN 7 HD"
+ },
+ {
+  "position": 309,
+  "group": "CA| SPORT",
+  "name": "CA| DAZN 8 HD",
+  "tvg_id": "DAZN.ca",
+  "tvg_name": "CA| DAZN 8 HD"
+ },
+ {
+  "position": 310,
+  "group": "CA| SPORT",
+  "name": "CA| DAZN 9 HD",
+  "tvg_id": "DAZN.ca",
+  "tvg_name": "CA| DAZN 9 HD"
+ },
+ {
+  "position": 311,
+  "group": "CA| SPORT",
+  "name": "CA| DAZN 10 HD",
+  "tvg_id": "DAZN.ca",
+  "tvg_name": "CA| DAZN 10 HD"
+ },
+ {
+  "position": 312,
+  "group": "CA| SPORT",
+  "name": "CA| DAZN 11 HD",
+  "tvg_id": "DAZN.ca",
+  "tvg_name": "CA| DAZN 11 HD"
+ },
+ {
+  "position": 313,
+  "group": "CA| SPORT",
+  "name": "CA| DAZN 12 HD",
+  "tvg_id": "DAZN.ca",
+  "tvg_name": "CA| DAZN 12 HD"
+ },
+ {
+  "position": 314,
+  "group": "CA| SPORT",
+  "name": "CA| DAZN 13 HD",
+  "tvg_id": "DAZN.ca",
+  "tvg_name": "CA| DAZN 13 HD"
+ },
+ {
+  "position": 315,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| ADULT SWIM ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| ADULT SWIM ᴿᴬᵂ"
+ },
+ {
+  "position": 316,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| AMC CANADA ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| AMC CANADA ᴿᴬᵂ"
+ },
+ {
+  "position": 317,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| AMC+ CANADA ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| AMC+ CANADA ᴿᴬᵂ"
+ },
+ {
+  "position": 318,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| BBC EARTH ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| BBC EARTH ᴿᴬᵂ"
+ },
+ {
+  "position": 319,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| BLOOMBERG TV+ ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| BLOOMBERG TV+ ᴿᴬᵂ"
+ },
+ {
+  "position": 320,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| BRAVO ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| BRAVO ᴿᴬᵂ"
+ },
+ {
+  "position": 321,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| CARTOON NETWORK ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| CARTOON NETWORK ᴿᴬᵂ"
+ },
+ {
+  "position": 322,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| CBS NEWS ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| CBS NEWS ᴿᴬᵂ"
+ },
+ {
+  "position": 323,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| CITYNEWS 24/7 ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| CITYNEWS 24/7 ᴿᴬᵂ"
+ },
+ {
+  "position": 324,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| CITYNEWS 24/7 WEST ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| CITYNEWS 24/7 WEST ᴿᴬᵂ"
+ },
+ {
+  "position": 325,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| CITYTV CALGARY ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| CITYTV CALGARY ᴿᴬᵂ"
+ },
+ {
+  "position": 326,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| CITYTV EDMONTON ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| CITYTV EDMONTON ᴿᴬᵂ"
+ },
+ {
+  "position": 327,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| CITYTV MONTREAL ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| CITYTV MONTREAL ᴿᴬᵂ"
+ },
+ {
+  "position": 328,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| CITYTV VANCOUVER ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| CITYTV VANCOUVER ᴿᴬᵂ"
+ },
+ {
+  "position": 329,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| CRAVE 1 ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| CRAVE 1 ᴿᴬᵂ"
+ },
+ {
+  "position": 330,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| CRAVE 2 ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| CRAVE 2 ᴿᴬᵂ"
+ },
+ {
+  "position": 331,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| CRAVE 3 ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| CRAVE 3 ᴿᴬᵂ"
+ },
+ {
+  "position": 332,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| CRAVE 4 ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| CRAVE 4 ᴿᴬᵂ"
+ },
+ {
+  "position": 333,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| DISCOVERY CHANNEL ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| DISCOVERY CHANNEL ᴿᴬᵂ"
+ },
+ {
+  "position": 334,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| DISNEY CHANNEL ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| DISNEY CHANNEL ᴿᴬᵂ"
+ },
+ {
+  "position": 335,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| DISNEY JUNIOR ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| DISNEY JUNIOR ᴿᴬᵂ"
+ },
+ {
+  "position": 336,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| DISNEY XD ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| DISNEY XD ᴿᴬᵂ"
+ },
+ {
+  "position": 337,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| DTOUR ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| DTOUR ᴿᴬᵂ"
+ },
+ {
+  "position": 338,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| FAMILY CHANNEL ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| FAMILY CHANNEL ᴿᴬᵂ"
+ },
+ {
+  "position": 339,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| FAMILY JR ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| FAMILY JR ᴿᴬᵂ"
+ },
+ {
+  "position": 340,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| FAMILY WILDBRAINTV EAST ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| FAMILY WILDBRAINTV EAST ᴿᴬᵂ"
+ },
+ {
+  "position": 341,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| FLAVOUR NETWORK ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| FLAVOUR NETWORK ᴿᴬᵂ"
+ },
+ {
+  "position": 342,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| FOOD NETWORK ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| FOOD NETWORK ᴿᴬᵂ"
+ },
+ {
+  "position": 343,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| FUBO SPORTS NETWORK ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| FUBO SPORTS NETWORK ᴿᴬᵂ"
+ },
+ {
+  "position": 344,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| FUBO SPORTS NETWORK 2 ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| FUBO SPORTS NETWORK 2 ᴿᴬᵂ"
+ },
+ {
+  "position": 345,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| FX ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| FX ᴿᴬᵂ"
+ },
+ {
+  "position": 346,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| FXX CANADA ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| FXX CANADA ᴿᴬᵂ"
+ },
+ {
+  "position": 347,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| GLOBAL BC ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| GLOBAL BC ᴿᴬᵂ"
+ },
+ {
+  "position": 348,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| GLOBAL CALGARY ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| GLOBAL CALGARY ᴿᴬᵂ"
+ },
+ {
+  "position": 349,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| GLOBAL EDMONTON ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| GLOBAL EDMONTON ᴿᴬᵂ"
+ },
+ {
+  "position": 350,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| GLOBAL MARITIMES ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| GLOBAL MARITIMES ᴿᴬᵂ"
+ },
+ {
+  "position": 351,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| GLOBAL NEWS BC ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| GLOBAL NEWS BC ᴿᴬᵂ"
+ },
+ {
+  "position": 352,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| GLOBAL NEWS CALGARY ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| GLOBAL NEWS CALGARY ᴿᴬᵂ"
+ },
+ {
+  "position": 353,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| GLOBAL NEWS EDMONTON ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| GLOBAL NEWS EDMONTON ᴿᴬᵂ"
+ },
+ {
+  "position": 354,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| GLOBAL NEWS TORONTO ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| GLOBAL NEWS TORONTO ᴿᴬᵂ"
+ },
+ {
+  "position": 355,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| HBO 1 ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| HBO 1 ᴿᴬᵂ"
+ },
+ {
+  "position": 356,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| HBO 2 ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| HBO 2 ᴿᴬᵂ"
+ },
+ {
+  "position": 357,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| HGTV ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| HGTV ᴿᴬᵂ"
+ },
+ {
+  "position": 358,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| HISTORY ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| HISTORY ᴿᴬᵂ"
+ },
+ {
+  "position": 359,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| HOLLYWOOD SUITE 2000S ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| HOLLYWOOD SUITE 2000S ᴿᴬᵂ"
+ },
+ {
+  "position": 360,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| HOLLYWOOD SUITE 2010S+ ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| HOLLYWOOD SUITE 2010S+ ᴿᴬᵂ"
+ },
+ {
+  "position": 361,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| HOLLYWOOD SUITE 70S+ ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| HOLLYWOOD SUITE 70S+ ᴿᴬᵂ"
+ },
+ {
+  "position": 362,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| HOLLYWOOD SUITE 80S & 90S ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| HOLLYWOOD SUITE 80S & 90S ᴿᴬᵂ"
+ },
+ {
+  "position": 363,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| HOME NETWORK ᴿᴬᵂ",
+  "tvg_id": "Home.Network.HD.ca2",
+  "tvg_name": "PRIME| HOME NETWORK ᴿᴬᵂ"
+ },
+ {
+  "position": 364,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| INVESTIGATION DISCOVERY ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| INVESTIGATION DISCOVERY ᴿᴬᵂ"
+ },
+ {
+  "position": 365,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| LIFETIME (CANADA) ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| LIFETIME (CANADA) ᴿᴬᵂ"
+ },
+ {
+  "position": 366,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| MAGNOLIA NETWORK ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| MAGNOLIA NETWORK ᴿᴬᵂ"
+ },
+ {
+  "position": 367,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| MLB NETWORK ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| MLB NETWORK ᴿᴬᵂ"
+ },
+ {
+  "position": 368,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| NATIONAL GEOGRAPHIC ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| NATIONAL GEOGRAPHIC ᴿᴬᵂ"
+ },
+ {
+  "position": 369,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| NFL NETWORK ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| NFL NETWORK ᴿᴬᵂ"
+ },
+ {
+  "position": 370,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| OMNI TELEVISION ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| OMNI TELEVISION ᴿᴬᵂ"
+ },
+ {
+  "position": 371,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| RDS ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| RDS ᴿᴬᵂ"
+ },
+ {
+  "position": 372,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| RDS 2 ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| RDS 2 ᴿᴬᵂ"
+ },
+ {
+  "position": 373,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| RDS INFO SPORTS ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| RDS INFO SPORTS ᴿᴬᵂ"
+ },
+ {
+  "position": 374,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| RED BULL TV ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| RED BULL TV ᴿᴬᵂ"
+ },
+ {
+  "position": 375,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| SHOWCASE ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| SHOWCASE ᴿᴬᵂ"
+ },
+ {
+  "position": 376,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| SLICE ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| SLICE ᴿᴬᵂ"
+ },
+ {
+  "position": 377,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| SPORTSNET 360 ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| SPORTSNET 360 ᴿᴬᵂ"
+ },
+ {
+  "position": 378,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| SPORTSNET EAST ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| SPORTSNET EAST ᴿᴬᵂ"
+ },
+ {
+  "position": 379,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| SPORTSNET ONE ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| SPORTSNET ONE ᴿᴬᵂ"
+ },
+ {
+  "position": 380,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| SPORTSNET ONTARIO ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| SPORTSNET ONTARIO ᴿᴬᵂ"
+ },
+ {
+  "position": 381,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| SPORTSNET PACIFIC ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| SPORTSNET PACIFIC ᴿᴬᵂ"
+ },
+ {
+  "position": 382,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| SPORTSNET WEST ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| SPORTSNET WEST ᴿᴬᵂ"
+ },
+ {
+  "position": 383,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| STARZ1 ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| STARZ1 ᴿᴬᵂ"
+ },
+ {
+  "position": 384,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| STARZ2 ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| STARZ2 ᴿᴬᵂ"
+ },
+ {
+  "position": 385,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| SUPER CHANNEL FUSE ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| SUPER CHANNEL FUSE ᴿᴬᵂ"
+ },
+ {
+  "position": 386,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| SUPER CHANNEL HEART & HOME ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| SUPER CHANNEL HEART & HOME ᴿᴬᵂ"
+ },
+ {
+  "position": 387,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| SUPER CHANNEL QUEST ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| SUPER CHANNEL QUEST ᴿᴬᵂ"
+ },
+ {
+  "position": 388,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| SUPER CHANNEL VAULT ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| SUPER CHANNEL VAULT ᴿᴬᵂ"
+ },
+ {
+  "position": 389,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| SUPER ÉCRAN 1 ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| SUPER ÉCRAN 1 ᴿᴬᵂ"
+ },
+ {
+  "position": 390,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| SUPER ÉCRAN 2 ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| SUPER ÉCRAN 2 ᴿᴬᵂ"
+ },
+ {
+  "position": 391,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| SUPER ÉCRAN 3 ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| SUPER ÉCRAN 3 ᴿᴬᵂ"
+ },
+ {
+  "position": 392,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| SUPER ÉCRAN 4 ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| SUPER ÉCRAN 4 ᴿᴬᵂ"
+ },
+ {
+  "position": 393,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| THE WALKING DEAD CHANNEL ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| THE WALKING DEAD CHANNEL ᴿᴬᵂ"
+ },
+ {
+  "position": 394,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| TREEHOUSE ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| TREEHOUSE ᴿᴬᵂ"
+ },
+ {
+  "position": 395,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| TSN 1 ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| TSN 1 ᴿᴬᵂ"
+ },
+ {
+  "position": 396,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| TSN 2 ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| TSN 2 ᴿᴬᵂ"
+ },
+ {
+  "position": 397,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| TSN 3 ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| TSN 3 ᴿᴬᵂ"
+ },
+ {
+  "position": 398,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| TSN 4 ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| TSN 4 ᴿᴬᵂ"
+ },
+ {
+  "position": 399,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| TSN 5 ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| TSN 5 ᴿᴬᵂ"
+ },
+ {
+  "position": 400,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| TÉLÉMAGINO ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| TÉLÉMAGINO ᴿᴬᵂ"
+ },
+ {
+  "position": 401,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| W NETWORK ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| W NETWORK ᴿᴬᵂ"
+ },
+ {
+  "position": 402,
+  "group": "CA| PRIME ᴿᴬᵂ ⁶⁰ᶠᵖˢ",
+  "name": "PRIME| YTV ᴿᴬᵂ",
+  "tvg_id": "",
+  "tvg_name": "PRIME| YTV ᴿᴬᵂ"
+ },
+ {
+  "position": 403,
+  "group": "CA| SPORT",
+  "name": "CA| HPITV",
+  "tvg_id": "HPItv.ca",
+  "tvg_name": "CA| HPITV"
+ },
+ {
+  "position": 404,
+  "group": "CA| SPORT",
+  "name": "CA| HPITV EAST",
+  "tvg_id": "HPItv.ca",
+  "tvg_name": "CA| HPITV EAST"
+ },
+ {
+  "position": 405,
+  "group": "CA| SPORT",
+  "name": "CA| HPITV INTERNATIONAL",
+  "tvg_id": "HPItvInternational.ca",
+  "tvg_name": "CA| HPITV INTERNATIONAL"
+ },
+ {
+  "position": 406,
+  "group": "CA| SPORT",
+  "name": "CA| HPITV WEST",
+  "tvg_id": "HPItv.ca",
+  "tvg_name": "CA| HPITV WEST"
+ },
+ {
+  "position": 407,
+  "group": "CA| SPORT",
+  "name": "CA| ONE SOCCER HD",
+  "tvg_id": "OneSoccer.ca",
+  "tvg_name": "CA| ONE SOCCER HD"
+ },
+ {
+  "position": 408,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 267",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 267"
+ },
+ {
+  "position": 409,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 368",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 368"
+ },
+ {
+  "position": 410,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 422",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 422"
+ },
+ {
+  "position": 411,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 431/476",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 431/476"
+ },
+ {
+  "position": 412,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 432/472",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 432/472"
+ },
+ {
+  "position": 413,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 433",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 433"
+ },
+ {
+  "position": 414,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 434",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 434"
+ },
+ {
+  "position": 415,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 435",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 435"
+ },
+ {
+  "position": 416,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 436",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 436"
+ },
+ {
+  "position": 417,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 437",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 437"
+ },
+ {
+  "position": 418,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 438",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 438"
+ },
+ {
+  "position": 419,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 439",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 439"
+ },
+ {
+  "position": 420,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 440",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 440"
+ },
+ {
+  "position": 421,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 441",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 441"
+ },
+ {
+  "position": 422,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 442",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 442"
+ },
+ {
+  "position": 423,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 443",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 443"
+ },
+ {
+  "position": 424,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 444",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 444"
+ },
+ {
+  "position": 425,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 450",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 450"
+ },
+ {
+  "position": 426,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 452",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 452"
+ },
+ {
+  "position": 427,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 453",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 453"
+ },
+ {
+  "position": 428,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 454/477",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 454/477"
+ },
+ {
+  "position": 429,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 455/478",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 455/478"
+ },
+ {
+  "position": 430,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 456/479",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 456/479"
+ },
+ {
+  "position": 431,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 457/480",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 457/480"
+ },
+ {
+  "position": 432,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 458/481",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 458/481"
+ },
+ {
+  "position": 433,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 459/482",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 459/482"
+ },
+ {
+  "position": 434,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 460/483",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 460/483"
+ },
+ {
+  "position": 435,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 461",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 461"
+ },
+ {
+  "position": 436,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 462",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 462"
+ },
+ {
+  "position": 437,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 464",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 464"
+ },
+ {
+  "position": 438,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 465",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 465"
+ },
+ {
+  "position": 439,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 473",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 473"
+ },
+ {
+  "position": 440,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 474",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 474"
+ },
+ {
+  "position": 441,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 475",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 475"
+ },
+ {
+  "position": 442,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 476",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 476"
+ },
+ {
+  "position": 443,
+  "group": "CA| SPORT",
+  "name": "CA| SUPER SPORTS CH 477",
+  "tvg_id": "",
+  "tvg_name": "CA| SUPER SPORTS CH 477"
+ },
+ {
+  "position": 444,
+  "group": "CA| SPORT",
+  "name": "CA| WILLOW CRICKET HD",
+  "tvg_id": "US-Willow Cricket",
+  "tvg_name": "CA| WILLOW CRICKET HD"
+ },
+ {
+  "position": 445,
+  "group": "CA| SPORTSNET",
+  "name": "CA| SPORTSNET 360 FHD",
+  "tvg_id": "Sportsnet360.ca",
+  "tvg_name": "CA| SPORTSNET 360 FHD"
+ },
+ {
+  "position": 446,
+  "group": "CA| SPORTSNET",
+  "name": "CA| SPORTSNET 360 HD",
+  "tvg_id": "Sportsnet360.ca",
+  "tvg_name": "CA| SPORTSNET 360 HD"
+ },
+ {
+  "position": 447,
+  "group": "CA| SPORTSNET",
+  "name": "CA| SPORTSNET EAST FHD",
+  "tvg_id": "SportsnetEast.ca",
+  "tvg_name": "CA| SPORTSNET EAST FHD"
+ },
+ {
+  "position": 448,
+  "group": "CA| SPORTSNET",
+  "name": "CA| SPORTSNET EAST HD",
+  "tvg_id": "SportsnetEast.ca",
+  "tvg_name": "CA| SPORTSNET EAST HD"
+ },
+ {
+  "position": 449,
+  "group": "CA| SPORTSNET",
+  "name": "CA| SPORTSNET ONE FHD",
+  "tvg_id": "SportsnetOne.ca",
+  "tvg_name": "CA| SPORTSNET ONE FHD"
+ },
+ {
+  "position": 450,
+  "group": "CA| SPORTSNET",
+  "name": "CA| SPORTSNET ONE HD",
+  "tvg_id": "SportsnetOne.ca",
+  "tvg_name": "CA| SPORTSNET ONE HD"
+ },
+ {
+  "position": 451,
+  "group": "CA| SPORTSNET",
+  "name": "CA| SPORTSNET ONTARIO FHD",
+  "tvg_id": "SportsnetOntario.ca",
+  "tvg_name": "CA| SPORTSNET ONTARIO FHD"
+ },
+ {
+  "position": 452,
+  "group": "CA| SPORTSNET",
+  "name": "CA| SPORTSNET ONTARIO HD",
+  "tvg_id": "SportsnetOntario.ca",
+  "tvg_name": "CA| SPORTSNET ONTARIO HD"
+ },
+ {
+  "position": 453,
+  "group": "CA| SPORTSNET",
+  "name": "CA| SPORTSNET PACIFIC FHD",
+  "tvg_id": "SportsnetPacific.ca",
+  "tvg_name": "CA| SPORTSNET PACIFIC FHD"
+ },
+ {
+  "position": 454,
+  "group": "CA| SPORTSNET",
+  "name": "CA| SPORTSNET PACIFIC HD",
+  "tvg_id": "SportsnetPacific.ca",
+  "tvg_name": "CA| SPORTSNET PACIFIC HD"
+ },
+ {
+  "position": 455,
+  "group": "CA| SPORTSNET",
+  "name": "CA| SPORTSNET PPV",
+  "tvg_id": "Sportsnet360.ca",
+  "tvg_name": "CA| SPORTSNET PPV"
+ },
+ {
+  "position": 456,
+  "group": "CA| SPORTSNET",
+  "name": "CA| SPORTSNET WEST FHD",
+  "tvg_id": "SportsnetWest.ca",
+  "tvg_name": "CA| SPORTSNET WEST FHD"
+ },
+ {
+  "position": 457,
+  "group": "CA| SPORTSNET",
+  "name": "CA| SPORTSNET WEST HD",
+  "tvg_id": "SportsnetWest.ca",
+  "tvg_name": "CA| SPORTSNET WEST HD"
+ },
+ {
+  "position": 458,
+  "group": "CA| SPORTSNET",
+  "name": "CA| SPORTSNET WORLD EXTRA 1",
+  "tvg_id": "SportsnetWorld.ca",
+  "tvg_name": "CA| SPORTSNET WORLD EXTRA 1"
+ },
+ {
+  "position": 459,
+  "group": "CA| SPORTSNET",
+  "name": "CA| SPORTSNET WORLD EXTRA 2",
+  "tvg_id": "SportsnetWorld.ca",
+  "tvg_name": "CA| SPORTSNET WORLD EXTRA 2"
+ },
+ {
+  "position": 460,
+  "group": "CA| SPORTSNET",
+  "name": "CA| SPORTSNET WORLD EXTRA 3",
+  "tvg_id": "SportsnetWorld.ca",
+  "tvg_name": "CA| SPORTSNET WORLD EXTRA 3"
+ },
+ {
+  "position": 461,
+  "group": "CA| SPORTSNET",
+  "name": "CA| SPORTSNET WORLD EXTRA 4",
+  "tvg_id": "SportsnetWorld.ca",
+  "tvg_name": "CA| SPORTSNET WORLD EXTRA 4"
+ },
+ {
+  "position": 462,
+  "group": "CA| SPORTSNET",
+  "name": "CA| SPORTSNET WORLD FHD",
+  "tvg_id": "SportsnetWorld.ca",
+  "tvg_name": "CA| SPORTSNET WORLD FHD"
+ },
+ {
+  "position": 463,
+  "group": "CA| SPORTSNET",
+  "name": "CA| SPORTSNET WORLD HD",
+  "tvg_id": "SportsnetWorld.ca",
+  "tvg_name": "CA| SPORTSNET WORLD HD"
+ },
+ {
+  "position": 464,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| ABBOTSFORD CANUCKS [ABB]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| ABBOTSFORD CANUCKS [ABB]"
+ },
+ {
+  "position": 465,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| BAKERSFIELD CONDORS [BAK]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| BAKERSFIELD CONDORS [BAK]"
+ },
+ {
+  "position": 466,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| BELLEVILLE SENATORS [BEL]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| BELLEVILLE SENATORS [BEL]"
+ },
+ {
+  "position": 467,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| BRIDGEPORT ISLANDERS [BRI]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| BRIDGEPORT ISLANDERS [BRI]"
+ },
+ {
+  "position": 468,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| CALGARY WRANGLERS [CGY]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| CALGARY WRANGLERS [CGY]"
+ },
+ {
+  "position": 469,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| CHARLOTTE CHECKERS [CLT]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| CHARLOTTE CHECKERS [CLT]"
+ },
+ {
+  "position": 470,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| CHICAGO WOLVES [CHI]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| CHICAGO WOLVES [CHI]"
+ },
+ {
+  "position": 471,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| CLEVELAND MONSTERS [CLE]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| CLEVELAND MONSTERS [CLE]"
+ },
+ {
+  "position": 472,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| COACHELLA VALLEY FIREBIRDS [CV]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| COACHELLA VALLEY FIREBIRDS [CV]"
+ },
+ {
+  "position": 473,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| COLORADO EAGLES [COL]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| COLORADO EAGLES [COL]"
+ },
+ {
+  "position": 474,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| GRAND RAPIDS GRIFFINS [GR]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| GRAND RAPIDS GRIFFINS [GR]"
+ },
+ {
+  "position": 475,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| HARTFORD WOLF PACK [HFD]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| HARTFORD WOLF PACK [HFD]"
+ },
+ {
+  "position": 476,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| HENDERSON SILVER KNIGHTS [HSK]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| HENDERSON SILVER KNIGHTS [HSK]"
+ },
+ {
+  "position": 477,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| HERSHEY BEARS [HER]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| HERSHEY BEARS [HER]"
+ },
+ {
+  "position": 478,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| IOWA WILD [IA]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| IOWA WILD [IA]"
+ },
+ {
+  "position": 479,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| LAVAL ROCKET [LAV]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| LAVAL ROCKET [LAV]"
+ },
+ {
+  "position": 480,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| LEHIGH VALLEY PHANTOMS [LV]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| LEHIGH VALLEY PHANTOMS [LV]"
+ },
+ {
+  "position": 481,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| MANITOBA MOOSE [MB]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| MANITOBA MOOSE [MB]"
+ },
+ {
+  "position": 482,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| MILWAUKEE ADMIRALS [MIL]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| MILWAUKEE ADMIRALS [MIL]"
+ },
+ {
+  "position": 483,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| ONTARIO REIGN [ONT]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| ONTARIO REIGN [ONT]"
+ },
+ {
+  "position": 484,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| PROVIDENCE BRUINS [PRO]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| PROVIDENCE BRUINS [PRO]"
+ },
+ {
+  "position": 485,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| ROCHESTER AMERICANS [ROC]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| ROCHESTER AMERICANS [ROC]"
+ },
+ {
+  "position": 486,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| ROCKFORD ICEHOGS [RFD]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| ROCKFORD ICEHOGS [RFD]"
+ },
+ {
+  "position": 487,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| SAN DIEGO GULLS [SD]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| SAN DIEGO GULLS [SD]"
+ },
+ {
+  "position": 488,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| SAN JOSE BARRACUDA [SJ]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| SAN JOSE BARRACUDA [SJ]"
+ },
+ {
+  "position": 489,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| SPRINGFIELD THUNDERBIRDS [SPR]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| SPRINGFIELD THUNDERBIRDS [SPR]"
+ },
+ {
+  "position": 490,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| SYRACUSE CRUNCH [SYR]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| SYRACUSE CRUNCH [SYR]"
+ },
+ {
+  "position": 491,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| TEXAS STARS [TEX]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| TEXAS STARS [TEX]"
+ },
+ {
+  "position": 492,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| TORONTO MARLIES [TOR]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| TORONTO MARLIES [TOR]"
+ },
+ {
+  "position": 493,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| TUCSON ROADRUNNERS [TUC]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| TUCSON ROADRUNNERS [TUC]"
+ },
+ {
+  "position": 494,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| UTICA COMETS [UTC]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| UTICA COMETS [UTC]"
+ },
+ {
+  "position": 495,
+  "group": "CA| AHL TEAM",
+  "name": "AHL-TEAM| WILKES-BARRE/SCRANTON PENGUINS [WBS]",
+  "tvg_id": "",
+  "tvg_name": "AHL-TEAM| WILKES-BARRE/SCRANTON PENGUINS [WBS]"
+ },
+ {
+  "position": 496,
+  "group": "CA| AHL PPV",
+  "name": "CA: ABBOTSFORD CANUCKS",
+  "tvg_id": "",
+  "tvg_name": "CA: ABBOTSFORD CANUCKS"
+ },
+ {
+  "position": 497,
+  "group": "CA| AHL PPV",
+  "name": "CA: BAKERSFIELD CONDORS",
+  "tvg_id": "",
+  "tvg_name": "CA: BAKERSFIELD CONDORS"
+ },
+ {
+  "position": 498,
+  "group": "CA| AHL PPV",
+  "name": "CA: BELLEVILLE SENATORS",
+  "tvg_id": "",
+  "tvg_name": "CA: BELLEVILLE SENATORS"
+ },
+ {
+  "position": 499,
+  "group": "CA| AHL PPV",
+  "name": "CA: BRIDGEPORT ISLANDERS",
+  "tvg_id": "",
+  "tvg_name": "CA: BRIDGEPORT ISLANDERS"
+ },
+ {
+  "position": 500,
+  "group": "CA| AHL PPV",
+  "name": "CA: CALGARY WRANGLERS",
+  "tvg_id": "",
+  "tvg_name": "CA: CALGARY WRANGLERS"
+ },
+ {
+  "position": 501,
+  "group": "CA| AHL PPV",
+  "name": "CA: CHARLOTTE CHECKERS",
+  "tvg_id": "",
+  "tvg_name": "CA: CHARLOTTE CHECKERS"
+ },
+ {
+  "position": 502,
+  "group": "CA| AHL PPV",
+  "name": "CA: CHICAGO WOLVES",
+  "tvg_id": "",
+  "tvg_name": "CA: CHICAGO WOLVES"
+ },
+ {
+  "position": 503,
+  "group": "CA| AHL PPV",
+  "name": "CA: CLEVELAND MONSTERS",
+  "tvg_id": "",
+  "tvg_name": "CA: CLEVELAND MONSTERS"
+ },
+ {
+  "position": 504,
+  "group": "CA| AHL PPV",
+  "name": "CA: COACHELLA VALLEY FIREBIRDS",
+  "tvg_id": "",
+  "tvg_name": "CA: COACHELLA VALLEY FIREBIRDS"
+ },
+ {
+  "position": 505,
+  "group": "CA| AHL PPV",
+  "name": "CA: COLORADO EAGLES",
+  "tvg_id": "",
+  "tvg_name": "CA: COLORADO EAGLES"
+ },
+ {
+  "position": 506,
+  "group": "CA| AHL PPV",
+  "name": "CA: GRAND RAPIDS GRIFFINS",
+  "tvg_id": "",
+  "tvg_name": "CA: GRAND RAPIDS GRIFFINS"
+ },
+ {
+  "position": 507,
+  "group": "CA| AHL PPV",
+  "name": "CA: HARTFORD WOLF PACK",
+  "tvg_id": "",
+  "tvg_name": "CA: HARTFORD WOLF PACK"
+ },
+ {
+  "position": 508,
+  "group": "CA| AHL PPV",
+  "name": "CA: HENDERSON SILVER KNIGHTS",
+  "tvg_id": "",
+  "tvg_name": "CA: HENDERSON SILVER KNIGHTS"
+ },
+ {
+  "position": 509,
+  "group": "CA| AHL PPV",
+  "name": "CA: HERSHEY BEARS",
+  "tvg_id": "",
+  "tvg_name": "CA: HERSHEY BEARS"
+ },
+ {
+  "position": 510,
+  "group": "CA| AHL PPV",
+  "name": "CA: IOWA WILD",
+  "tvg_id": "",
+  "tvg_name": "CA: IOWA WILD"
+ },
+ {
+  "position": 511,
+  "group": "CA| AHL PPV",
+  "name": "CA: LAVAL ROCKET",
+  "tvg_id": "",
+  "tvg_name": "CA: LAVAL ROCKET"
+ },
+ {
+  "position": 512,
+  "group": "CA| AHL PPV",
+  "name": "CA: LEHIGH VALLEY PHANTOMS",
+  "tvg_id": "",
+  "tvg_name": "CA: LEHIGH VALLEY PHANTOMS"
+ },
+ {
+  "position": 513,
+  "group": "CA| AHL PPV",
+  "name": "CA: MANITOBA MOOSE",
+  "tvg_id": "",
+  "tvg_name": "CA: MANITOBA MOOSE"
+ },
+ {
+  "position": 514,
+  "group": "CA| AHL PPV",
+  "name": "CA: MILWAUKEE ADMIRALS",
+  "tvg_id": "",
+  "tvg_name": "CA: MILWAUKEE ADMIRALS"
+ },
+ {
+  "position": 515,
+  "group": "CA| AHL PPV",
+  "name": "CA: ONTARIO REIGN",
+  "tvg_id": "",
+  "tvg_name": "CA: ONTARIO REIGN"
+ },
+ {
+  "position": 516,
+  "group": "CA| AHL PPV",
+  "name": "CA: PROVIDENCE BRUINS",
+  "tvg_id": "",
+  "tvg_name": "CA: PROVIDENCE BRUINS"
+ },
+ {
+  "position": 517,
+  "group": "CA| AHL PPV",
+  "name": "CA: ROCHESTER AMERICANS",
+  "tvg_id": "",
+  "tvg_name": "CA: ROCHESTER AMERICANS"
+ },
+ {
+  "position": 518,
+  "group": "CA| AHL PPV",
+  "name": "CA: ROCKFORD ICEHOGS",
+  "tvg_id": "",
+  "tvg_name": "CA: ROCKFORD ICEHOGS"
+ },
+ {
+  "position": 519,
+  "group": "CA| AHL PPV",
+  "name": "CA: SAN DIEGO GULLS",
+  "tvg_id": "",
+  "tvg_name": "CA: SAN DIEGO GULLS"
+ },
+ {
+  "position": 520,
+  "group": "CA| AHL PPV",
+  "name": "CA: SAN JOSE BARRACUDA",
+  "tvg_id": "",
+  "tvg_name": "CA: SAN JOSE BARRACUDA"
+ },
+ {
+  "position": 521,
+  "group": "CA| AHL PPV",
+  "name": "CA: SPRINGFIELD THUNDERBIRDS",
+  "tvg_id": "",
+  "tvg_name": "CA: SPRINGFIELD THUNDERBIRDS"
+ },
+ {
+  "position": 522,
+  "group": "CA| AHL PPV",
+  "name": "CA: SYRACUSE CRUNCH",
+  "tvg_id": "",
+  "tvg_name": "CA: SYRACUSE CRUNCH"
+ },
+ {
+  "position": 523,
+  "group": "CA| AHL PPV",
+  "name": "CA: TEXAS STARS",
+  "tvg_id": "",
+  "tvg_name": "CA: TEXAS STARS"
+ },
+ {
+  "position": 524,
+  "group": "CA| AHL PPV",
+  "name": "CA: TORONTO MARLIES",
+  "tvg_id": "",
+  "tvg_name": "CA: TORONTO MARLIES"
+ },
+ {
+  "position": 525,
+  "group": "CA| AHL PPV",
+  "name": "CA: TUCSON ROADRUNNERS",
+  "tvg_id": "",
+  "tvg_name": "CA: TUCSON ROADRUNNERS"
+ },
+ {
+  "position": 526,
+  "group": "CA| AHL PPV",
+  "name": "CA: UTICA COMETS",
+  "tvg_id": "",
+  "tvg_name": "CA: UTICA COMETS"
+ },
+ {
+  "position": 527,
+  "group": "CA| AHL PPV",
+  "name": "AHL 14 :",
+  "tvg_id": "",
+  "tvg_name": "AHL 14 :"
+ },
+ {
+  "position": 528,
+  "group": "CA| WHL PPV",
+  "name": "WHL 12 :",
+  "tvg_id": "",
+  "tvg_name": "WHL 12 :"
+ },
+ {
+  "position": 529,
+  "group": "CA| WHL PPV",
+  "name": "WHL 01 : 5pm Brandon Wheat Kings vs Everett Silvertips",
+  "tvg_id": "",
+  "tvg_name": "WHL 01 : 5pm Brandon Wheat Kings vs Everett Silvertips"
+ },
+ {
+  "position": 530,
+  "group": "CA| WHL PPV",
+  "name": "WHL 02 : 5pm Calgary Hitmen vs Saskatoon Blades",
+  "tvg_id": "",
+  "tvg_name": "WHL 02 : 5pm Calgary Hitmen vs Saskatoon Blades"
+ },
+ {
+  "position": 531,
+  "group": "CA| WHL PPV",
+  "name": "WHL 03 : 5pm Edmonton Oil Kings vs Penticton Vees",
+  "tvg_id": "",
+  "tvg_name": "WHL 03 : 5pm Edmonton Oil Kings vs Penticton Vees"
+ },
+ {
+  "position": 532,
+  "group": "CA| WHL PPV",
+  "name": "WHL 04 : 6pm Wenatchee Wild vs Wenatchee Wild",
+  "tvg_id": "",
+  "tvg_name": "WHL 04 : 6pm Wenatchee Wild vs Wenatchee Wild"
+ },
+ {
+  "position": 533,
+  "group": "CA| WHL PPV",
+  "name": "WHL 05 :",
+  "tvg_id": "",
+  "tvg_name": "WHL 05 :"
+ },
+ {
+  "position": 534,
+  "group": "CA| WHL PPV",
+  "name": "WHL 06 :",
+  "tvg_id": "",
+  "tvg_name": "WHL 06 :"
+ },
+ {
+  "position": 535,
+  "group": "CA| WHL PPV",
+  "name": "WHL 07 :",
+  "tvg_id": "",
+  "tvg_name": "WHL 07 :"
+ },
+ {
+  "position": 536,
+  "group": "CA| WHL PPV",
+  "name": "WHL 08 :",
+  "tvg_id": "",
+  "tvg_name": "WHL 08 :"
+ },
+ {
+  "position": 537,
+  "group": "CA| WHL PPV",
+  "name": "WHL 09 :",
+  "tvg_id": "",
+  "tvg_name": "WHL 09 :"
+ },
+ {
+  "position": 538,
+  "group": "CA| WHL PPV",
+  "name": "WHL 10 :",
+  "tvg_id": "",
+  "tvg_name": "WHL 10 :"
+ },
+ {
+  "position": 539,
+  "group": "CA| WHL PPV",
+  "name": "WHL 11",
+  "tvg_id": "",
+  "tvg_name": "WHL 11"
+ },
+ {
+  "position": 585,
+  "group": "CA| KIDS",
+  "name": "CA| BOOMERANG HD",
+  "tvg_id": "Boomerang.us",
+  "tvg_name": "CA| BOOMERANG HD"
+ },
+ {
+  "position": 586,
+  "group": "CA| KIDS",
+  "name": "CA| CARTOON NETWORK HD",
+  "tvg_id": "CartoonNetwork.ca",
+  "tvg_name": "CA| CARTOON NETWORK HD"
+ },
+ {
+  "position": 587,
+  "group": "CA| KIDS",
+  "name": "CA| DISNEY CHANNEL HD",
+  "tvg_id": "DisneyChannel.ca",
+  "tvg_name": "CA| DISNEY CHANNEL HD"
+ },
+ {
+  "position": 588,
+  "group": "CA| KIDS",
+  "name": "CA| DISNEY JUNIOR HD",
+  "tvg_id": "DisneyJunior.ca",
+  "tvg_name": "CA| DISNEY JUNIOR HD"
+ },
+ {
+  "position": 589,
+  "group": "CA| KIDS",
+  "name": "CA| DISNEY XD HD",
+  "tvg_id": "DisneyXD.ca",
+  "tvg_name": "CA| DISNEY XD HD"
+ },
+ {
+  "position": 590,
+  "group": "CA| KIDS",
+  "name": "CA| FAMILY JUNIOR HD",
+  "tvg_id": "FamilyJr.ca",
+  "tvg_name": "CA| FAMILY JUNIOR HD"
+ },
+ {
+  "position": 591,
+  "group": "CA| KIDS",
+  "name": "CA| LA CHAINE DISNEY HD",
+  "tvg_id": "LachaineDisney.ca",
+  "tvg_name": "CA| LA CHAINE DISNEY HD"
+ },
+ {
+  "position": 592,
+  "group": "CA| KIDS",
+  "name": "CA| NICKELODEON HD",
+  "tvg_id": "Nickelodeon.ca",
+  "tvg_name": "CA| NICKELODEON HD"
+ },
+ {
+  "position": 593,
+  "group": "CA| KIDS",
+  "name": "CA| TELETOON FRENCH HD",
+  "tvg_id": "TeletoonFrench.ca",
+  "tvg_name": "CA| TELETOON FRENCH HD"
+ },
+ {
+  "position": 594,
+  "group": "CA| KIDS",
+  "name": "CA| TREEHOUSE HD",
+  "tvg_id": "Treehouse.ca",
+  "tvg_name": "CA| TREEHOUSE HD"
+ },
+ {
+  "position": 595,
+  "group": "CA| KIDS",
+  "name": "CA| WILD BRAIN TV",
+  "tvg_id": "ca.Family CHRGD HD",
+  "tvg_name": "CA| WILD BRAIN TV"
+ },
+ {
+  "position": 596,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 1",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 1"
+ },
+ {
+  "position": 597,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 2",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 2"
+ },
+ {
+  "position": 598,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 3",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 3"
+ },
+ {
+  "position": 599,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 4",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 4"
+ },
+ {
+  "position": 600,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 5",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 5"
+ },
+ {
+  "position": 601,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 6",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 6"
+ },
+ {
+  "position": 602,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 7",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 7"
+ },
+ {
+  "position": 603,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 8",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 8"
+ },
+ {
+  "position": 604,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 9",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 9"
+ },
+ {
+  "position": 605,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 10",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 10"
+ },
+ {
+  "position": 606,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 11",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 11"
+ },
+ {
+  "position": 607,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 12",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 12"
+ },
+ {
+  "position": 608,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 12",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 12"
+ },
+ {
+  "position": 609,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 13",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 13"
+ },
+ {
+  "position": 610,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 13",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 13"
+ },
+ {
+  "position": 611,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 14",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 14"
+ },
+ {
+  "position": 612,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 14",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 14"
+ },
+ {
+  "position": 613,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 15",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 15"
+ },
+ {
+  "position": 614,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 15",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 15"
+ },
+ {
+  "position": 615,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 16",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 16"
+ },
+ {
+  "position": 616,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 16",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 16"
+ },
+ {
+  "position": 617,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 17",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 17"
+ },
+ {
+  "position": 618,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 17",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 17"
+ },
+ {
+  "position": 619,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 18",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 18"
+ },
+ {
+  "position": 620,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 18",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 18"
+ },
+ {
+  "position": 621,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 19",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 19"
+ },
+ {
+  "position": 622,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 19",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 19"
+ },
+ {
+  "position": 623,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 20",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 20"
+ },
+ {
+  "position": 624,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 21",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 21"
+ },
+ {
+  "position": 625,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 22",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 22"
+ },
+ {
+  "position": 626,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 23",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 23"
+ },
+ {
+  "position": 627,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 24",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 24"
+ },
+ {
+  "position": 628,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 33",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 33"
+ },
+ {
+  "position": 629,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 36",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 36"
+ },
+ {
+  "position": 630,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 37",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 37"
+ },
+ {
+  "position": 631,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 38",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 38"
+ },
+ {
+  "position": 632,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 39",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 39"
+ },
+ {
+  "position": 633,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 40",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 40"
+ },
+ {
+  "position": 634,
+  "group": "CA| ROGERS ROGERS SUPER SPORTS",
+  "name": "CA| ROGERS SUPER SPORTS PACK 41",
+  "tvg_id": "",
+  "tvg_name": "CA| ROGERS SUPER SPORTS PACK 41"
+ },
+ {
+  "position": 635,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 001) | Sportsnet Central: Oct. 29 (2026-10-30 05:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 001) | Sportsnet Central: Oct. 29 (2026-10-30 05:00:00)"
+ },
+ {
+  "position": 636,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 002) | The JD Bunkis Podcast: Oct. 30 (2026-10-30 09:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 002) | The JD Bunkis Podcast: Oct. 30 (2026-10-30 09:00:00)"
+ },
+ {
+  "position": 637,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 003) | The Raptors Show: Oct. 30 (2026-10-30 11:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 003) | The Raptors Show: Oct. 30 (2026-10-30 11:00:00)"
+ },
+ {
+  "position": 638,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 004) | The FAN Hockey Show: Oct. 30 (2026-10-30 12:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 004) | The FAN Hockey Show: Oct. 30 (2026-10-30 12:00:00)"
+ },
+ {
+  "position": 639,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 005) | Frankly Hockey: Oct. 30 (2026-10-30 14:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 005) | Frankly Hockey: Oct. 30 (2026-10-30 14:00:00)"
+ },
+ {
+  "position": 640,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 006) | Blair & Barker: Oct. 30 (2026-10-30 15:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 006) | Blair & Barker: Oct. 30 (2026-10-30 15:00:00)"
+ },
+ {
+  "position": 641,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 007) | Bristol Bears vs. Leicester Tigers (2026-10-30 15:35:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 007) | Bristol Bears vs. Leicester Tigers (2026-10-30 15:35:00)"
+ },
+ {
+  "position": 642,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 008) | Glasgow Warriors vs. Lions (2026-10-30 15:35:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 008) | Glasgow Warriors vs. Lions (2026-10-30 15:35:05)"
+ },
+ {
+  "position": 643,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 009) | Real Kyper & Bourne: Oct. 30 (2026-10-30 16:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 009) | Real Kyper & Bourne: Oct. 30 (2026-10-30 16:00:00)"
+ },
+ {
+  "position": 644,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 010) | New Jersey @ Vegas (2026-10-30 18:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 010) | New Jersey @ Vegas (2026-10-30 18:00:00)"
+ },
+ {
+  "position": 645,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 011) | The FAN Pregame: Oct. 30 (2026-10-30 18:00:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 011) | The FAN Pregame: Oct. 30 (2026-10-30 18:00:05)"
+ },
+ {
+  "position": 646,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 012) | Orlando @ Toronto (2026-10-30 19:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 012) | Orlando @ Toronto (2026-10-30 19:00:00)"
+ },
+ {
+  "position": 647,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 013) | Winnipeg @ Florida (2026-10-30 19:00:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 013) | Winnipeg @ Florida (2026-10-30 19:00:05)"
+ },
+ {
+  "position": 648,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 014) | Houston @ Dallas (2026-10-30 20:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 014) | Houston @ Dallas (2026-10-30 20:00:00)"
+ },
+ {
+  "position": 649,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 015) | Seattle @ Calgary (2026-10-30 20:00:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 015) | Seattle @ Calgary (2026-10-30 20:00:05)"
+ },
+ {
+  "position": 650,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 016) | Denver @ Phoenix (2026-10-30 22:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 016) | Denver @ Phoenix (2026-10-30 22:00:00)"
+ },
+ {
+  "position": 651,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 017) | Tissot Sprint _ Grand Prix of Malaysia (2026-10-31 02:30:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 017) | Tissot Sprint _ Grand Prix of Malaysia (2026-10-31 02:30:00)"
+ },
+ {
+  "position": 652,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 018) | Sportsnet Central: Oct. 30 (2026-10-31 05:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 018) | Sportsnet Central: Oct. 30 (2026-10-31 05:00:00)"
+ },
+ {
+  "position": 653,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 019) | Everton vs. Manchester United (2026-10-31 08:35:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 019) | Everton vs. Manchester United (2026-10-31 08:35:00)"
+ },
+ {
+  "position": 654,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 020) | Exeter Chiefs vs. Harlequins (2026-10-31 10:50:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 020) | Exeter Chiefs vs. Harlequins (2026-10-31 10:50:00)"
+ },
+ {
+  "position": 655,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 021) | Saracens vs. Newcastle Red Bulls (2026-10-31 10:50:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 021) | Saracens vs. Newcastle Red Bulls (2026-10-31 10:50:05)"
+ },
+ {
+  "position": 656,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 022) | Bath Rugby vs. Sale Sharks (2026-10-31 10:55:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 022) | Bath Rugby vs. Sale Sharks (2026-10-31 10:55:00)"
+ },
+ {
+  "position": 657,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 023) | Feyenoord vs. Fortuna Sittard (2026-10-31 11:20:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 023) | Feyenoord vs. Fortuna Sittard (2026-10-31 11:20:00)"
+ },
+ {
+  "position": 658,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 024) | Chicago @ Boston (2026-10-31 13:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 024) | Chicago @ Boston (2026-10-31 13:00:00)"
+ },
+ {
+  "position": 659,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 025) | St. Louis @ Detroit (2026-10-31 13:00:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 025) | St. Louis @ Detroit (2026-10-31 13:00:05)"
+ },
+ {
+  "position": 660,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 026) |  (2098-12-31 08:00:01)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 026) |  (2098-12-31 08:00:01)"
+ },
+ {
+  "position": 661,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 027) |  (2098-12-31 08:00:02)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 027) |  (2098-12-31 08:00:02)"
+ },
+ {
+  "position": 662,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 028) |  (2098-12-31 08:00:03)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 028) |  (2098-12-31 08:00:03)"
+ },
+ {
+  "position": 663,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 029) |  (2098-12-31 08:00:04)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 029) |  (2098-12-31 08:00:04)"
+ },
+ {
+  "position": 664,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 030) |  (2098-12-31 08:00:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 030) |  (2098-12-31 08:00:05)"
+ },
+ {
+  "position": 665,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 031) |  (2098-12-31 08:00:06)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 031) |  (2098-12-31 08:00:06)"
+ },
+ {
+  "position": 666,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 032) |  (2098-12-31 08:00:07)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 032) |  (2098-12-31 08:00:07)"
+ },
+ {
+  "position": 667,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 033) |  (2098-12-31 08:00:08)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 033) |  (2098-12-31 08:00:08)"
+ },
+ {
+  "position": 668,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 034) |  (2098-12-31 08:00:09)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 034) |  (2098-12-31 08:00:09)"
+ },
+ {
+  "position": 669,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 035) |  (2098-12-31 08:00:10)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 035) |  (2098-12-31 08:00:10)"
+ },
+ {
+  "position": 670,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 036) |  (2098-12-31 08:00:11)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 036) |  (2098-12-31 08:00:11)"
+ },
+ {
+  "position": 671,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 037) |  (2098-12-31 08:00:12)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 037) |  (2098-12-31 08:00:12)"
+ },
+ {
+  "position": 672,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 038) |  (2098-12-31 08:00:13)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 038) |  (2098-12-31 08:00:13)"
+ },
+ {
+  "position": 673,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 039) |  (2098-12-31 08:00:14)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 039) |  (2098-12-31 08:00:14)"
+ },
+ {
+  "position": 674,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 040) |  (2098-12-31 08:00:15)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 040) |  (2098-12-31 08:00:15)"
+ },
+ {
+  "position": 675,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 041) |  (2098-12-31 08:00:16)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 041) |  (2098-12-31 08:00:16)"
+ },
+ {
+  "position": 676,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 042) |  (2098-12-31 08:00:17)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 042) |  (2098-12-31 08:00:17)"
+ },
+ {
+  "position": 677,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 043) |  (2098-12-31 08:00:18)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 043) |  (2098-12-31 08:00:18)"
+ },
+ {
+  "position": 678,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 044) |  (2098-12-31 08:00:19)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 044) |  (2098-12-31 08:00:19)"
+ },
+ {
+  "position": 679,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 045) |  (2098-12-31 08:00:20)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 045) |  (2098-12-31 08:00:20)"
+ },
+ {
+  "position": 680,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 046) |  (2098-12-31 08:00:21)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 046) |  (2098-12-31 08:00:21)"
+ },
+ {
+  "position": 681,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 047) |  (2098-12-31 08:00:22)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 047) |  (2098-12-31 08:00:22)"
+ },
+ {
+  "position": 682,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 048) |  (2098-12-31 08:00:23)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 048) |  (2098-12-31 08:00:23)"
+ },
+ {
+  "position": 683,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 049) |  (2098-12-31 08:00:24)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 049) |  (2098-12-31 08:00:24)"
+ },
+ {
+  "position": 684,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 050) |  (2098-12-31 08:00:25)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 050) |  (2098-12-31 08:00:25)"
+ },
+ {
+  "position": 685,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 051) |  (2098-12-31 08:00:26)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 051) |  (2098-12-31 08:00:26)"
+ },
+ {
+  "position": 686,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 052) |  (2098-12-31 08:00:27)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 052) |  (2098-12-31 08:00:27)"
+ },
+ {
+  "position": 687,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 053) |  (2098-12-31 08:00:28)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 053) |  (2098-12-31 08:00:28)"
+ },
+ {
+  "position": 688,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 054) |  (2098-12-31 08:00:29)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 054) |  (2098-12-31 08:00:29)"
+ },
+ {
+  "position": 689,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 055) |  (2098-12-31 08:00:30)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 055) |  (2098-12-31 08:00:30)"
+ },
+ {
+  "position": 690,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 056) |  (2098-12-31 08:00:31)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 056) |  (2098-12-31 08:00:31)"
+ },
+ {
+  "position": 691,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 057) |  (2098-12-31 08:00:32)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 057) |  (2098-12-31 08:00:32)"
+ },
+ {
+  "position": 692,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 058) |  (2098-12-31 08:00:33)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 058) |  (2098-12-31 08:00:33)"
+ },
+ {
+  "position": 693,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 059) |  (2098-12-31 08:00:34)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 059) |  (2098-12-31 08:00:34)"
+ },
+ {
+  "position": 694,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 060) |  (2098-12-31 08:00:35)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 060) |  (2098-12-31 08:00:35)"
+ },
+ {
+  "position": 695,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 061) |  (2098-12-31 08:00:36)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 061) |  (2098-12-31 08:00:36)"
+ },
+ {
+  "position": 696,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 062) |  (2098-12-31 08:00:37)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 062) |  (2098-12-31 08:00:37)"
+ },
+ {
+  "position": 697,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 063) |  (2098-12-31 08:00:38)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 063) |  (2098-12-31 08:00:38)"
+ },
+ {
+  "position": 698,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 064) |  (2098-12-31 08:00:39)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 064) |  (2098-12-31 08:00:39)"
+ },
+ {
+  "position": 699,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 065) |  (2098-12-31 08:00:40)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 065) |  (2098-12-31 08:00:40)"
+ },
+ {
+  "position": 700,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 066) |  (2098-12-31 08:00:41)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 066) |  (2098-12-31 08:00:41)"
+ },
+ {
+  "position": 701,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 067) |  (2098-12-31 08:00:42)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 067) |  (2098-12-31 08:00:42)"
+ },
+ {
+  "position": 702,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 068) |  (2098-12-31 08:00:43)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 068) |  (2098-12-31 08:00:43)"
+ },
+ {
+  "position": 703,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 069) |  (2098-12-31 08:00:44)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 069) |  (2098-12-31 08:00:44)"
+ },
+ {
+  "position": 704,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 070) |  (2098-12-31 08:00:45)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 070) |  (2098-12-31 08:00:45)"
+ },
+ {
+  "position": 705,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 071) |  (2098-12-31 08:00:46)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 071) |  (2098-12-31 08:00:46)"
+ },
+ {
+  "position": 706,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 072) |  (2098-12-31 08:00:47)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 072) |  (2098-12-31 08:00:47)"
+ },
+ {
+  "position": 707,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 073) |  (2098-12-31 08:00:48)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 073) |  (2098-12-31 08:00:48)"
+ },
+ {
+  "position": 708,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 074) |  (2098-12-31 08:00:49)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 074) |  (2098-12-31 08:00:49)"
+ },
+ {
+  "position": 709,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 075) |  (2098-12-31 08:00:50)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 075) |  (2098-12-31 08:00:50)"
+ },
+ {
+  "position": 710,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 076) |  (2098-12-31 08:00:51)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 076) |  (2098-12-31 08:00:51)"
+ },
+ {
+  "position": 711,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 077) |  (2098-12-31 08:00:52)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 077) |  (2098-12-31 08:00:52)"
+ },
+ {
+  "position": 712,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 078) |  (2098-12-31 08:00:53)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 078) |  (2098-12-31 08:00:53)"
+ },
+ {
+  "position": 713,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 079) |  (2098-12-31 08:00:54)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 079) |  (2098-12-31 08:00:54)"
+ },
+ {
+  "position": 714,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 080) |  (2098-12-31 08:00:55)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 080) |  (2098-12-31 08:00:55)"
+ },
+ {
+  "position": 715,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 081) |  (2098-12-31 08:00:56)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 081) |  (2098-12-31 08:00:56)"
+ },
+ {
+  "position": 716,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 082) |  (2098-12-31 08:00:57)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 082) |  (2098-12-31 08:00:57)"
+ },
+ {
+  "position": 717,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 083) |  (2098-12-31 08:00:58)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 083) |  (2098-12-31 08:00:58)"
+ },
+ {
+  "position": 718,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 084) |  (2098-12-31 08:00:59)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 084) |  (2098-12-31 08:00:59)"
+ },
+ {
+  "position": 719,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 085) |  (2098-12-31 08:01:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 085) |  (2098-12-31 08:01:00)"
+ },
+ {
+  "position": 720,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 086) |  (2098-12-31 08:01:01)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 086) |  (2098-12-31 08:01:01)"
+ },
+ {
+  "position": 721,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 087) |  (2098-12-31 08:01:02)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 087) |  (2098-12-31 08:01:02)"
+ },
+ {
+  "position": 722,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 088) |  (2098-12-31 08:01:03)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 088) |  (2098-12-31 08:01:03)"
+ },
+ {
+  "position": 723,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 089) |  (2098-12-31 08:01:04)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 089) |  (2098-12-31 08:01:04)"
+ },
+ {
+  "position": 724,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 090) |  (2098-12-31 08:01:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 090) |  (2098-12-31 08:01:05)"
+ },
+ {
+  "position": 725,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 091) |  (2098-12-31 08:01:06)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 091) |  (2098-12-31 08:01:06)"
+ },
+ {
+  "position": 726,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 092) |  (2098-12-31 08:01:07)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 092) |  (2098-12-31 08:01:07)"
+ },
+ {
+  "position": 727,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 093) |  (2098-12-31 08:01:08)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 093) |  (2098-12-31 08:01:08)"
+ },
+ {
+  "position": 728,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 094) |  (2098-12-31 08:01:09)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 094) |  (2098-12-31 08:01:09)"
+ },
+ {
+  "position": 729,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 095) |  (2098-12-31 08:01:10)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 095) |  (2098-12-31 08:01:10)"
+ },
+ {
+  "position": 730,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 096) |  (2098-12-31 08:01:11)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 096) |  (2098-12-31 08:01:11)"
+ },
+ {
+  "position": 731,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 097) |  (2098-12-31 08:01:12)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 097) |  (2098-12-31 08:01:12)"
+ },
+ {
+  "position": 732,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 098) |  (2098-12-31 08:01:13)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 098) |  (2098-12-31 08:01:13)"
+ },
+ {
+  "position": 733,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 099) |  (2098-12-31 08:01:14)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 099) |  (2098-12-31 08:01:14)"
+ },
+ {
+  "position": 734,
+  "group": "CA| SN+ PPV",
+  "name": "CA (SN+ 100) |  (2098-12-31 08:01:15)",
+  "tvg_id": "",
+  "tvg_name": "CA (SN+ 100) |  (2098-12-31 08:01:15)"
+ },
+ {
+  "position": 735,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 001) | ATP 500 Tennis: Vienna _ Quarterfinals (2026-10-30 08:30:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 001) | ATP 500 Tennis: Vienna _ Quarterfinals (2026-10-30 08:30:00)"
+ },
+ {
+  "position": 736,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 002) | Pat McAfee Show (2026-10-30 12:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 002) | Pat McAfee Show (2026-10-30 12:00:00)"
+ },
+ {
+  "position": 737,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 003) | Rich Eisen Show (2026-10-30 12:00:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 003) | Rich Eisen Show (2026-10-30 12:00:05)"
+ },
+ {
+  "position": 738,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 04) | Formula 1 Driver Tracker _ Italian Grand Prix Practice #1 (2025-09-05 07:20:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 04) | Formula 1 Driver Tracker _ Italian Grand Prix Practice #1 (2025-09-05 07:20:00)"
+ },
+ {
+  "position": 739,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 005) | Formula 1 On_Board Camera: Lance Stroll _ Mexico City Grand Prix Practice #1 (2026-10-30 14:20:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 005) | Formula 1 On_Board Camera: Lance Stroll _ Mexico City Grand Prix Practice #1 (2026-10-30 14:20:05)"
+ },
+ {
+  "position": 740,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 006) | Formula 1 On_Board Camera: Max Verstappen _ Mexico City Grand Prix Practice #1 (2026-10-30 14:20:10)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 006) | Formula 1 On_Board Camera: Max Verstappen _ Mexico City Grand Prix Practice #1 (2026-10-30 14:20:10)"
+ },
+ {
+  "position": 741,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 007) | Formula 1 On_Board Camera: Kimi Antonelli _ Mexico City Grand Prix Practice #1 (2026-10-30 14:20:15)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 007) | Formula 1 On_Board Camera: Kimi Antonelli _ Mexico City Grand Prix Practice #1 (2026-10-30 14:20:15)"
+ },
+ {
+  "position": 742,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 008) | Formula 1 Driver Tracker _ Mexico City Grand Prix Practice #1 (2026-10-30 14:20:20)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 008) | Formula 1 Driver Tracker _ Mexico City Grand Prix Practice #1 (2026-10-30 14:20:20)"
+ },
+ {
+  "position": 743,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 009) | Formula 1 Pit Lane _ Mexico City Grand Prix Practice #1 (2026-10-30 14:20:25)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 009) | Formula 1 Pit Lane _ Mexico City Grand Prix Practice #1 (2026-10-30 14:20:25)"
+ },
+ {
+  "position": 744,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 010) | Formula 1 Mixed On_Board Camera _ Mexico City Grand Prix Practice #1 (2026-10-30 14:20:30)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 010) | Formula 1 Mixed On_Board Camera _ Mexico City Grand Prix Practice #1 (2026-10-30 14:20:30)"
+ },
+ {
+  "position": 745,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 011) | 2026 NASCAR ORAP Series Practice & Qualifying: National Debt Relief 250 (2026-10-30 15:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 011) | 2026 NASCAR ORAP Series Practice & Qualifying: National Debt Relief 250 (2026-10-30 15:00:00)"
+ },
+ {
+  "position": 746,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 012) | LaLiga: Villarreal vs. Espanyol (2026-10-30 15:48:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 012) | LaLiga: Villarreal vs. Espanyol (2026-10-30 15:48:00)"
+ },
+ {
+  "position": 747,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 013) | Formula 1 Timing Channel _ Mexico City Grand Prix Practice #2 (2026-10-30 17:50:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 013) | Formula 1 Timing Channel _ Mexico City Grand Prix Practice #2 (2026-10-30 17:50:00)"
+ },
+ {
+  "position": 748,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 014) | Formula 1 On_Board Camera: Lance Stroll _ Mexico City Grand Prix Practice #2 (2026-10-30 17:50:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 014) | Formula 1 On_Board Camera: Lance Stroll _ Mexico City Grand Prix Practice #2 (2026-10-30 17:50:05)"
+ },
+ {
+  "position": 749,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 015) | Formula 1 On_Board Camera: Max Verstappen _ Mexico City Grand Prix Practice #2 (2026-10-30 17:50:10)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 015) | Formula 1 On_Board Camera: Max Verstappen _ Mexico City Grand Prix Practice #2 (2026-10-30 17:50:10)"
+ },
+ {
+  "position": 750,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 016) | Formula 1 On_Board Camera: Kimi Antonelli _ Mexico City Grand Prix Practice #2 (2026-10-30 17:50:15)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 016) | Formula 1 On_Board Camera: Kimi Antonelli _ Mexico City Grand Prix Practice #2 (2026-10-30 17:50:15)"
+ },
+ {
+  "position": 751,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 017) | Formula 1 Driver Tracker _ Mexico City Grand Prix Practice #2 (2026-10-30 17:50:20)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 017) | Formula 1 Driver Tracker _ Mexico City Grand Prix Practice #2 (2026-10-30 17:50:20)"
+ },
+ {
+  "position": 752,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 018) | Formula 1 Pit Lane _ Mexico City Grand Prix Practice #2 (2026-10-30 17:50:25)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 018) | Formula 1 Pit Lane _ Mexico City Grand Prix Practice #2 (2026-10-30 17:50:25)"
+ },
+ {
+  "position": 753,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 019) | Formula 1 Mixed On_Board Camera _ Mexico City Grand Prix Practice #2 (2026-10-30 17:50:30)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 019) | Formula 1 Mixed On_Board Camera _ Mexico City Grand Prix Practice #2 (2026-10-30 17:50:30)"
+ },
+ {
+  "position": 754,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 020) | 2026 NASCAR CRAFTSMAN Truck Series Playoffs: Black`s Tire 200 (2026-10-30 18:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 020) | 2026 NASCAR CRAFTSMAN Truck Series Playoffs: Black`s Tire 200 (2026-10-30 18:00:00)"
+ },
+ {
+  "position": 755,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 021) | NCAA Football: Tulane vs. Charlotte (2026-10-30 19:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 021) | NCAA Football: Tulane vs. Charlotte (2026-10-30 19:00:00)"
+ },
+ {
+  "position": 756,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 022) | NBA on TSN: Pistons vs. Nets (2026-10-30 19:30:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 022) | NBA on TSN: Pistons vs. Nets (2026-10-30 19:30:00)"
+ },
+ {
+  "position": 757,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 023) | NCAA Football: Kent State vs. Sacramento State (2026-10-30 22:30:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 023) | NCAA Football: Kent State vs. Sacramento State (2026-10-30 22:30:00)"
+ },
+ {
+  "position": 758,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 024) | LaLiga: Levante vs. Atletico Madrid (2026-10-31 08:48:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 024) | LaLiga: Levante vs. Atletico Madrid (2026-10-31 08:48:00)"
+ },
+ {
+  "position": 759,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 025) | ATP 500 Tennis: Vienna _ Semifinals (2026-10-31 10:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 025) | ATP 500 Tennis: Vienna _ Semifinals (2026-10-31 10:00:00)"
+ },
+ {
+  "position": 760,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 026) | LaLiga: Rayo Vallecano vs. Celta (2026-10-31 11:03:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 026) | LaLiga: Rayo Vallecano vs. Celta (2026-10-31 11:03:00)"
+ },
+ {
+  "position": 761,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 027) | NCAA Football: SMU vs. Syracuse (2026-10-31 12:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 027) | NCAA Football: SMU vs. Syracuse (2026-10-31 12:00:00)"
+ },
+ {
+  "position": 762,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 028) | NCAA Football: Arizona vs. Texas Tech (2026-10-31 12:00:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 028) | NCAA Football: Arizona vs. Texas Tech (2026-10-31 12:00:05)"
+ },
+ {
+  "position": 763,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 029) | NCAA Football: Notre Dame vs. Navy (2026-10-31 12:00:10)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 029) | NCAA Football: Notre Dame vs. Navy (2026-10-31 12:00:10)"
+ },
+ {
+  "position": 764,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 030) | NCAA Football: Auburn vs. Ole Miss (2026-10-31 12:45:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 030) | NCAA Football: Auburn vs. Ole Miss (2026-10-31 12:45:00)"
+ },
+ {
+  "position": 765,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 031) | NASCAR Cup Series Practice & Qualifying: Xfinity 500 (2026-10-31 13:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 031) | NASCAR Cup Series Practice & Qualifying: Xfinity 500 (2026-10-31 13:00:00)"
+ },
+ {
+  "position": 766,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 32) | Formula 1 On_Board Camera: Lance Stroll _ Italian Grand Prix Practice #3 (2025-09-06 06:20:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 32) | Formula 1 On_Board Camera: Lance Stroll _ Italian Grand Prix Practice #3 (2025-09-06 06:20:00)"
+ },
+ {
+  "position": 767,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 033) | Formula 1 Timing Channel _ Mexico City Grand Prix Practice #3 (2026-10-31 13:20:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 033) | Formula 1 Timing Channel _ Mexico City Grand Prix Practice #3 (2026-10-31 13:20:00)"
+ },
+ {
+  "position": 768,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 034) | Formula 1 On_Board Camera: Lance Stroll _ Mexico City Grand Prix Practice #3 (2026-10-31 13:20:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 034) | Formula 1 On_Board Camera: Lance Stroll _ Mexico City Grand Prix Practice #3 (2026-10-31 13:20:05)"
+ },
+ {
+  "position": 769,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 035) | Formula 1 On_Board Camera: Max Verstappen _ Mexico City Grand Prix Practice #3 (2026-10-31 13:20:10)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 035) | Formula 1 On_Board Camera: Max Verstappen _ Mexico City Grand Prix Practice #3 (2026-10-31 13:20:10)"
+ },
+ {
+  "position": 770,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 036) | Formula 1 On_Board Camera: Kimi Antonelli _ Mexico City Grand Prix Practice #3 (2026-10-31 13:20:15)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 036) | Formula 1 On_Board Camera: Kimi Antonelli _ Mexico City Grand Prix Practice #3 (2026-10-31 13:20:15)"
+ },
+ {
+  "position": 771,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 037) | Formula 1 Driver Tracker _ Mexico City Grand Prix Practice #3 (2026-10-31 13:20:20)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 037) | Formula 1 Driver Tracker _ Mexico City Grand Prix Practice #3 (2026-10-31 13:20:20)"
+ },
+ {
+  "position": 772,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 038) | Formula 1 Pit Lane _ Mexico City Grand Prix Practice #3 (2026-10-31 13:20:25)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 038) | Formula 1 Pit Lane _ Mexico City Grand Prix Practice #3 (2026-10-31 13:20:25)"
+ },
+ {
+  "position": 773,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 039) | Formula 1 Mixed On_Board Camera _ Mexico City Grand Prix Practice #3 (2026-10-31 13:20:30)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 039) | Formula 1 Mixed On_Board Camera _ Mexico City Grand Prix Practice #3 (2026-10-31 13:20:30)"
+ },
+ {
+  "position": 774,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 040) | 2026 NASCAR O`Reilly Auto Parts Series Playoffs: National Debt Relief 250 (2026-10-31 15:30:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 040) | 2026 NASCAR O`Reilly Auto Parts Series Playoffs: National Debt Relief 250 (2026-10-31 15:30:00)"
+ },
+ {
+  "position": 775,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 041) | LaLiga: Barcelona vs. Alaves (2026-10-31 15:30:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 041) | LaLiga: Barcelona vs. Alaves (2026-10-31 15:30:05)"
+ },
+ {
+  "position": 776,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 042) | NCAA Football: Florida vs. Georgia (2026-10-31 15:30:10)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 042) | NCAA Football: Florida vs. Georgia (2026-10-31 15:30:10)"
+ },
+ {
+  "position": 777,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 043) | NCAA Football: Utah vs. Cincinnati (2026-10-31 15:45:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 043) | NCAA Football: Utah vs. Cincinnati (2026-10-31 15:45:00)"
+ },
+ {
+  "position": 778,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 044) | NCAA Football: Virginia vs. Wake Forest (2026-10-31 15:45:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 044) | NCAA Football: Virginia vs. Wake Forest (2026-10-31 15:45:05)"
+ },
+ {
+  "position": 779,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 045) | NCAA Football: South Carolina vs. Oklahoma (2026-10-31 16:15:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 045) | NCAA Football: South Carolina vs. Oklahoma (2026-10-31 16:15:00)"
+ },
+ {
+  "position": 780,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 046) | Formula 1 Timing Channel _ Mexico City Grand Prix Qualifying (2026-10-31 16:50:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 046) | Formula 1 Timing Channel _ Mexico City Grand Prix Qualifying (2026-10-31 16:50:00)"
+ },
+ {
+  "position": 781,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 047) | Formula 1 On_Board Camera: Lance Stroll _ Mexico City Grand Prix Qualifying (2026-10-31 16:50:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 047) | Formula 1 On_Board Camera: Lance Stroll _ Mexico City Grand Prix Qualifying (2026-10-31 16:50:05)"
+ },
+ {
+  "position": 782,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 048) | Formula 1 On_Board Camera: Max Verstappen _ Mexico City Grand Prix Qualifying (2026-10-31 16:50:10)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 048) | Formula 1 On_Board Camera: Max Verstappen _ Mexico City Grand Prix Qualifying (2026-10-31 16:50:10)"
+ },
+ {
+  "position": 783,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 049) | Formula 1 On_Board Camera: Kimi Antonelli _ Mexico City Grand Prix Qualifying (2026-10-31 16:50:15)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 049) | Formula 1 On_Board Camera: Kimi Antonelli _ Mexico City Grand Prix Qualifying (2026-10-31 16:50:15)"
+ },
+ {
+  "position": 784,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 050) | Formula 1 Driver Tracker _ Mexico City Grand Prix Qualifying (2026-10-31 16:50:20)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 050) | Formula 1 Driver Tracker _ Mexico City Grand Prix Qualifying (2026-10-31 16:50:20)"
+ },
+ {
+  "position": 785,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 051) | Formula 1 Pit Lane _ Mexico City Grand Prix Qualifying (2026-10-31 16:50:25)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 051) | Formula 1 Pit Lane _ Mexico City Grand Prix Qualifying (2026-10-31 16:50:25)"
+ },
+ {
+  "position": 786,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 052) | Formula 1 Mixed On_Board Camera _ Mexico City Grand Prix Qualifying (2026-10-31 16:50:30)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 052) | Formula 1 Mixed On_Board Camera _ Mexico City Grand Prix Qualifying (2026-10-31 16:50:30)"
+ },
+ {
+  "position": 787,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 053) | NCAA Football: Clemson vs. Florida State (2026-10-31 19:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 053) | NCAA Football: Clemson vs. Florida State (2026-10-31 19:00:00)"
+ },
+ {
+  "position": 788,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 054) | NCAA Football: Georgia Tech vs. Pittsburgh (2026-10-31 19:30:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 054) | NCAA Football: Georgia Tech vs. Pittsburgh (2026-10-31 19:30:00)"
+ },
+ {
+  "position": 789,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 055) | NCAA Football: Mississippi State vs. Texas (2026-10-31 19:30:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 055) | NCAA Football: Mississippi State vs. Texas (2026-10-31 19:30:05)"
+ },
+ {
+  "position": 790,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 056) | NCAA Football: Missouri vs. Arkansas (2026-10-31 19:45:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 056) | NCAA Football: Missouri vs. Arkansas (2026-10-31 19:45:00)"
+ },
+ {
+  "position": 791,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 057) | ATP 500 Tennis: Vienna _ Doubles Final (2026-11-01 05:30:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 057) | ATP 500 Tennis: Vienna _ Doubles Final (2026-11-01 05:30:00)"
+ },
+ {
+  "position": 792,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 058) | ATP 500 Tennis: Basel _ Doubles Final (2026-11-01 07:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 058) | ATP 500 Tennis: Basel _ Doubles Final (2026-11-01 07:00:00)"
+ },
+ {
+  "position": 793,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 059) | LaLiga: Getafe vs. Sevilla (2026-11-01 07:48:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 059) | LaLiga: Getafe vs. Sevilla (2026-11-01 07:48:00)"
+ },
+ {
+  "position": 794,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 060) | ATP 500 Tennis: Vienna _ Final (2026-11-01 08:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 060) | ATP 500 Tennis: Vienna _ Final (2026-11-01 08:00:00)"
+ },
+ {
+  "position": 795,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 061) | 2026 FIFA U_17 Women`s World Cup: Quarterfinal _ TBD vs. TBD (2026-11-01 09:48:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 061) | 2026 FIFA U_17 Women`s World Cup: Quarterfinal _ TBD vs. TBD (2026-11-01 09:48:00)"
+ },
+ {
+  "position": 796,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 062) | 2026 FIFA U_17 Women`s World Cup: Quarterfinal _ TBD vs. TBD (2026-11-01 09:48:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 062) | 2026 FIFA U_17 Women`s World Cup: Quarterfinal _ TBD vs. TBD (2026-11-01 09:48:05)"
+ },
+ {
+  "position": 797,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 063) | NFL Fantasy Focus (2026-11-01 10:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 063) | NFL Fantasy Focus (2026-11-01 10:00:00)"
+ },
+ {
+  "position": 798,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 064) | NFL Fantasy Focus (2026-11-01 11:30:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 064) | NFL Fantasy Focus (2026-11-01 11:30:00)"
+ },
+ {
+  "position": 799,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 065) | LaLiga: Elche vs. Valencia (2026-11-01 12:18:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 065) | LaLiga: Elche vs. Valencia (2026-11-01 12:18:00)"
+ },
+ {
+  "position": 800,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 066) | 2026 FIFA U_17 Women`s World Cup: Quarterfinal _ TBD vs. TBD (2026-11-01 12:48:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 066) | 2026 FIFA U_17 Women`s World Cup: Quarterfinal _ TBD vs. TBD (2026-11-01 12:48:00)"
+ },
+ {
+  "position": 801,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 067) | 2026 FIFA U_17 Women`s World Cup: Quarterfinal _ TBD vs. TBD (2026-11-01 12:48:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 067) | 2026 FIFA U_17 Women`s World Cup: Quarterfinal _ TBD vs. TBD (2026-11-01 12:48:05)"
+ },
+ {
+  "position": 802,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 068) | NFL RedZone (2026-11-01 13:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 068) | NFL RedZone (2026-11-01 13:00:00)"
+ },
+ {
+  "position": 803,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 069) | NFL on TSN: Cardinals vs. Cowboys (2026-11-01 13:00:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 069) | NFL on TSN: Cardinals vs. Cowboys (2026-11-01 13:00:05)"
+ },
+ {
+  "position": 804,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 070) | NASCAR Cup Series On_Board Camera: Xfinity 500 _ Denny Hamlin (2026-11-01 14:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 070) | NASCAR Cup Series On_Board Camera: Xfinity 500 _ Denny Hamlin (2026-11-01 14:00:00)"
+ },
+ {
+  "position": 805,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 071) | NASCAR Cup Series On_Board Camera: Xfinity 500 _ Christopher Bell (2026-11-01 14:00:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 071) | NASCAR Cup Series On_Board Camera: Xfinity 500 _ Christopher Bell (2026-11-01 14:00:05)"
+ },
+ {
+  "position": 806,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 072) | Formula 1 On_Board Camera: Kimi Antonelli _ Mexico City Grand Prix (2026-11-01 14:30:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 072) | Formula 1 On_Board Camera: Kimi Antonelli _ Mexico City Grand Prix (2026-11-01 14:30:00)"
+ },
+ {
+  "position": 807,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 073) | Formula 1 Pit Lane _ Mexico City Grand Prix (2026-11-01 14:30:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 073) | Formula 1 Pit Lane _ Mexico City Grand Prix (2026-11-01 14:30:05)"
+ },
+ {
+  "position": 808,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 074) | Formula 1 On_Board Camera: Max Verstappen _ Mexico City Grand Prix (2026-11-01 14:30:10)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 074) | Formula 1 On_Board Camera: Max Verstappen _ Mexico City Grand Prix (2026-11-01 14:30:10)"
+ },
+ {
+  "position": 809,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 075) | Formula 1 Mixed On_Board Camera _ Mexico City Grand Prix (2026-11-01 14:30:15)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 075) | Formula 1 Mixed On_Board Camera _ Mexico City Grand Prix (2026-11-01 14:30:15)"
+ },
+ {
+  "position": 810,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 076) | Formula 1 Timing Channel _ Mexico City Grand Prix (2026-11-01 14:30:20)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 076) | Formula 1 Timing Channel _ Mexico City Grand Prix (2026-11-01 14:30:20)"
+ },
+ {
+  "position": 811,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 077) | Formula 1 On_Board Camera: Lance Stroll _ Mexico City Grand Prix (2026-11-01 14:30:25)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 077) | Formula 1 On_Board Camera: Lance Stroll _ Mexico City Grand Prix (2026-11-01 14:30:25)"
+ },
+ {
+  "position": 812,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 078) | Formula 1 Driver Tracker _ Mexico City Grand Prix (2026-11-01 14:30:30)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 078) | Formula 1 Driver Tracker _ Mexico City Grand Prix (2026-11-01 14:30:30)"
+ },
+ {
+  "position": 813,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 079) | LaLiga: Athletic Club vs. Real Sociedad (2026-11-01 14:48:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 079) | LaLiga: Athletic Club vs. Real Sociedad (2026-11-01 14:48:00)"
+ },
+ {
+  "position": 814,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 080) | NWSL on TSN: Gotham FC vs. Utah (2026-11-01 17:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 080) | NWSL on TSN: Gotham FC vs. Utah (2026-11-01 17:00:00)"
+ },
+ {
+  "position": 815,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 081) | ATP 1000 Tennis: Paris _ Day #1 (Court Central) (2026-11-02 05:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 081) | ATP 1000 Tennis: Paris _ Day #1 (Court Central) (2026-11-02 05:00:00)"
+ },
+ {
+  "position": 816,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 082) | ATP 1000 Tennis: Paris _ Day #1 (Court 1) (2026-11-02 05:00:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 082) | ATP 1000 Tennis: Paris _ Day #1 (Court 1) (2026-11-02 05:00:05)"
+ },
+ {
+  "position": 817,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 083) | ATP 1000 Tennis: Paris _ Day #1 (Court 2) (2026-11-02 05:00:10)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 083) | ATP 1000 Tennis: Paris _ Day #1 (Court 2) (2026-11-02 05:00:10)"
+ },
+ {
+  "position": 818,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 084) | Pat McAfee Show (2026-11-02 12:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 084) | Pat McAfee Show (2026-11-02 12:00:00)"
+ },
+ {
+  "position": 819,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 085) | Rich Eisen Show (2026-11-02 12:00:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 085) | Rich Eisen Show (2026-11-02 12:00:05)"
+ },
+ {
+  "position": 820,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 086) | LaLiga 2: Mallorca vs. Cadiz (2026-11-02 14:48:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 086) | LaLiga 2: Mallorca vs. Cadiz (2026-11-02 14:48:00)"
+ },
+ {
+  "position": 821,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 087) | LaLiga: Deportivo vs. Osasuna (2026-11-02 14:48:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 087) | LaLiga: Deportivo vs. Osasuna (2026-11-02 14:48:05)"
+ },
+ {
+  "position": 822,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 088) | Monday Night Football with Peyton and Eli: Bears vs. Seahawks (2026-11-02 20:15:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 088) | Monday Night Football with Peyton and Eli: Bears vs. Seahawks (2026-11-02 20:15:00)"
+ },
+ {
+  "position": 823,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 089) | ATP 1000 Tennis: Paris _ Day #2 (Court Central) (2026-11-03 05:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 089) | ATP 1000 Tennis: Paris _ Day #2 (Court Central) (2026-11-03 05:00:00)"
+ },
+ {
+  "position": 824,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 090) | ATP 1000 Tennis: Paris _ Day #2 (Court 1) (2026-11-03 05:00:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 090) | ATP 1000 Tennis: Paris _ Day #2 (Court 1) (2026-11-03 05:00:05)"
+ },
+ {
+  "position": 825,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 091) | ATP 1000 Tennis: Paris _ Day #2 (Court 2) (2026-11-03 05:00:10)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 091) | ATP 1000 Tennis: Paris _ Day #2 (Court 2) (2026-11-03 05:00:10)"
+ },
+ {
+  "position": 826,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 092) | CFP Rankings Show (2026-11-03 19:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 092) | CFP Rankings Show (2026-11-03 19:00:00)"
+ },
+ {
+  "position": 827,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 093) | NCAA Football: Buffalo vs. Miami (OH) (2026-11-03 20:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 093) | NCAA Football: Buffalo vs. Miami (OH) (2026-11-03 20:00:00)"
+ },
+ {
+  "position": 828,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 094) | NCAA Men`s Basketball: Chapman University vs. UC Irvine (2026-11-03 22:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 094) | NCAA Men`s Basketball: Chapman University vs. UC Irvine (2026-11-03 22:00:00)"
+ },
+ {
+  "position": 829,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 095) | ATP 1000 Tennis: Paris _ Day #3 (Court Central) (2026-11-04 05:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 095) | ATP 1000 Tennis: Paris _ Day #3 (Court Central) (2026-11-04 05:00:00)"
+ },
+ {
+  "position": 830,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 096) | ATP 1000 Tennis: Paris _ Day #3 (Court 1) (2026-11-04 05:00:05)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 096) | ATP 1000 Tennis: Paris _ Day #3 (Court 1) (2026-11-04 05:00:05)"
+ },
+ {
+  "position": 831,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 097) | ATP 1000 Tennis: Paris _ Day #3 (Court 2) (2026-11-04 05:00:10)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 097) | ATP 1000 Tennis: Paris _ Day #3 (Court 2) (2026-11-04 05:00:10)"
+ },
+ {
+  "position": 832,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 098) | NCAA Football: Ball State vs. Massachusetts (2026-11-04 19:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 098) | NCAA Football: Ball State vs. Massachusetts (2026-11-04 19:00:00)"
+ },
+ {
+  "position": 833,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 099) | NCAA Football: Central Michigan vs. Eastern Michigan (2026-11-04 19:30:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 099) | NCAA Football: Central Michigan vs. Eastern Michigan (2026-11-04 19:30:00)"
+ },
+ {
+  "position": 834,
+  "group": "CA| TSN+ PPV",
+  "name": "CA (TSN+ 100) | ATP 1000 Tennis: Paris _ Round of 16 (Court Central) (2026-11-05 05:00:00)",
+  "tvg_id": "",
+  "tvg_name": "CA (TSN+ 100) | ATP 1000 Tennis: Paris _ Round of 16 (Court Central) (2026-11-05 05:00:00)"
+ },
+ {
+  "position": 5154,
+  "group": "CA| OHL PPV",
+  "name": "OHL TV 00:",
+  "tvg_id": "",
+  "tvg_name": "OHL TV 00:"
+ },
+ {
+  "position": 5155,
+  "group": "CA| OHL PPV",
+  "name": "OHL TV 01: Brantford Bulldogs @ Peterborough Petes",
+  "tvg_id": "",
+  "tvg_name": "OHL TV 01: Brantford Bulldogs @ Peterborough Petes"
+ },
+ {
+  "position": 5156,
+  "group": "CA| OHL PPV",
+  "name": "OHL TV 02: Erie Otters @ Windsor Spitfires",
+  "tvg_id": "",
+  "tvg_name": "OHL TV 02: Erie Otters @ Windsor Spitfires"
+ },
+ {
+  "position": 5157,
+  "group": "CA| OHL PPV",
+  "name": "OHL 04 -",
+  "tvg_id": "",
+  "tvg_name": "OHL 04 -"
+ },
+ {
+  "position": 5158,
+  "group": "CA| OHL PPV",
+  "name": "OHL  05 :",
+  "tvg_id": "",
+  "tvg_name": "OHL  05 :"
+ },
+ {
+  "position": 5159,
+  "group": "CA| OHL PPV",
+  "name": "OHL  06 :",
+  "tvg_id": "",
+  "tvg_name": "OHL  06 :"
+ },
+ {
+  "position": 5160,
+  "group": "CA| OHL PPV",
+  "name": "OHL  07 :",
+  "tvg_id": "",
+  "tvg_name": "OHL  07 :"
+ },
+ {
+  "position": 5161,
+  "group": "CA| OHL PPV",
+  "name": "OHL  08 :",
+  "tvg_id": "",
+  "tvg_name": "OHL  08 :"
+ },
+ {
+  "position": 5162,
+  "group": "CA| OHL PPV",
+  "name": "OHL  09 :",
+  "tvg_id": "",
+  "tvg_name": "OHL  09 :"
+ },
+ {
+  "position": 5163,
+  "group": "CA| OHL PPV",
+  "name": "OHL  10:",
+  "tvg_id": "",
+  "tvg_name": "OHL  10:"
+ },
+ {
+  "position": 5164,
+  "group": "CA| OHL PPV",
+  "name": "OHL  11 :",
+  "tvg_id": "",
+  "tvg_name": "OHL  11 :"
+ },
+ {
+  "position": 5165,
+  "group": "CA| OHL PPV",
+  "name": "OHL  11 :",
+  "tvg_id": "",
+  "tvg_name": "OHL  11 :"
+ }
+]
