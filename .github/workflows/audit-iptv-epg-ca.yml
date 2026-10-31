@@ -1,0 +1,28 @@
+name: Audit Canadian IPTV EPG source
+on:
+  pull_request:
+    paths:
+      - scripts/audit_iptv_epg_ca.py
+      - .github/workflows/audit-iptv-epg-ca.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install 'lxml>=5,<7'
+      - name: Audit and compare channel listings
+        run: python -m scripts.audit_iptv_epg_ca
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: iptv-epg-ca-audit
+          path: _audit/iptv-epg-ca-audit.csv
+          retention-days: 7
+          if-no-files-found: warn
