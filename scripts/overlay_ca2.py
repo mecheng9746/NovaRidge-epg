@@ -12,7 +12,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from lxml import etree
 
-CA2_URL = os.getenv("CA2_EPG_URL", "https://m3u-edit.com/epg-source.php?file=CA2.xml.gz")
+CA2_URL = os.getenv("CA2_EPG_URL") or "https://m3u-edit.com/epg-source.php?file=CA2.xml.gz"
 MAPPINGS = Path("data/reviewed_mappings.csv")
 SHEET_ID = "1qkI09neYuJHR9iTB9k0LTUA_3RydrASkOc1FerOi8DQ"
 
