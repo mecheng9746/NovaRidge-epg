@@ -69,6 +69,8 @@ def main():
             if not chunk:
                 raise ValueError("No channel entries returned")
             rows.extend(chunk)
+            for channel_row in chunk:
+                print("CATALOG_ROW|" + json.dumps(channel_row, ensure_ascii=True, separators=(",", ":")), flush=True)
             report.append({"region_id": region, "status": "ok", "channels": len(chunk),
                            "named": sum(bool(x["channel_name"]) for x in chunk)})
             print(f"REGION {region}: {len(chunk)} channels, {report[-1]['named']} named")
