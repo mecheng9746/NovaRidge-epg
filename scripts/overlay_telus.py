@@ -94,7 +94,7 @@ def main():
                 counts[sid] += 1
                 furthest[sid] = max(furthest.get(sid, stop), stop)
         valid = {sid for sid in channels if counts[sid] >= 3 and furthest.get(sid, now) > now + timedelta(hours=12)}
-        minimum = int(os.getenv("TELUS_MIN_VALID_CHANNELS", "1"))
+        minimum = int(os.getenv("TELUS_MIN_VALID_CHANNELS") or "1")
         if len(valid) < minimum:
             raise RuntimeError(f"TELUS valid channels {len(valid)} below required {minimum}; no deployment")
         replace_ids = {pid for sid in valid for pid in reverse[sid]}
