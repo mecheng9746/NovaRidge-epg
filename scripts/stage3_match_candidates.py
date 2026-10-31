@@ -47,7 +47,7 @@ def load_xmltv_channels(path):
     out={}
     with gzip.open(path,"rb") as f:
         for _,e in etree.iterparse(f,events=("end",),tag=("channel","programme"),resolve_entities=False,no_network=True):
-            if e.tag=="channel":
+            if e.tag=="programme":\n                break  # Channel definitions precede programmes in these feeds.\n            if e.tag=="channel":
                 cid=e.get("id")
                 if cid:
                     values=[x.text.strip() for x in e.findall("display-name") if x.text and x.text.strip()]
