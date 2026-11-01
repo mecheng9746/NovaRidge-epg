@@ -143,18 +143,40 @@ def publish(session, reports):
     old = sheets_request(session, "GET", "/values/" + quote(
         f"'MAPPING CANDIDATES'!A2:N{candidate_rows}", safe=""),
         params={"valueRenderOption": "FORMULA"}).get("values", [])
-    # Never let a preserved decision/PR link silently attach to a different candidate.
-    for i, row in enumerate(old):
-        if any(row[12:14]):
-            new = reports["MAPPING CANDIDATES"]
-            if i >= len(new) or row[1:7] != new[i][1:7]:
-                raise SheetsError(f"Candidate row {i+2} has a manual review and would change identity. "
-                                  "Archive/resolve that review before republishing; nothing published.")
+    # Carry human decisions by immutable channel/candidate identity, never row number.
+    # Keep reviewed candidates absent from this scan as explicit stale rows.
+    def candidate_key(row):
+        return (str(row[1]).strip(), str(row[2]).strip(),
+                str(row[5]).strip(), str(row[6]).strip())
+    fresh = reports["MAPPING CANDIDATES"]
+    fresh_keys = [candidate_key(row) for row in fresh]
+    if len(set(fresh_keys)) != len(fresh_keys):
+        raise SheetsError("Duplicate candidate identities; refusing to publish.")
+    previous = {}
+    for old_row in old:
+        if len(old_row) < 13 or not any(old_row[12:14]):
+            continue
+        key = candidate_key(old_row)
+        if key in previous:
+            raise SheetsError("Duplicate reviewed candidate identity in existing sheet.")
+        previous[key] = old_row
+    merged = []
+    for row in fresh:
+        old_row = previous.pop(candidate_key(row), None)
+        merged.append(row + ([old_row[12] if len(old_row)>12 else "",
+                              old_row[13] if len(old_row)>13 else ""] if old_row else ["",""]))
+    for old_row in previous.values():
+        # Removed source or changed candidate: retain the review, but mark stale.
+        kept = (old_row[:12] + [""]*12)[:12]
+        kept[11] = "STALE: not suggested in latest audit; revalidate before action. " + str(kept[11])
+        merged.append(kept + [old_row[12] if len(old_row)>12 else "",
+                              old_row[13] if len(old_row)>13 else ""])
+    reports["MAPPING CANDIDATES"] = merged
     requests = []
     for tab, rows in reports.items():
         prop = sheets[tab]
         grid = prop["gridProperties"]
-        width = WRITE_WIDTHS[tab]
+        width = len(HEADERS[tab]) if tab == "MAPPING CANDIDATES" else WRITE_WIDTHS[tab]
         if grid["columnCount"] < len(HEADERS[tab]):
             raise SheetsError(f"{tab} has too few columns; nothing published.")
         end = max(grid["rowCount"], len(rows) + 1)
@@ -210,15 +232,16 @@ def run(args):
     for row in rows:
         pid=row.get("Original tvg-id","").strip();label=row.get("Original IPTV name","")
         pos=row.get("Playlist position","");provider=row.get("Selected provider","");source=row.get("Selected source ID","")
-        if not pid: status="UNMAPPED";vals=[]
+        if not pid: status="NO IPTV ID";vals=[]
         else:vals=feeds["PUBLISHED"].get(pid,[]);status="HEALTHY"
         current=best_titles(vals,now)
         c24=coverage(vals,now,now+86400);c72=coverage(vals,now,now+3*86400)
-        if pid and not vals:status="MISSING"
+        if pid and not vals:status="MAPPING NEEDED" if not source else "MISSING"
         elif pid and not current:status="CURRENT GAP"
         elif pid and c24<90:status="PARTIAL"
         last=max((v[1] for v in vals),default=0)
-        coverage_rows.append([timestamp,pos,label,pid,provider,source,status,current,c24,c72,sum(v[0]>now for v in vals),datetime.fromtimestamp(last,timezone.utc).isoformat() if last else "",""])
+        note = ("Playlist tvg-id missing; source selection cannot fix the published ID." if not pid else ("No selected source ID in master." if not source else ""))
+        coverage_rows.append([timestamp,pos,label,pid,provider,source,status,current,c24,c72,sum(v[0]>now for v in vals),datetime.fromtimestamp(last,timezone.utc).isoformat() if last else "",note])
         # Rank candidates by schedule similarity; name similarity is only a preliminary filter.
         channel_norm=norm(label.replace("CA|",""))
         options=[]
@@ -228,6 +251,7 @@ def run(args):
                 n=norm(names[other].get(sid,sid))
                 similarity=max(SequenceMatcher(None,channel_norm,n).ratio(),SequenceMatcher(None,norm(pid),norm(sid)).ratio()) if channel_norm else 0
                 if similarity<.73:continue
+                if other==provider and sid==source:continue
                 if len(vals)>=10:score,matched,compared,shift=match_score(vals,v,now)
                 else:score,matched,compared,shift=(0,0,0,0)
                 # Identity-only candidates are intentionally never presented as high-confidence matches.
