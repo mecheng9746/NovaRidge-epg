@@ -21,7 +21,7 @@ def get(url):
     return content
 def programs(url):
     data=get(url)
-    if data[:2]==b"\\x1f\\x8b": data=gzip.decompress(data)
+    if data[:2]==b"\x1f\x8b": data=gzip.decompress(data)
     root=ET.fromstring(data)
     result=defaultdict(list); names={}
     for c in root.findall("channel"):
@@ -40,7 +40,7 @@ def parse_time(s):
         return datetime.strptime(s[:14],"%Y%m%d%H%M%S").replace(tzinfo=timezone.utc).timestamp()-offset(s)
     except ValueError:return None
 def offset(s):
-    m=re.search(r"([+-])(\\d{2})(\\d{2})$",s.strip())
+    m=re.search(r"([+-])(\d{2})(\d{2})$",s.strip())
     if not m:return 0
     seconds=(int(m[2])*60+int(m[3]))*60
     return seconds*(1 if m[1]=="+" else -1)
