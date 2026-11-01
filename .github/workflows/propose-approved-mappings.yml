@@ -1,6 +1,8 @@
 name: Propose approved EPG mappings (Stage 3)
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '57 0,6,12,18 * * *'
     inputs:
       playlist_position:
         description: 'Playlist position (e.g. 5) of the reviewed candidate'
@@ -32,6 +34,7 @@ jobs:
       - name: Read reviewed candidates and create draft PRs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          AUTO_STAGE3: ${{ github.event_name == 'schedule' && 'true' || 'false' }}
           TARGET_PLAYLIST_POSITION: ${{ inputs.playlist_position }}
           TARGET_SOURCE_ID: ${{ inputs.source_id }}
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
