@@ -62,7 +62,9 @@ def approved_candidates(session, target_position=None, target_source=None):
     records = {get_cell(r, headers.index("Playlist position")): r for r in master[1:]}
     approved = []
     for index, row in enumerate(rows[1:], start=2):
-        if get_cell(row, 12).casefold() != "approved":
+        decision = get_cell(row, 12).casefold()
+        required_decision = "queue pr" if os.getenv("AUTO_STAGE3") == "true" else "approved"
+        if decision != required_decision:
             continue
         if target_position and (get_cell(row, 1) != target_position or get_cell(row, 6) != target_source):
             continue
@@ -173,7 +175,7 @@ def main():
         grouped = {}
         for item in rows: grouped.setdefault(item["pid"], []).append(item)
         eligible = [items[0] for items in grouped.values() if len(items)==1]
-        print(f"Auto review: {len(grouped)} channels, {len(eligible)} unambiguous; maximum 3 proposals per run")
+        print(f"Queued reviews: {len(grouped)} channels, {len(eligible)} unambiguous; maximum 3 draft PRs per run")
         rows = eligible
     elif len(rows) != 1:
         raise ValueError("Multiple approvals for targeted channel")
