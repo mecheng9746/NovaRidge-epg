@@ -1,6 +1,15 @@
 name: Propose approved EPG mappings (Stage 3)
 on:
   workflow_dispatch:
+    inputs:
+      playlist_position:
+        description: 'Playlist position (e.g. 5) of the reviewed candidate'
+        required: true
+        type: string
+      source_id:
+        description: 'Exact suggested source ID (e.g. Adult.Swim.ca2)'
+        required: true
+        type: string
 permissions:
   contents: write
   pull-requests: write
@@ -23,5 +32,7 @@ jobs:
       - name: Read reviewed candidates and create draft PRs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TARGET_PLAYLIST_POSITION: ${{ inputs.playlist_position }}
+          TARGET_SOURCE_ID: ${{ inputs.source_id }}
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
         run: python scripts/propose_approved_mappings.py
