@@ -90,7 +90,7 @@ def main():
         print("Already synchronized:",pid);return
     # Evidence of accepted proposal must still exist in the sheet.
     candidates=sheets_request(session,"GET","/values/"+quote("'MAPPING CANDIDATES'!A1:N2000",safe="")).get("values",[])
-    approved=[r for r in candidates[1:] if len(r)>12 and r[12].strip().lower()=="approved"
+    approved=[r for r in candidates[1:] if len(r)>12 and r[12].strip().lower() in ("approved", "queue pr")
               and len(r)>6 and r[1].strip()==cell(position_idx)
               and r[5].strip()==provider and r[6].strip()==source
               and not (len(r)>11 and "STALE" in r[11].upper())]
