@@ -54,35 +54,126 @@ def coverage(vals,start,end):
     for a,b in spans:
         if b>cursor:total+=b-max(cursor,a);cursor=max(cursor,b)
     return round(100*total/(end-start),1)
-def sheets_rows():
-    secret=os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON")
-    if not secret: raise RuntimeError("GOOGLE_SERVICE_ACCOUNT_JSON required to read Canadian master")
-    from google.oauth2 import service_account
-    from google.auth.transport.requests import AuthorizedSession
+SHEETS_SCOPE = "https://www.googleapis.com/auth/spreadsheets"
+WRITE_WIDTHS = {"COVERAGE MONITOR": 13, "MAPPING CANDIDATES": 12, "SOURCE HEALTH": 8}
+
+class SheetsError(RuntimeError):
+    """Actionable error without credentials, response bodies or request headers."""
+
+def sheets_session():
+    secret = os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON")
+    if not secret:
+        raise SheetsError("GOOGLE_SERVICE_ACCOUNT_JSON is missing.")
+    try:
+        info = json.loads(secret)
+        from google.oauth2 import service_account
+        from google.auth.transport.requests import AuthorizedSession
+        creds = service_account.Credentials.from_service_account_info(info, scopes=[SHEETS_SCOPE])
+    except (ValueError, TypeError, KeyError):
+        raise SheetsError("GOOGLE_SERVICE_ACCOUNT_JSON is not a valid service-account key.") from None
+    # Identity is safe to log; never log the JSON key or access token.
+    print("Sheets identity: " + json.dumps({
+        "client_email": info.get("client_email"), "project_id": info.get("project_id"),
+        "spreadsheet_id": SHEET_ID, "scope": SHEETS_SCOPE}))
+    return AuthorizedSession(creds)
+
+def sheets_request(session, method, path, **kwargs):
+    try:
+        response = session.request(method, f"https://sheets.googleapis.com/v4/spreadsheets/{SHEET_ID}" + path,
+                                   timeout=60, **kwargs)
+    except Exception:
+        raise SheetsError("Sheets transport/authentication failure; check key validity and network. "
+                          "A timed-out publish may have committed; inspect the report timestamp before retrying.") from None
+    if response.ok:
+        return response.json()
+    try:
+        error = response.json().get("error", {})
+        reasons = [item.get("reason", "") for item in error.get("details", [])]
+        reasons += [item.get("reason", "") for item in error.get("errors", [])]
+    except (ValueError, AttributeError, TypeError):
+        reasons = []
+    # Only emit known reason codes; raw server messages can contain sensitive data.
+    known = {"SERVICE_DISABLED", "accessNotConfigured", "ACCESS_TOKEN_SCOPE_INSUFFICIENT",
+             "insufficientPermissions", "PERMISSION_DENIED", "forbidden"}
+    reasons = sorted(set(r for r in reasons if isinstance(r, str) and r in known))
+    hint = "Check the workbook ID, tab names and grid bounds."
+    if "SERVICE_DISABLED" in reasons or "accessNotConfigured" in reasons:
+        hint = "Enable sheets.googleapis.com in the logged service-account project."
+    elif "ACCESS_TOKEN_SCOPE_INSUFFICIENT" in reasons or "insufficientPermissions" in reasons:
+        hint = "Issue credentials with the spreadsheets write scope; readonly is insufficient."
+    elif response.status_code == 403:
+        hint = ("Share this exact workbook with the logged client_email as Editor (Viewer can read but cannot publish). "
+                "Check protected ranges on the three audit tabs and Workspace policy. "
+                "The connected Drive user's access does not prove the Actions service account's access.")
+    elif response.status_code == 401:
+        hint = "Check that the Actions service-account key is current and enabled."
+    raise SheetsError(f"Sheets {method} failed: HTTP {response.status_code}; "
+                      f"reasons={','.join(reasons) or 'unspecified'}. {hint}")
+
+def sheets_rows(session):
     from urllib.parse import quote
-    creds=service_account.Credentials.from_service_account_info(json.loads(secret),scopes=["https://www.googleapis.com/auth/spreadsheets"])
-    session=AuthorizedSession(creds)
-    url=f"https://sheets.googleapis.com/v4/spreadsheets/{SHEET_ID}/values/"+quote("'CANADIAN MASTER'!A1:P822",safe="")
-    r=session.get(url,timeout=60);r.raise_for_status()
-    rows=r.json().get("values",[])
-    keys=rows[0];return [dict(zip(keys,row+[""]*(len(keys)-len(row)))) for row in rows[1:] if row]
-def publish(tab,rows):
-    secret=os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON")
-    if not secret:return
-    from google.oauth2 import service_account
-    from google.auth.transport.requests import AuthorizedSession
+    result = sheets_request(session, "GET", "/values/" + quote("'CANADIAN MASTER'!A1:P822", safe=""))
+    rows = result.get("values", [])
+    required = {"Original tvg-id", "Original IPTV name", "Playlist position",
+                "Selected provider", "Selected source ID"}
+    if not rows or not required.issubset(rows[0]):
+        raise SheetsError("Canadian master is empty or required headers are missing; refusing to publish.")
+    keys = rows[0]
+    records = [dict(zip(keys, row + [""] * (len(keys)-len(row)))) for row in rows[1:] if row]
+    if not records:
+        raise SheetsError("Canadian master has no data; refusing to publish.")
+    return records
+
+def publish(session, reports):
+    """Replace all automated areas atomically, leaving headers and manual cells intact."""
     from urllib.parse import quote
-    creds=service_account.Credentials.from_service_account_info(json.loads(secret),scopes=["https://www.googleapis.com/auth/spreadsheets"])
-    session=AuthorizedSession(creds)
-    base=f"https://sheets.googleapis.com/v4/spreadsheets/{SHEET_ID}/values/"
-    # Only the automated data area is cleared; review decisions are preserved separately.
-    end="M" if tab=="COVERAGE MONITOR" else "L" if tab=="MAPPING CANDIDATES" else "H"
-    region=quote(f"'{tab}'!A2:{end}2000",safe="")
-    # Preserve manual review decision and PR URL columns in the candidates tab.
-    r=session.post(base+region+":clear",json={},timeout=60);r.raise_for_status()
-    if rows:
-        region=quote(f"'{tab}'!A2",safe="")
-        r=session.put(base+region,params={"valueInputOption":"RAW"},json={"values":rows},timeout=60);r.raise_for_status()
+    if set(reports) != set(WRITE_WIDTHS):
+        raise SheetsError("Publishing requires exactly the three allowlisted audit reports.")
+    for tab, rows in reports.items():
+        if any(len(row) != WRITE_WIDTHS[tab] for row in rows):
+            raise SheetsError(f"Invalid row width in {tab}; nothing published.")
+    if not reports["COVERAGE MONITOR"] or not reports["SOURCE HEALTH"]:
+        raise SheetsError("Refusing to publish empty coverage or source health.")
+    metadata = sheets_request(session, "GET", "", params={
+        "fields": "sheets(properties(sheetId,title,gridProperties))"})
+    sheets = {s["properties"]["title"]: s["properties"] for s in metadata["sheets"]}
+    if not set(WRITE_WIDTHS).issubset(sheets):
+        raise SheetsError("An audit tab is missing; nothing published.")
+    candidate_rows = sheets["MAPPING CANDIDATES"]["gridProperties"]["rowCount"]
+    old = sheets_request(session, "GET", "/values/" + quote(
+        f"'MAPPING CANDIDATES'!A2:N{candidate_rows}", safe=""),
+        params={"valueRenderOption": "FORMULA"}).get("values", [])
+    # Never let a preserved decision/PR link silently attach to a different candidate.
+    for i, row in enumerate(old):
+        if any(row[12:14]):
+            new = reports["MAPPING CANDIDATES"]
+            if i >= len(new) or row[1:7] != new[i][1:7]:
+                raise SheetsError(f"Candidate row {i+2} has a manual review and would change identity. "
+                                  "Archive/resolve that review before republishing; nothing published.")
+    requests = []
+    for tab, rows in reports.items():
+        prop = sheets[tab]
+        grid = prop["gridProperties"]
+        width = WRITE_WIDTHS[tab]
+        if grid["columnCount"] < len(HEADERS[tab]):
+            raise SheetsError(f"{tab} has too few columns; nothing published.")
+        end = max(grid["rowCount"], len(rows) + 1)
+        if end > grid["rowCount"]:
+            requests.append({"appendDimension": {"sheetId": prop["sheetId"],
+                             "dimension": "ROWS", "length": end-grid["rowCount"]}})
+        cells = []
+        for row in rows:
+            cells.append({"values": [{"userEnteredValue": {
+                "numberValue" if isinstance(value, (int, float)) else "stringValue": value
+            }} for value in row]})
+        requests.append({"updateCells": {
+            "range": {"sheetId": prop["sheetId"], "startRowIndex": 1, "endRowIndex": end,
+                      "startColumnIndex": 0, "endColumnIndex": width},
+            "rows": cells, "fields": "userEnteredValue"}})
+    # updateCells clears uncovered values within each bounded range in the same transaction.
+    sheets_request(session, "POST", ":batchUpdate", json={"requests": requests})
+    print("Published all three audit reports atomically.")
+
 def best_titles(vals,t):
     return next((name for a,b,name in vals if a<=t<b),"")
 def match_score(a,b,now):
@@ -101,7 +192,8 @@ def match_score(a,b,now):
     return max(results,default=(0,0,0,0))
 def run(args):
     now=datetime.now(timezone.utc).timestamp();timestamp=datetime.fromtimestamp(now,timezone.utc).isoformat()
-    rows=sheets_rows()
+    session=sheets_session()
+    rows=sheets_rows(session)
     feeds={};names={};health=[]
     for provider,url in [("PUBLISHED",args.published),("CA2",args.ca2),("EPG6",args.epg6),("TELUS",args.telus)]:
         if not url:
@@ -144,11 +236,16 @@ def run(args):
         for score,matched,compared,shift,other,sid,sim in sorted(options,reverse=True)[:3]:
             candidates.append([timestamp,pos,label,provider,source,other,sid,score,matched,compared,shift,f"Name similarity {sim:.2f}; schedule comparisons {compared}"])
     output=Path(args.output);output.mkdir(parents=True,exist_ok=True)
-    for tab,data in [("COVERAGE MONITOR",coverage_rows),("MAPPING CANDIDATES",candidates),("SOURCE HEALTH",health)]:
+    reports={"COVERAGE MONITOR":coverage_rows,"MAPPING CANDIDATES":candidates,"SOURCE HEALTH":health}
+    for tab,data in reports.items():
         with (output/(tab.lower().replace(" ","_")+".csv")).open("w",newline="",encoding="utf-8") as f:
             writer=csv.writer(f);writer.writerow(HEADERS[tab]);writer.writerows(data)
-        if args.publish:publish(tab,data)
+    if args.publish:publish(session,reports)
     print(json.dumps({"channels":len(coverage_rows),"candidates":len(candidates),"source_health":health},indent=2))
 if __name__=="__main__":
     p=argparse.ArgumentParser();p.add_argument("--published",required=True);p.add_argument("--ca2",default=CA2);p.add_argument("--epg6");p.add_argument("--telus");p.add_argument("--output",default="audit-results");p.add_argument("--publish",action="store_true")
-    run(p.parse_args())
+    try:
+        run(p.parse_args())
+    except SheetsError as error:
+        print(str(error), file=sys.stderr)
+        sys.exit(1)
