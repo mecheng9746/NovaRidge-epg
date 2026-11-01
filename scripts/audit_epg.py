@@ -127,7 +127,6 @@ def run(args):
         elif pid and c24<90:status="PARTIAL"
         last=max((v[1] for v in vals),default=0)
         coverage_rows.append([timestamp,pos,label,pid,provider,source,status,current,c24,c72,sum(v[0]>now for v in vals),datetime.fromtimestamp(last,timezone.utc).isoformat() if last else "",""])
-        if status=="HEALTHY" and c24>=99:continue
         # Rank candidates by schedule similarity; name similarity is only a preliminary filter.
         channel_norm=norm(label.replace("CA|",""))
         options=[]
@@ -136,7 +135,7 @@ def run(args):
             for sid,v in feeds[other].items():
                 n=norm(names[other].get(sid,sid))
                 similarity=max(SequenceMatcher(None,channel_norm,n).ratio(),SequenceMatcher(None,norm(pid),norm(sid)).ratio()) if channel_norm else 0
-                if similarity<.61:continue
+                if similarity<.73:continue
                 if len(vals)>=10:score,matched,compared,shift=match_score(vals,v,now)
                 else:score,matched,compared,shift=(0,0,0,0)
                 # Identity-only candidates are intentionally never presented as high-confidence matches.
