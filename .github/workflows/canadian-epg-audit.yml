@@ -1,0 +1,50 @@
+name: Canadian EPG Audit (Stages 1 and 2)
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '32 0,6,12,18 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: canadian-epg-audit
+  cancel-in-progress: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install audit dependencies
+        run: python -m pip install google-auth requests
+      - name: Collect TELUS comparison feed (audit only)
+        continue-on-error: true
+        run: python scripts/collect_telus.py --days 1 --sleep 0.5 --output audit-input/telus.xml.gz --summary audit-input/telus.json
+      - name: Audit Canadian channels and publish review tabs
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          PUBLISHED_EPG_URL: ${{ vars.PUBLISHED_EPG_URL }}
+          EPG6_SOURCE_URL: ${{ vars.EPG6_SOURCE_URL }}
+          CA2_EPG_URL: ${{ vars.CA2_EPG_URL }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -z "${PUBLISHED_EPG_URL}" ]; then
+            echo "::error::Set Actions variable PUBLISHED_EPG_URL to the live guide.xml.gz URL"
+            exit 1
+          fi
+          args=(--published "${PUBLISHED_EPG_URL}" --publish --output audit-results)
+          if [ -n "${EPG6_SOURCE_URL}" ]; then args+=(--epg6 "${EPG6_SOURCE_URL}"); fi
+          if [ -n "${CA2_EPG_URL}" ]; then args+=(--ca2 "${CA2_EPG_URL}"); fi
+          if [ -s audit-input/telus.xml.gz ]; then args+=(--telus "file://${GITHUB_WORKSPACE}/audit-input/telus.xml.gz"); fi
+          python scripts/audit_epg.py "${args[@]}"
+      - name: Save CSV audit snapshot
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: canadian-epg-audit
+          path: audit-results/*.csv
+          if-no-files-found: ignore
+          retention-days: 14
