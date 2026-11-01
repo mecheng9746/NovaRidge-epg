@@ -48,7 +48,7 @@ def get_cell(row, column):
     return str(row[column]).strip() if len(row) > column else ""
 
 
-def approved_candidates(session, target_position, target_source):
+def approved_candidates(session, target_position=None, target_source=None):
     rows = spreadsheet(session, "MAPPING CANDIDATES", 2000, "N")
     master = spreadsheet(session, "CANADIAN MASTER", 822, "P")
     if not rows or rows[0][:7] != ["Audit UTC", "Playlist position", "IPTV channel",
@@ -64,30 +64,35 @@ def approved_candidates(session, target_position, target_source):
     for index, row in enumerate(rows[1:], start=2):
         if get_cell(row, 12).casefold() != "approved":
             continue
-        if get_cell(row, 1) != target_position or get_cell(row, 6) != target_source:
+        if target_position and (get_cell(row, 1) != target_position or get_cell(row, 6) != target_source):
             continue
         if "STALE" in get_cell(row, 11).upper():
             raise ValueError(f"Approved candidate row {index} is stale. Re-review required")
         pos, provider, source = get_cell(row, 1), get_cell(row, 5), get_cell(row, 6)
         if provider not in ALLOWED:
-            raise ValueError(f"Approved row {index}: provider {provider} requires a dedicated implementation")
+            if target_position: raise ValueError(f"Approved row {index}: provider unsupported")
+            continue
         m = records.get(pos)
         if not m:
-            raise ValueError(f"Approved row {index}: playlist position missing from master")
+            if target_position: raise ValueError(f"Approved row {index}: playlist position missing from master")
+            continue
         pid = get_cell(m, headers.index("Original tvg-id"))
         if not pid:
-            raise ValueError(f"Approved row {index}: no IPTV tvg-id; mapping cannot be applied")
+            if target_position: raise ValueError(f"Approved row {index}: no IPTV tvg-id")
+            continue
         if get_cell(m, headers.index("Identity decision")) != "Identity approved":
-            raise ValueError(f"Approved row {index}: channel identity is not approved")
+            if target_position: raise ValueError(f"Approved row {index}: identity unapproved")
+            continue
         confidence = float(get_cell(row, 7) or 0)
         matched = int(float(get_cell(row, 8) or 0))
         compared = int(float(get_cell(row, 9) or 0))
         if confidence < 90 or compared < 20 or matched / max(compared, 1) < .8:
-            raise ValueError(f"Approved row {index}: insufficient schedule evidence")
+            if target_position: raise ValueError(f"Approved row {index}: insufficient schedule evidence")
+            continue
         approved.append(dict(position=pos, pid=pid, provider=provider, source=source,
                              channel=get_cell(row, 2), score=confidence,
                              matched=matched, compared=compared, sheet_row=index))
-    if len({r["pid"] for r in approved}) != len(approved):
+    if target_position and len({r["pid"] for r in approved}) != len(approved):
         raise ValueError("Multiple approved alternatives for the same IPTV ID")
     return approved
 
@@ -151,17 +156,25 @@ def create_proposal(row):
 
 
 def main():
-    if os.getenv("GITHUB_EVENT_NAME") != "workflow_dispatch":
+    if os.getenv("GITHUB_EVENT_NAME") not in ("workflow_dispatch", "schedule"):
         raise ValueError("Stage 3 PR proposals are manual dispatch only")
+    automatic = os.getenv("AUTO_STAGE3") == "true"
     position = os.getenv("TARGET_PLAYLIST_POSITION", "").strip()
     source = os.getenv("TARGET_SOURCE_ID", "").strip()
-    if not position or not source:
-        raise ValueError("Provide TARGET_PLAYLIST_POSITION and TARGET_SOURCE_ID in workflow inputs")
-    rows = approved_candidates(sheets_session(), position, source)
+    if not automatic and (not position or not source):
+        raise ValueError("Provide workflow inputs")
+    rows = approved_candidates(sheets_session(), None if automatic else position, None if automatic else source)
     if not rows:
-        raise ValueError("No Approved candidate matches that playlist position and source ID")
-    if len(rows) != 1:
-        raise ValueError("Multiple identical approvals for targeted channel; resolve duplicates")
+        print("No eligible approved candidates")
+        return
+    if automatic:
+        grouped = {}
+        for item in rows: grouped.setdefault(item["pid"], []).append(item)
+        eligible = [items[0] for items in grouped.values() if len(items)==1]
+        print(f"Auto review: {len(grouped)} channels, {len(eligible)} unambiguous; maximum 3 proposals per run")
+        rows = eligible[:3]
+    elif len(rows) != 1:
+        raise ValueError("Multiple approvals for targeted channel")
     for row in rows:
         create_proposal(row)
 
