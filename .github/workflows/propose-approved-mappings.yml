@@ -1,8 +1,6 @@
 name: Propose approved EPG mappings (Stage 3)
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '57 0,6,12,18 * * *'
     inputs:
       playlist_position:
         description: 'Playlist position (e.g. 5) of the reviewed candidate'
@@ -12,6 +10,8 @@ on:
         description: 'Exact suggested source ID (e.g. Adult.Swim.ca2)'
         required: true
         type: string
+  schedule:
+    - cron: '57 0,6,12,18 * * *'
 permissions:
   contents: write
   pull-requests: write
