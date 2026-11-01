@@ -1,0 +1,19 @@
+name: Test Canadian audit publishing
+on:
+  pull_request:
+    paths:
+      - 'scripts/audit_epg.py'
+      - 'tests/test_audit_epg.py'
+      - '.github/workflows/test-audit.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m unittest discover -s tests -v
