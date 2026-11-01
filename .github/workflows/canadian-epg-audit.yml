@@ -32,8 +32,11 @@ jobs:
         run: |
           set -euo pipefail
           if [ -z "${PUBLISHED_EPG_URL}" ]; then
-            echo "::error::Set Actions variable PUBLISHED_EPG_URL to the live guide.xml.gz URL"
-            exit 1
+            PUBLISHED_EPG_URL="https://${GITHUB_REPOSITORY_OWNER}.github.io/${GITHUB_REPOSITORY#*/}/guide.xml.gz"
+            echo "Using default GitHub Pages EPG location: ${PUBLISHED_EPG_URL}"
+          fi
+          if [ -z "${EPG6_SOURCE_URL}" ]; then
+            EPG6_SOURCE_URL="https://raw.githubusercontent.com/ferteque/Curated-M3U-Repository/main/epg6.xml.gz"
           fi
           args=(--published "${PUBLISHED_EPG_URL}" --publish --output audit-results)
           if [ -n "${EPG6_SOURCE_URL}" ]; then args+=(--epg6 "${EPG6_SOURCE_URL}"); fi
