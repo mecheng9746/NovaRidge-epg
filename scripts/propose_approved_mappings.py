@@ -48,7 +48,7 @@ def get_cell(row, column):
     return str(row[column]).strip() if len(row) > column else ""
 
 
-def approved_candidates(session):
+def approved_candidates(session, target_position, target_source):
     rows = spreadsheet(session, "MAPPING CANDIDATES", 2000, "N")
     master = spreadsheet(session, "CANADIAN MASTER", 822, "P")
     if not rows or rows[0][:7] != ["Audit UTC", "Playlist position", "IPTV channel",
@@ -63,6 +63,8 @@ def approved_candidates(session):
     approved = []
     for index, row in enumerate(rows[1:], start=2):
         if get_cell(row, 12).casefold() != "approved":
+            continue
+        if get_cell(row, 1) != target_position or get_cell(row, 6) != target_source:
             continue
         if "STALE" in get_cell(row, 11).upper():
             raise ValueError(f"Approved candidate row {index} is stale. Re-review required")
@@ -151,13 +153,15 @@ def create_proposal(row):
 def main():
     if os.getenv("GITHUB_EVENT_NAME") != "workflow_dispatch":
         raise ValueError("Stage 3 PR proposals are manual dispatch only")
-    rows = approved_candidates(sheets_session())
+    position = os.getenv("TARGET_PLAYLIST_POSITION", "").strip()
+    source = os.getenv("TARGET_SOURCE_ID", "").strip()
+    if not position or not source:
+        raise ValueError("Provide TARGET_PLAYLIST_POSITION and TARGET_SOURCE_ID in workflow inputs")
+    rows = approved_candidates(sheets_session(), position, source)
     if not rows:
-        print("No explicitly approved and sufficiently evidenced proposals")
-        return
-    # Limit impact of accidental bulk approvals.
-    if len(rows) > 5:
-        raise ValueError("More than five approvals: split review into smaller batches")
+        raise ValueError("No Approved candidate matches that playlist position and source ID")
+    if len(rows) != 1:
+        raise ValueError("Multiple identical approvals for targeted channel; resolve duplicates")
     for row in rows:
         create_proposal(row)
 
