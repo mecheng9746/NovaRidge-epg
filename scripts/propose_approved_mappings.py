@@ -67,7 +67,8 @@ def approved_candidates(session, target_position=None, target_source=None):
         if target_position and (get_cell(row, 1) != target_position or get_cell(row, 6) != target_source):
             continue
         if "STALE" in get_cell(row, 11).upper():
-            raise ValueError(f"Approved candidate row {index} is stale. Re-review required")
+            if target_position: raise ValueError(f"Approved candidate row {index} is stale")
+            continue
         pos, provider, source = get_cell(row, 1), get_cell(row, 5), get_cell(row, 6)
         if provider not in ALLOWED:
             if target_position: raise ValueError(f"Approved row {index}: provider unsupported")
@@ -128,14 +129,14 @@ def create_proposal(row):
     except RuntimeError as exc:
         # Don't silently rewrite an existing proposal branch.
         print(f"Skipped existing/blocked proposal {branch}: {exc}")
-        return
+        return False
     path = ALLOWED[row["provider"]]
     file = github("GET", f"/repos/{REPO}/contents/{path}?ref={urllib.parse.quote(branch)}")
     original = base64.b64decode(file["content"]).decode("utf-8")
     updated = prepare_change(row, original)
     if updated == original:
         print(f"No CSV change for {row['pid']}")
-        return
+        return False
     github("PUT", f"/repos/{REPO}/contents/{path}", {
         "message": f"Propose {row['provider']} mapping for {row['pid']}",
         "branch": branch, "sha": file["sha"],
@@ -153,6 +154,7 @@ def create_proposal(row):
         "title": f"EPG mapping proposal: {row['channel']} → {row['provider']}",
         "head": branch, "base": "main", "body": body, "draft": True})
     print("Created DRAFT PR:", pr["html_url"])
+    return True
 
 
 def main():
@@ -172,11 +174,13 @@ def main():
         for item in rows: grouped.setdefault(item["pid"], []).append(item)
         eligible = [items[0] for items in grouped.values() if len(items)==1]
         print(f"Auto review: {len(grouped)} channels, {len(eligible)} unambiguous; maximum 3 proposals per run")
-        rows = eligible[:3]
+        rows = eligible
     elif len(rows) != 1:
         raise ValueError("Multiple approvals for targeted channel")
+    created = 0
     for row in rows:
-        create_proposal(row)
+        if automatic and created >= 3: break
+        if create_proposal(row): created += 1
 
 
 if __name__ == "__main__":
