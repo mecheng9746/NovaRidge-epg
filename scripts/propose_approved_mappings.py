@@ -124,25 +124,39 @@ def create_proposal(row):
     branch = "proposal/epg-" + hashlib.sha256(
         (row["pid"] + "|" + row["provider"] + "|" + row["source"]).encode()
     ).hexdigest()[:14]
-    main = github("GET", f"/repos/{REPO}/git/ref/heads/main")
-    try:
-        github("POST", f"/repos/{REPO}/git/refs",
-               {"ref": "refs/heads/" + branch, "sha": main["object"]["sha"]})
-    except RuntimeError as exc:
-        # Don't silently rewrite an existing proposal branch.
-        print(f"Skipped existing/blocked proposal {branch}: {exc}")
+    # An interrupted run may have committed a branch before PR creation.
+    # Resume only if its content matches exactly the candidate we intended.
+    existing = github("GET", f"/repos/{REPO}/pulls?state=all&head={urllib.parse.quote(REPO.split('/')[0] + ':' + branch)}&per_page=100")
+    if existing:
+        print(f"Proposal already has PR #{existing[0]['number']}: {branch}")
         return False
     path = ALLOWED[row["provider"]]
-    file = github("GET", f"/repos/{REPO}/contents/{path}?ref={urllib.parse.quote(branch)}")
-    original = base64.b64decode(file["content"]).decode("utf-8")
-    updated = prepare_change(row, original)
-    if updated == original:
-        print(f"No CSV change for {row['pid']}")
+    main = github("GET", f"/repos/{REPO}/contents/{path}?ref=main")
+    main_csv = base64.b64decode(main["content"]).decode("utf-8")
+    expected = prepare_change(row, main_csv)
+    if expected == main_csv:
+        print(f"Already mapped on main: {row['pid']}")
         return False
-    github("PUT", f"/repos/{REPO}/contents/{path}", {
-        "message": f"Propose {row['provider']} mapping for {row['pid']}",
-        "branch": branch, "sha": file["sha"],
-        "content": base64.b64encode(updated.encode()).decode()})
+    try:
+        github("POST", f"/repos/{REPO}/git/refs",
+               {"ref": "refs/heads/" + branch,
+                "sha": github("GET", f"/repos/{REPO}/git/ref/heads/main")["object"]["sha"]})
+        existing_branch = False
+    except RuntimeError as exc:
+        if "HTTP 422" not in str(exc):
+            raise
+        existing_branch = True
+    file = github("GET", f"/repos/{REPO}/contents/{path}?ref={urllib.parse.quote(branch)}")
+    current = base64.b64decode(file["content"]).decode("utf-8")
+    if existing_branch:
+        if current != expected:
+            raise ValueError(f"Existing proposal branch {branch} differs from intended mapping; manual review required")
+        print(f"Recovering interrupted proposal {branch}")
+    else:
+        github("PUT", f"/repos/{REPO}/contents/{path}", {
+            "message": f"Propose {row['provider']} mapping for {row['pid']}",
+            "branch": branch, "sha": file["sha"],
+            "content": base64.b64encode(expected.encode()).decode()})
     body = (f"Google Sheets Stage 3 review row: {row['sheet_row']}\\n\\n"
             f"Channel: {row['channel']}\\nOriginal tvg-id: \\x60{row['pid']}\\x60\\n"
             f"Candidate: {row['provider']} / \\x60{row['source']}\\x60\\n"
